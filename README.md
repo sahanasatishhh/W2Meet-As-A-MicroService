@@ -131,163 +131,23 @@ docker-compose exec suggestion-service \curl http://localhost:8000/health
 ```
 docker-compose up --build
 ```
-2. Add Availability for 2 or more users using:
-```
-docker-compose exec user-service curl -X POST http://localhost:8000/users \
-  -H "Content-Type: application/json" \
-  -d '{
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "slots": [
-          {"day": "monday", "start": "10:00", "end": "11:00"},
-          {"day": "tuesday", "start": "14:00", "end": "15:00"}
-          {"day": "thursday", "start": "11:00", "end": "12:00"}
-        ]
-  }'
-  ```
 
-  ```
-docker-compose exec user-service curl -X POST http://localhost:8000/users \
-  -H "Content-Type: application/json" \
-  -d '{
-    "name": "Alice Smith",
-    "email": "asmith@example.com",
-    "slots": [
-          {"day": "monday", "start": "1:00", "end": "2:00"},
-          {"day": "tuesday", "start": "14:00", "end": "15:00"}
-          {"day": "thursday", "start": "9:00", "end": "10:00"}
-        ]
-  }'
-  ```
+Manually test the health checks of each service using the commands from the API documentation and checking the formatting conventions.
 
-If the email IDs are unique*, then the response would be returned with the status code 201 with the required body:
+if a service is unhealthy due to its depedency, it will say so as shown in this example in `user-service`
+
 ```
 {
-  "name": "John Doe",
-  "email": "john.doe@example.com",
-  "slots": [
-          {"day": "monday", "start": "10:00", "end": "11:00"},
-          {"day": "tuesday", "start": "14:00", "end": "15:00"}
-          {"day": "thursday", "start": "11:00", "end": "12:00"}
-        ]
-  "created_at": "2025-10-27T13:26:00.000000"
-}
-```
-
-
-Example with invalid email:
-```
-docker-compose exec user-service curl -X POST http://localhost:8000/users \
-  -H "Content-Type: application/json" \
-  -d '{
-    "name": "Jane Smith",
-    "email": "invalid-email"
-  }'
-  ```
-
-This should return a `400 Bad Request` withe the follwing keys:
-```
-{
-  "detail": [
-    {
-      "loc": ["body", "email"],
-      "msg": "value is not a valid email address",
-      "type": "type details"
+  "service": "user-service",
+  "status": "unhealthy",
+  "dependencies": {
+    "redis": {
+      "status": "unhealthy",
+      "response_time_ms": 30
     }
-  ]
+  }
 }
 ```
-If something went wrong with the server it should return a `500 Internal Server Error`
-
-We can verify that the availabilities exist using the endpoint `GET /users/{user_email}/availability` which returns 200 response with the user availabilities if the user exists
-
-3. For the common availability between two users we can use:
-```
-docker compose exec availability-service
-  curl "http://availability-service:8000/availabilities?users=asmith@example.com&users=john.doe@example.com"
-```
-If availabilities are present it will return a Status 200 with the common availabilities 
-```
-{
-  "users": [
-    "asmith@example.com",
-    "john.doe@example.com"
-  ],
-  "common_slots": [
-    {
-      "day": "tuesday",
-      "start": "14:00",
-      "end": "15:00"
-    }
-  ]
-}
-
-```
-If no common availabilities are present, it should still return a 200 with an empty set
-```
-{
-  "users": [
-    "asmith@example.com",
-    "john.doe@example.com"
-  ],
-  "common_slots": []
-}
-```
-
-If the users are not present it should return a `400 Bad Request` stating that the user does not exist
-
-4. To get the final availability meeting time suggestion that also uses all services; we can use `suggestion-service`
-```
-docker compose exec suggestion-service
-  curl "http://suggestion-service:8000/suggest?users=asmith@example.com&users=john.doe@example.com&filter=first"
-
-```
-If availability exists:(assume filter option defaulted to first)
-```
-{
-  "users": [
-    "asmith@example.com",
-    "john.doe@example.com"
-  ],
-  "filter_by": first
-  "common_slots": [{
-      "day": "tuesday",
-      "start": "14:00",
-      "end": "15:00"
-    }]
-}
-```
-
-```
-{
-  "users": [
-    "asmith@example.com",
-    "john.doe@example.com"
-  ],
-  "filter_by": "first"
-  "common_slots": []
-}
-```
-
-
-If no availability exists return 200 with 
-
-```
-{
-  "users": [
-    "asmith@example.com",
-    "john.doe@example.com"
-  ],
-  "filter_by": "first"
-  "common_slots": []
-}
-```
-
-
-Similar Conventions of status codes will be followed for suggestion-service as availability-service if user does not exist
-
-
-
 
 ## Project Structure
 

@@ -1,6 +1,6 @@
 # W2Meet-As-A-MicroService
 
-System Purpose:
+**System Purpose:**
 Think When2Meet but more backend focused that allows the users to create and store accounts, their availabilities and computing common meeting times across users (free intervals). In this case, the time intervals and availabilities are in **one-hour slots**
 
 Goal:
