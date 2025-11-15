@@ -9,6 +9,7 @@
 
 4. Non AI sources
     https://tim-is.notion.site/Homework-3-29962975977d80b39d56e8e99559efac
+    https://fastapi.tiangolo.com/advanced/response-change-status-code/#use-a-response-parameter
     Project Referenced: Homework 3 Sahana Satish CS426
 
 5. High Level Influence:
