@@ -25,7 +25,8 @@ The system consists of three services, each having thier own domain and dependen
 - Has two endpoints:
     - a GET endpoint that takes in the requirements (default is first available) and returns the best interval fitting those requirements.
     - GET health returns the own container status along with the aggregated statuses of `availability-service` and its required dependencies
-
+4. `message-service`
+- Uses the suggestion intervals that are saved in the 
 ## Pre-Requisites
 ```
 httpx =0.25.2 

@@ -5,31 +5,50 @@ services:
     ports:
       - "6379:6379"
     restart: unless-stopped
-    volumes:
-      - redis-data:/data
+    command: ["redis-server", "--appendonly", "yes"]
     healthcheck:
       test: ["CMD", "redis-cli", "ping"]
       interval: 10s
       timeout: 5s
       retries: 5
       start_period: 10s
+    networks:
+      - w2meet-network
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      PG_DSN: ${PG_DSN}
+      OXR_APP_ID: ${OXR_APP_ID}
+
+    volumes:
+        - ./initdb:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "exchangeuser", "-d", "exchange"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    networks:
+      - w2meet-network
   user-service:
     build:
       context: ./user-service
       dockerfile: Dockerfile
     environment:
-      - REDIS_HOST=redis
-      - REDIS_PORT=6379
+      - REDIS_HOST=${REDIS_HOST}
+      - PG_DSN=${PG_DSN}
+      - TTL_SECONDS=${TTL_SECONDS}
     depends_on:
       redis:
         condition: service_healthy
-    restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-      start_period: 10s
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./user-service:/app
+    networks:
+      - w2meet-network
   availability-service:
     build:
       context: ./availability-service
@@ -40,12 +59,10 @@ services:
       user-service:
         condition: service_healthy
     restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-      start_period: 10s
+    volumes:
+      - ./availability-service:/app
+    networks:
+      - w2meet-network
   suggestion-service:
     build:
       context: ./suggestion-service
@@ -56,14 +73,14 @@ services:
       availability-service:
         condition: service_healthy
     restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-      start_period: 10s
-volumes:
-  redis-data:
+    volumes:
+      - ./suggestion-service:/app
 
+    networks:
+      - w2meet-network
+
+networks:
+  w2meet-network:
+    driver: bridge
 
   
