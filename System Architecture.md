@@ -10,8 +10,8 @@ Maintain architecture that can be scaled to calendar APIs and OAuth if possible
 
 `user-service`
 1. Stores the record of unique identifiers for each user alongside their availabilities for the list (2D arrays)
-2. Stores and accesses this data in Redis
-3. Has GET and POST functionality to create and retrieve users and if it exists, their availabilities using `GET users/{emailid}/availability`.
+2. Stores and accesses this data in Redis and SQl as the fall back with caching.
+3. Has GET and POST functionality to create and retrieve users and if it exists, their availabilities and preferences using `GET users/{emailid}/`.
 
 
 **Reason for this Service**
