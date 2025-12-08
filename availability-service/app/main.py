@@ -149,4 +149,4 @@ async def get_common_avails(request: Request, userId1: Optional[str] = Query(Non
     common=compute_common_availability(avails)
     logging.info(f"[{case_id}] GET AVAILABITLITIES: Found {len(common)} common availabilities for userId1={userId1} and userId2={userId2}")
 
-    return {'common_availabilitiy':common}
+    return {'common_availabilitiy':common,"user1preference":user1_data.get("preferences"),"user2preference":user2_data.get("preferences")}
