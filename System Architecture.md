@@ -77,6 +77,61 @@ Only user-service interacts with Redis; other services rely entirely on HTTP com
 
 ## Technical Specifications for Maintainability, Reliability and Scalability:
 
+## Topic 1: Cache-Aside Caching with Redis (with SQLModel as the back-up)
+
+For my project, I will be using a cache-aside pattern from our previous assignment: Redis stores frequently accessed user availability, while SQLModel/PostgreSQL is the backup. Whenever availability-service needs a user's availability, it will first look into Redis. If a cache miss occurs, it will query the database via SQLModel and then send that to Redis so that future reads are fast. When a user does not exist in both Redis and the database, user-service will create that user and their availability in PostgreSQL and immediately send that to the cache, reducing pressure on Postgres during repeated availability lookups, which is expensive. For maintainability, the cache logic is divided into small helper functions in the user-service instead of being scattered across the codebase for better modification.
+
+ 
+**Scenario:**
+
+```A new user signs up and posts their availability to the user-service. The POST point writes the user row into PostgreSQL and stores it in Redis, so that subsequent reads go straight to the cache. Later, when the availability service needs to request the user's slots to find an overlap, it accesses user-service, which accesses Redis first; if the entry exists, it returns in a few milliseconds, a cache hit. If the cache is missed or fails, it falls back to Postgres, sends it to Redis, and returns the data, ensuring both new and existing users are handled efficiently.```
+
+ 
+
+## Topic 2: Structured Logging and Having a Case/Request ID
+
+Because my architecture has three services, namely suggestion-service → availability-service → user-service, I will add structured logging and have a common request/case ID to trace a single request across all the services. This will, in turn, trace a single user's request across services and save them from getting jumbled up.
+
+ 
+
+A middleware in each FastAPI service could store a request/case ID header shared among every service and include it in every log entry. When suggestion-service calls availability-service, and that service calls user-service, they all pass the same ID on to store it in the logs. This technique can be very useful for maintainability: if a suggestion looks wrong or fails, I can check logs by request ID and check things like who called whom, how long each service request took, and where errors occurred, and avoids it being jumbled with other user requests.
+
+ 
+
+**Scenario:**
+
+```
+User calls suggestion-service
+
+suggestion-service logs [CID=123] "checking for best availabilities…"
+
+calls availability-service with header CID: 123
+
+availability-service calls user-service with the same header
+
+all three services log their work with CID=123
+```
+ 
+
+## Topic 3: Task Queues with RabbitMQ and Background Workers
+
+I'll use a RabbitMQ task queue and a worker service to offload non-critical work from the main HTTP path. In such a case, after a suggestion service selects the best 1-hour meeting slot that fits the requirements, it would immediately return the suggestion to the client, but also enqueue a task-e.g., send iCal invite/message with the chosen slot and user IDs-into a RabbitMQ queue. A separate worker process would then consume messages from that queue and simulate sending confirmations.
+
+The API is the producer, the worker is the consumer, and RabbitMQ provides durability and acknowledgements task-queue pattern from class. This improves the scalability by keeping HTTP responses fast under heavy load and lets me scale the number of workers independently from the API responses.
+
+This is also helpful for future directions of this project; once abilities like sending invites via email come in, for instance, the task queue allows those slower, external operations to be handled asynchronously without degrading API responsiveness.
+
+ 
+
+**Scenario:**
+```A group of users submit their availabilities at once. The suggestion-service keeps returning in milliseconds because it just computes the slot and enqueues a send message task.
+
+The tasks are held in RabbitMQ, while one or more workers process the queue in the background. If a worker crashes in the middle of processing, it will assign the unfinished task to another worker, improving reliability without slowing down the main API process.
+
+Also includes the fair task distribution from class that we talked about.
+```
+
+
 
 
 ## Communication Patterns

@@ -16,6 +16,8 @@ import logging
 import json
 import requests
 from sqlalchemy import text
+from fastapi.exceptions import HTTPException
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -62,6 +64,22 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
 
     return JSONResponse(status_code=400, content={"detail": details})
     # 400 response
+
+
+@app.exception_handler(HTTPException)
+async def http_exception_handler(request: Request, exc: HTTPException):
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={
+            "detail": [
+                {
+                    "loc": ["internal"],
+                    "msg": exc.detail,
+                    "type": "http_error"
+                }
+            ]
+        }
+    )
 
 # Redis connection
 redis_client = redis.Redis(

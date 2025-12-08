@@ -94,26 +94,59 @@ async def health_check(response: Response, request: Request):
             "dependencies": dependencies
             }
 
+weekdays = [
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday",
+    "sunday",
+    ]
+
+def compute_common_availability(request:Request,avails_list: List[dict]) -> dict:
+    """
+    Computes intersection across ALL users which is inherrently common availabilities
+    """
+    case_id = getattr(request.state, "case_id", "N/A")
+
+    if not avails_list:
+        logging.error(f"[{case_id}] ERROR COMPUTING AVAILABILITIES: No users")
+        return {day: [] for day in weekdays}
+
+    common = {day: set(range(24)) for day in weekdays}
+
+    for av in avails_list:
+        for day in weekdays:
+            user_hours = set(av.get(day, []))
+            common[day] = common[day].intersection(user_hours) # if no intersection it would sreturn an empty set
+
+    # Convert sets back to sorted lists
+    return {day: sorted(list(hours)) for day, hours in common.items()}
+
 
 @app.get("/availabilities")
 async def get_common_avails(request: Request, userId1: Optional[str] = Query(None, description="User ID to get common availability for"),
                           userId2: Optional[str] = Query(None, description="Second User ID to get common availability for")):
+    """
+    Essentially first computes a user_Avail list and uses a helper called compute_common_availbilty to return the intersection 
+    """
     case_id = getattr(request.state, "case_id", "N/A")
-    user1_data= get_user_avail_cache_aside(userId1)
-    user2_data= get_user_avail_cache_aside(userId2)
+    user1_data= await httpx.AsyncClient().get(f"{USER_SERVICE_BASE}/user-avail/cache_aside/{userId1}")
+    user2_data=  await httpx.AsyncClient().get(f"{USER_SERVICE_BASE}/user-avail/cache_aside/{userId2}")
     if not user1_data or not user2_data:
         logging.error(f"[{case_id}] GET AVAILABITLITIES: One or both users not found: userId1={userId1}, userId2={userId2}")
         raise ValidationError(f"One or both users not found: userId1={userId1}, userId2={userId2}")
-    
+    avails=[]
     user1_avails = user1_data.get("availabilities", [])
     user2_avails = user2_data.get("availabilities", [])
-    common_avails = [avail for avail in user1_avails if avail in user2_avails]
+    if user1_avails is None or user2_avails is None:
+        avails_dict = {day: [] for day in weekdays}
+        avails.append(avails_dict)
+    else:
+        avails.append(user1_avails)
+        avails.append(user2_avails)
+    common=compute_common_availability(avails)
+    logging.info(f"[{case_id}] GET AVAILABITLITIES: Found {len(common)} common availabilities for userId1={userId1} and userId2={userId2}")
 
-    logging.info(f"[{case_id}] GET AVAILABITLITIES: Found {len(common_avails)} common availabilities for userId1={userId1} and userId2={userId2}")
-
-    return {"userId1": userId1,
-            "user1preference": user1_data.get("preference"),
-            "userId2": userId2,
-            "user2preference": user2_data.get("preference"),
-            "common_availabilities": common_avails
-            }
+    return {'common_availabilitiy':common}

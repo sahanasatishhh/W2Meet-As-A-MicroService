@@ -46,6 +46,8 @@ Pydantic==2.5.0
 uvicorn==0.24.0
 Docker version 28.4.0, 
 Docker Compose version v2.39.2-desktop.1
+nginx
+requests
 ```
 
 ## Installation
