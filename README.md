@@ -4,10 +4,13 @@
 This project is inspired from When2Meet with the aim to find the best availabilities among two users, availability in this case is series of one hours slots of a user throughout the week. 
 
 ## Architecure Overview
-The system consists of three services, each having thier own domain and dependencies
+The system consists of five services, each having their own domain and dependencies
+1. `gateway-service`
+- Forwards client requests to appropriate backend services, hiding internal URLs and ports.
+- Acts as the **single public entrypoint** to the system.
 
 1. `user-service`
-- Stores user information and thier availabilities in Redis.
+- Stores user information and their availabilities in Redis.
 - Contains three endpoints:
     - one GET endpoint for fetching a valid user's availabilities
     - one POST endpoint that creates users and their availabilities
@@ -21,12 +24,17 @@ The system consists of three services, each having thier own domain and dependen
 
 3. `suggestion-service`
 - Uses the common intervals from `availability-service` and factors in whether the users want the first availability, last or a random one
-- Meeting duration is currently fixed at an hour duration (will consider adding time duration variability if time persists)
+- Meeting duration is currently fixed at an hour duration - only start times are stored (will consider adding time duration variability if time persists as a future direction for the work)
 - Has two endpoints:
     - a GET endpoint that takes in the requirements (default is first available) and returns the best interval fitting those requirements.
     - GET health returns the own container status along with the aggregated statuses of `availability-service` and its required dependencies
-4. `message-service`
-- Uses the suggestion intervals that are saved in the 
+4. `worker-service` (Async Queue)
+- Consumes meeting suggestion jobs from a **RabbitMQ queue**.
+- For each job:
+   - Calls `suggestion-service` to pick the best slot (first/last/random).
+   - Calls `availability-service` to compute common free slots (which calls `user-service`).
+   - Sends the final suggestion to a callback endpoint (e.g., `gateway-service`) via HTTP.
+
 ## Pre-Requisites
 ```
 httpx =0.25.2 
@@ -127,6 +135,42 @@ docker-compose exec suggestion-service \curl http://localhost:8000/health
   }
 }
 ```
+4. **For gateway-service that uses nginx:**
+ ```
+docker-compose up -d nginx
+docker-compose ps
+docker-compose logs --no-color --tail=50 nginx
+docker-compose exec nginx nginx -t
+curl http://localhost:8080/health
+```
+**Response Format**
+``ok``
+**For each service: **
+```
+curl http://localhost:8080/{user/availability/suggestion/worker}/health
+```
+would return the appropriate healthcheck response which also verifies routing through the API gateway
+
+**Example external endpoints**
+```
+- `POST /api/users`: forwards to one `user-service` instance
+- `GET /api/users/{email}`: forwards to `user-service`
+- `GET /api/availability/availabilities`:  forwards to one of the **availability-service replicas**:
+- `GET /api/suggestions`: forwards to one of the **suggestion-service replicas**
+
+In code, the gateway maintains lists such as:
+
+AVAILABILITY_BACKENDS = [
+    "http://availability-service-1:8000",
+    "http://availability-service-2:8000",
+]
+
+SUGGESTION_BACKENDS = [
+    "http://suggestion-service-1:8000",
+    "http://suggestion-service-2:8000",
+]
+```
+
 # Testing
 1. Start docker compose and all services:
 ```
@@ -135,7 +179,7 @@ docker-compose up --build
 
 Manually test the health checks of each service using the commands from the API documentation and checking the formatting conventions.
 
-if a service is unhealthy due to its depedency, it will say so as shown in this example in `user-service`
+if a service is unhealthy due to its dependency, it will say so as shown in this example in `user-service`
 
 ```
 {
@@ -156,7 +200,6 @@ if a service is unhealthy due to its depedency, it will say so as shown in this 
 W2MEET-AS-A-MICROSERVICE/
 ├── README.md
 ├── SYSTEM_ARCHITECTURE.md
-├── CODE_PROVENANCE.md
 ├── architecture-diagram.png
 ├── docker-compose.yml
 │
@@ -177,5 +220,14 @@ W2MEET-AS-A-MICROSERVICE/
 │       |_____ main.py
 │    ├── requirements.txt
 │    ├── Dockerfile
+│
+└── worker-service/
+│   ├── app/
+│       |_____ main.py
+│    ├── requirements.txt
+│    ├── Dockerfile
+│
+└── gateway-service/
+│   ├── nginx.conf
 ```
 

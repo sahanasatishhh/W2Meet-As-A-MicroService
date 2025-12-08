@@ -8,6 +8,14 @@ Maintain architecture that can be scaled to calendar APIs and OAuth if possible
 
 ## Service Boundaries
 
+`gateway-service`
+1.  Acts as the **single public entrypoint** to the system.
+2. Forwards client requests to appropriate backend services, hiding internal URLs and ports.
+3. Implements **simple round-robin load balancing** across multiple replicas of compute services (e.g., `availability-service` and/or `suggestion-service`).
+
+**Reason**
+Provides a single external entrypoint while handling routing, load balancing, and hiding internal service topology.
+
 `user-service`
 1. Stores the record of unique identifiers for each user alongside their availabilities for the list (2D arrays)
 2. Stores and accesses this data in Redis and SQl as the fall back with caching.
@@ -38,6 +46,16 @@ Just to be able to perform computation separate from the service endpoints so th
 **Reason**
 This logic is independent of returning common interval slots and this way filtering can be testing independently
 
+`worker-service` (Async Queue Consumer + Notifications)
+
+1. Consumes meeting suggestion jobs from a **RabbitMQ queue**.
+2. For each job:
+   - Calls `availability-service` to compute common free slots.
+   - Calls `suggestion-service` to pick the best slot (first/last/random).
+   - Sends the final suggestion to a callback endpoint ( potentially `gateway-service`) via HTTP.
+
+**Reason**
+Processes meeting-suggestion jobs asynchronously via RabbitMQ to avoid blocking API requests and improve system responsiveness.
 
 ## Data Flow
 **Add User Availability:**
@@ -56,6 +74,10 @@ This logic is independent of returning common interval slots and this way filter
 3. Returns the interval that matches the requirement
 
 Only user-service interacts with Redis; other services rely entirely on HTTP communication as required in Notion documentation (If the service depends on other services, makes HTTP requests to check their health)
+
+## Technical Specifications for Maintainability, Reliability and Scalability:
+
+
 
 ## Communication Patterns
 
@@ -77,7 +99,6 @@ Only user-service interacts with Redis; other services rely entirely on HTTP com
 - Data Store: Redis 5.0.1 (in-memory key–value store leading to a faster response time)
 - Pydantic==2.5.0 - for request response definition using base models
 - uvicorn==0.24.0- fastapi integration and has a low memory footprint
-
 
 
 **Containerization & Orchestration:**

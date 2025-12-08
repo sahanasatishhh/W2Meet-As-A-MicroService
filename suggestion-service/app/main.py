@@ -9,7 +9,7 @@ import uuid
 from datetime import datetime
 from fastapi.responses import JSONResponse
 import time
-
+from user_service.app.main import get_user_avail_cache_aside
 app = FastAPI(root_path="/tasks")
 
 
@@ -45,5 +45,15 @@ async def health_check(response: Response):
             "status": status_indicator,
             "dependencies": dependencies
             }
+@app.get("/suggestions")
+async def get_suggestions(userId1: Optional[str] = Query(None, description="User ID to get suggestions for"),
+                          userId2: Optional[str] = Query(None, description="Second User ID to get suggestions for")):
+    
+    user1_data= get_user_avail_cache_aside(userId1)
+    user2_data= get_user_avail_cache_aside(userId2)
+    if not user1_data or not user2_data:
+        raise HTTPException(status_code=404, detail="One or both users not found")
+    
+    
 
 

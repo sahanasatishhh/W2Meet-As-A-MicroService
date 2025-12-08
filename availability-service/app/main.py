@@ -10,10 +10,23 @@ from datetime import datetime
 from fastapi.responses import JSONResponse
 import time
 import logging
-
+from user_service.app.main import get_user_avail_cache_aside
 
 
 app = FastAPI(root_path="/availabilities")
+
+
+@app.exception_handler(RequestValidationError)
+async def validation_exception_handler(request: Request, exc: RequestValidationError):
+    details = []
+    for err in exc.errors():
+        loc = list(err.get("loc", []))
+        typ = err.get("type", "value_error")
+        msg = err.get("msg", "Invalid input")
+        details.append({'loc': loc, "msg": msg, "type": typ})
+
+    return JSONResponse(status_code=400, content={"detail": details})
+    # 400 response
 
 # this is an example that you can use
 logging.basicConfig(
@@ -82,3 +95,25 @@ async def health_check(response: Response, request: Request):
             }
 
 
+@app.get("/availabilities")
+async def get_common_avails(request: Request, userId1: Optional[str] = Query(None, description="User ID to get common availability for"),
+                          userId2: Optional[str] = Query(None, description="Second User ID to get common availability for")):
+    case_id = getattr(request.state, "case_id", "N/A")
+    user1_data= get_user_avail_cache_aside(userId1)
+    user2_data= get_user_avail_cache_aside(userId2)
+    if not user1_data or not user2_data:
+        logging.error(f"[{case_id}] GET AVAILABITLITIES: One or both users not found: userId1={userId1}, userId2={userId2}")
+        raise ValidationError(f"One or both users not found: userId1={userId1}, userId2={userId2}")
+    
+    user1_avails = user1_data.get("availabilities", [])
+    user2_avails = user2_data.get("availabilities", [])
+    common_avails = [avail for avail in user1_avails if avail in user2_avails]
+
+    logging.info(f"[{case_id}] GET AVAILABITLITIES: Found {len(common_avails)} common availabilities for userId1={userId1} and userId2={userId2}")
+
+    return {"userId1": userId1,
+            "user1preference": user1_data.get("preference"),
+            "userId2": userId2,
+            "user2preference": user2_data.get("preference"),
+            "common_availabilities": common_avails
+            }
