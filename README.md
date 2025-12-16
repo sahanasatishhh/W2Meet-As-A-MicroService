@@ -6,34 +6,50 @@ This project is inspired from When2Meet with the aim to find the best availabili
 ## Architecure Overview
 The system consists of five services, each having their own domain and dependencies
 1. `gateway-service`
-- Forwards client requests to appropriate backend services, hiding internal URLs and ports.
 - Acts as the **single public entrypoint** to the system.
+- Forwards client requests to appropriate backend services.
+- Hides internal service URLs and ports.
+- Implements **simple round-robin load balancing** across multiple replicas of compute services.
+- Propagates a shared request ID (`Case-Id`) across downstream services.
+
 
 1. `user-service`
 - Stores user information and their availabilities in Redis.
+- Uses **Redis** as a cache and **PostgreSQL** as persistent storage.
+- Owns all Redis and database interactions.
+- Implements a **cache-aside pattern** for user availability.
 - Contains three endpoints:
-    - one GET endpoint for fetching a valid user's availabilities
-    - one POST endpoint that creates users and their availabilities
-    - GET health returns the container/service status along with Redis dependency
+
+**Endpoints**
+- `POST /users` – create a user and store availability
+- `GET /users/{email}` – fetch a user's data (cache-first)
+- `GET /user-avail/cache_aside/{email}` – cache-aside read path
+- `GET /health` – service health including Redis and PostgreSQL dependencies
+
+
 2. `availability-service`
 - Fetches the availability of each user from user-service
 - Computes and returns common intervals across users
+- Contains no direct database or Redis access.
 - Contains two endpoints:
     - GET endpoint to compute the availabilities between two users
     - get health endpoint returns the status of this service as well as user-service
 
 3. `suggestion-service`
 - Uses the common intervals from `availability-service` and factors in whether the users want the first availability, last or a random one
-- Meeting duration is currently fixed at an hour duration - only start times are stored (will consider adding time duration variability if time persists as a future direction for the work)
+- Meeting duration is currently fixed at an hour duration.
+
 - Has two endpoints:
     - a GET endpoint that takes in the requirements (default is first available) and returns the best interval fitting those requirements.
     - GET health returns the own container status along with the aggregated statuses of `availability-service` and its required dependencies
 4. `worker-service` (Async Queue)
-- Consumes meeting suggestion jobs from a **RabbitMQ queue**.
-- For each job:
-   - Calls `suggestion-service` to pick the best slot (first/last/random).
-   - Calls `availability-service` to compute common free slots (which calls `user-service`).
-   - Sends the final suggestion to a callback endpoint (e.g., `gateway-service`) via HTTP.
+- Consumes background jobs from a **RabbitMQ queue**.
+- Intended for **non-blocking, post-processing tasks**, such as:
+  - Sending meeting confirmations
+  - Simulating iCal or email notifications
+- Receives and logs the same `Case-Id` for traceability.
+- Designed for future extension; **not fully implemented yet**.
+
 
 ## Pre-Requisites
 ```
@@ -44,6 +60,7 @@ FastAPI 0.104.1
 Redis 5.0.1
 Pydantic==2.5.0
 uvicorn==0.24.0
+Docker==28.4.0
 Docker version 28.4.0, 
 Docker Compose version v2.39.2-desktop.1
 nginx
@@ -157,7 +174,7 @@ would return the appropriate healthcheck response which also verifies routing th
 ```
 - `POST /api/users`: forwards to one `user-service` instance
 - `GET /api/users/{email}`: forwards to `user-service`
-- `GET /api/availability/availabilities`:  forwards to one of the **availability-service replicas**:
+- `GET  /api/availability/common_availabilities`:  forwards to one of the **availability-service replicas**:
 - `GET /api/suggestions`: forwards to one of the **suggestion-service replicas**
 
 In code, the gateway maintains lists such as:
@@ -172,6 +189,8 @@ SUGGESTION_BACKENDS = [
     "http://suggestion-service-2:8000",
 ]
 ```
+
+
 
 # Testing
 1. Start docker compose and all services:

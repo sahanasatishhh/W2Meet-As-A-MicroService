@@ -1,7 +1,6 @@
 from fastapi import FastAPI, HTTPException, Query, Response,status
 from pydantic import BaseModel, EmailStr
 import redis
-import httpx
 import os
 import uuid
 from datetime import datetime
@@ -11,13 +10,11 @@ from fastapi.responses import JSONResponse
 import time
 from db import init_db,close_db_connection,engine
 from contextlib import asynccontextmanager
-from pydantic import BaseModel, EmailStr
 import logging
 import json
-import requests
 from sqlalchemy import text
-from fastapi.exceptions import HTTPException
 
+os.makedirs("logs", exist_ok=True)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -28,12 +25,25 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(root_path="/users", lifespan=lifespan)
 
+# this is an example that you can use
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("logs/user_log.txt", mode="a"),  # write to file
+        logging.StreamHandler()  # also show in console
+    ]
+)
+
+logger = logging.getLogger("user-service")
+
+
+
 @app.middleware("http")
 async def add_case_id(request: Request, call_next):
     case_id = request.headers.get("Case-ID", str(uuid.uuid4()))
-    
     request.state.case_id = case_id
-
+    perf=time.perf_counter()
     logger.info(
         f"[{case_id}] Request started - "
         f"Method={request.method} Path={request.url.path}"
@@ -47,7 +57,7 @@ async def add_case_id(request: Request, call_next):
 
     logger.info(
         f"[{case_id}] Request completed - "
-        f"Status={response.status_code}"
+        f"Status={response.status_code}, Time taken={(time.perf_counter()-perf)*1000:.2f} ms"
     )
 
     return response
@@ -55,6 +65,8 @@ async def add_case_id(request: Request, call_next):
  
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request: Request, exc: RequestValidationError):
+    case_id = getattr(request.state, "case_id", "N/A")
+
     details = []
     for err in exc.errors():
         loc = list(err.get("loc", []))
@@ -62,15 +74,16 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
         msg = err.get("msg", "Invalid input")
         details.append({'loc': loc, "msg": msg, "type": typ})
 
-    return JSONResponse(status_code=400, content={"detail": details})
+    return JSONResponse(status_code=400, content={"case_id": case_id,"detail": details})
     # 400 response
 
 
 @app.exception_handler(HTTPException)
 async def http_exception_handler(request: Request, exc: HTTPException):
+    case_id = getattr(request.state, "case_id", "N/A")
     return JSONResponse(
         status_code=exc.status_code,
-        content={
+        content={ "case_id": case_id,
             "detail": [
                 {
                     "loc": ["internal"],
@@ -94,22 +107,6 @@ class UserAvail(BaseModel):
     availabilities: dict
     preferences: str = 'first'
     created_at: datetime = datetime.now()
-
-
-
-# this is an example that you can use
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[
-        logging.FileHandler("logs/cache_log.txt", mode="a"),  # write to file
-        logging.StreamHandler()  # also show in console
-    ]
-)
-
-logger = logging.getLogger("user-service")
-
-
 
 
 # Pydantic models
@@ -257,7 +254,7 @@ async def update_user(email_id: str, user: UserCreate, request: Request):
         logging.info(f"[{case_id}] USER UPDATE: User with email: {email_id} updated")
     logging.info(f"[{case_id}] USER UPDATE: User with email: {email_id} updated in Database")
 
-    return await get_user(email_id)
+    return await get_user(email_id,request)
 
 @app.delete("/users/{email_id}", status_code=204)
 async def delete_user(email_id: str, request: Request):
@@ -277,40 +274,41 @@ async def delete_user(email_id: str, request: Request):
     return Response(status_code=204)
 
 @app.get("/user-avail/cache-aside")
-async def get_user_avail_cache_aside(request: Request, user1:str= Query()):
+async def get_user_avail_cache_aside(request: Request, user1email:str= Query()):
     case_id = getattr(request.state, "case_id", "N/A")
-    logging.info("CACHE ASIDE: request received for symbols %s", user1)
+    logging.info("CACHE ASIDE: request received for symbols %s", user1email)
     #  check redis for the kv pair
 
     try:
-        cached_data = redis_client.get(f"cache_aside_{user1.upper()}")
+        cached_data = redis_client.get(f"cache_aside_{user1email.upper()}")
         if cached_data:
-            logging.info(f"[{case_id}] CACHE ASIDE: CACHE HIT with key cache_aside_{user1.upper()} served from Redis {cached_data}")
+            logging.info(f"[{case_id}] CACHE ASIDE: CACHE HIT with key cache_aside_{user1email.upper()} served from Redis {cached_data}")
             return json.loads(cached_data)
         else:
-            logging.info(f"[{case_id}] CACHE ASIDE: CACHE MISS with key cache_aside_{user1.upper()} fetching from provider")
+            logging.info(f"[{case_id}] CACHE ASIDE: CACHE MISS with key cache_aside_{user1email.upper()} fetching from provider")
             #default base is USD
             try:
                 with engine.connect() as conn:
-                    txt=text(f"SELECT * FROM USERAVAIL WHERE email='{user1}'")
+                    txt=text(f"SELECT * FROM USERAVAIL WHERE email='{user1email}'")
                     res=conn.execute(txt)
                     rows=res.fetchall()
-                    if len(rows)==0:
-                        logging.info(f"[{case_id}] CACHE ASIDE: User {user1} not found in database")
-                        raise HTTPException(status_code=404, detail=f"User {user1} not found in database")
-                    user_record=rows[0]
-                    preferences=user_record.preferences
-                    availabilities=user_record.availabilities
-                    data={"email":user1,"preferences":preferences,"availabilities":availabilities}
-                    logging.info(f"[{case_id}] CACHE ASIDE: successfully fetched fresh data from database for cache_aside_{user1.upper()}")
+                    if not rows:
+                        logger.info(f"[{case_id}] CACHE_ASIDE 404 email={user1email}")
+                        raise HTTPException(status_code=404, detail=f"User {user1email} not found in database")
+                    data = {
+                    "email": rows.email,
+                    "preferences": rows.preferences,
+                    "availabilities": json.loads(rows.availabilities),  # IMPORTANT
+                    "created_at": rows.created_at.isoformat() if rows.created_at else None,
+                    }
+                    logging.info(f"[{case_id}] CACHE ASIDE: successfully fetched fresh data from database for cache_aside_{user1email.upper()}")
                     ttl_seconds = int(os.getenv("TTL_SECONDS", 3300))
-                    redis_client.setex(f"cache_aside_{user1.upper()}", ttl_seconds, json.dumps(data))
-                    logging.info(f"[{case_id}] CACHE ASIDE: WRITE CACHE with cache_aside_{user1.upper()} stored with TTL={ttl_seconds}s")
+                    redis_client.setex(f"cache_aside_{user1email.upper()}", ttl_seconds, json.dumps(data))
+                    logging.info(f"[{case_id}] CACHE ASIDE: WRITE CACHE with cache_aside_{user1email.upper()} stored with TTL={ttl_seconds}s")
                     return data
-            except Exception as e:
+            except HTTPException:
+                raise
                 #no loggin metnioned?
-                logging.error(f"[{case_id}] CACHE ASIDE: Error fetching data from database for user {user1}: {e}")
-                raise HTTPException(status_code=503, detail=str(e))
     except Exception as e:
-        logging.error(f"[{case_id}] CACHE ASIDE: Unexpected error: {e}")
-        raise HTTPException(status_code=503, detail=str(e))
+        logger.error(f"[{case_id}] CACHE_ASIDE ERROR email={user1email} err={e}")
+        raise HTTPException(status_code=503, detail="Database unavailable")

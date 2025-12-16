@@ -1,7 +1,10 @@
 # W2Meet-As-A-MicroService
 
 **System Purpose:**
-Think When2Meet but more backend focused that allows the users to create and store accounts, their availabilities and computing common meeting times across users (free intervals). In this case, the time intervals and availabilities are in **one-hour slots**
+W2Meet is a backend-focused microservice system inspired by When2Meet. Users can create accounts, store weekly availability in one-hour time slots, and compute common free meeting times across multiple users. The architecture emphasizes service separation, cache-aside data access, structured logging with request tracing, and asynchronous background processing.
+
+The system currently supports a synchronous request path for computing meeting suggestions and is designed to support asynchronous background tasks via RabbitMQ.
+
 
 Goal:
 Maintain architecture that can be scaled to calendar APIs and OAuth if possible
@@ -12,28 +15,46 @@ Maintain architecture that can be scaled to calendar APIs and OAuth if possible
 1.  Acts as the **single public entrypoint** to the system.
 2. Forwards client requests to appropriate backend services, hiding internal URLs and ports.
 3. Implements **simple round-robin load balancing** across multiple replicas of compute services (e.g., `availability-service` and/or `suggestion-service`).
+4. Propagates a shared request identifier (Case-Id) to all downstream services.
 
 **Reason**
 Provides a single external entrypoint while handling routing, load balancing, and hiding internal service topology.
 
 `user-service`
-1. Stores the record of unique identifiers for each user alongside their availabilities for the list (2D arrays)
+1. Stores the record of unique identifiers for each user alongside their availabilities (email, weekly availability, preferences).
 2. Stores and accesses this data in Redis and SQl as the fall back with caching.
-3. Has GET and POST functionality to create and retrieve users and if it exists, their availabilities and preferences using `GET users/{emailid}/`.
+3. Exposes endpoints to create, retrieve, update, and delete users.
+4. Exposes a cache-aside read endpoint:
+```GET /user-avail/cache_aside/{email}
+```
+5. Owns all direct interaction with Redis and PostgreSQL.
 
+```
+Availability Representation
+{
+  "monday": [13, 16, 18],
+  "tuesday": [],
+  "wednesday": [15]
+}
+
+```
 
 **Reason for this Service**
 This way of storing users would ensure that all data and redis related interactions are done through this service.
 
 `availability-service`
-1. Fetches availability for multiple users from `user-service`
+1. Fetches availability for multiple users via HTTP calls from `user-service`
 2. Computes and returns the common availability across the listed users
+```
+GET /common_availabilities?userId1=...&userId2=...
+
+```
 3. Health endpoint would return the health of itself and the user-service due to its dependency (dependency should imply health checks of the other service)
-4. There would be a GET endpoint to get the availabilities of the two users and find common intervals between the availabilities.
+
 
 
 **Reason**
-Just to be able to perform computation separate from the service endpoints so that I can make sure the algorithm works aside from potential service endpoint issues
+Separates pure availability computation from storage concerns, making the algorithm independently testable and scalable
 
 
 `suggestion-service`
@@ -41,6 +62,10 @@ Just to be able to perform computation separate from the service endpoints so th
 2. Sort them based on requirement: whether we want the first available slot, the last one, or any random one.
 3. Health endpoint would return the health of itself and the health of `availability-service` 
 4. There would be a GET endpoint to suggest the intervals based on these parameters and return the best slot that fits the requirements
+**Exposes:** 
+```
+GET /suggestions?userId1=...&userId2=...
+```
 
 
 **Reason**
@@ -48,32 +73,47 @@ This logic is independent of returning common interval slots and this way filter
 
 `worker-service` (Async Queue Consumer + Notifications)
 
-1. Consumes meeting suggestion jobs from a **RabbitMQ queue**.
-2. For each job:
-   - Calls `availability-service` to compute common free slots.
-   - Calls `suggestion-service` to pick the best slot (first/last/random).
-   - Sends the final suggestion to a callback endpoint ( potentially `gateway-service`) via HTTP.
+
+1. Consumes background jobs from a **RabbitMQ task queue**.
+
+2. Each job represents a non-blocking follow-up task, such as:
+
+- Sending meeting confirmations
+
+- Generating iCal/email notifications
+
+- Logging or audit tasks
+
+3. Each job includes the same Case-Id used in the originating request for traceability.
 
 **Reason**
-Processes meeting-suggestion jobs asynchronously via RabbitMQ to avoid blocking API requests and improve system responsiveness.
+Offloads slow or non-critical operations from the HTTP request path, improving responsiveness and allowing background work to scale independently.
 
-## Data Flow
-**Add User Availability:**
-1. Two users would create and store their unique identifiers (email) and availabilities via a POST endpoint for user-service.
-2. The necessary requirements for the user are name and email, (since a user could be unavailable for an entire week, thats the default)
-3. Availability is stored in redis
 
-**Compute Common Availability (user calls the get endpoint for common availabilities):**
-1. Use the unique identifiers of the users ( email) to get their availabilities using the GET user-availabilities endpoint from user service.
-2. This endpoint would be called for each user.
-3. Find the  and return common intersection between the two slots else return None
+## Data Flow 
 
-**Give Suggestions**
-1. User would ideally call this GET endpoint of this service with their options (like duration in minutes, do they want the first available one or the last one or a random one) (default is the first available interval)
-2. This service calls availability-service to get the availabilities
-3. Returns the interval that matches the requirement
+### Add User Availability
 
-Only user-service interacts with Redis; other services rely entirely on HTTP communication as required in Notion documentation (If the service depends on other services, makes HTTP requests to check their health)
+1. Client sends `POST /users` to `user-service`.
+2. User data is written to PostgreSQL.
+3. The same data is immediately written to Redis.
+4. Subsequent reads are served from Redis when possible.
+
+---
+
+### Compute Common Availability
+
+1. Client calls `GET /suggestions` via `gateway-service`.
+2. `suggestion-service` calls `availability-service`.
+3. `availability-service` fetches availability for each user via:
+   ```http
+   GET /user-avail/cache_aside/{email}
+4. `user-service`:
+- Returns cached data from Redis if available.
+- Falls back to PostgreSQL on cache miss and repopulates Redis.
+
+5. availability-service computes and returns the per-day intersection of availability
+
 
 ## Technical Specifications for Maintainability, Reliability and Scalability:
 
@@ -131,12 +171,7 @@ The tasks are held in RabbitMQ, while one or more workers process the queue in t
 Also includes the fair task distribution from class that we talked about.
 ```
 
-
-
-
 ## Communication Patterns
-
-
 - `user-service/health`
     - Pings and returns Redis latency/status
 - `availability-service/health`
