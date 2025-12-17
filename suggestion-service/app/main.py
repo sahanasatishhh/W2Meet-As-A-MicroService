@@ -11,7 +11,7 @@ from fastapi.exceptions import HTTPException
 import requests
 import logging
 
-app = FastAPI(root_path="/tasks")
+app = FastAPI(root_path="/suggestion-service")
 
 # External user service base (for validating userId on create/update)
 AVAIL_BASE = os.getenv("AVAIL_BASE", "http://availability-service:8000")
@@ -48,7 +48,7 @@ async def add_case_id(request: Request, call_next):
 
 @app.exception_handler(HTTPException)
 async def http_exception_handler(request: Request, exc: HTTPException):
-    case_id = getattr(request)
+    case_id = getattr(request.state, "case_id", "N/A")
     logger.error(
             f"[{case_id}] ERROR {request.method} {request.url.path} "
             f"status={exc.status_code} detail={exc.detail}"
@@ -115,16 +115,34 @@ async def health_check(request:Request,response: Response):
             "status": status_indicator,
             "dependencies": dependencies
             }
-def pick_slot(common_hours: List[int], pref: str) -> Optional[List[int]]:
-    if not common_hours:
+def pick_slot(common_avails: dict, pref: str) -> Optional[dict]:
+    """
+    common_avails: { day -> [hours] }
+    returns: { "day": str, "slot": [start, end] }
+    """
+    if not common_avails:
         return None
+
+    candidates = []
+    for day, hours in common_avails.items():
+        for h in sorted(hours):
+            candidates.append((day, h))
+
+    if not candidates:
+        return None
+
     if pref == "first":
-        h = common_hours[0]
+        day, h = candidates[0]
     elif pref == "last":
-        h = common_hours[-1]
+        day, h = candidates[-1]
     else:
-        h = random.choice(common_hours)
-    return [h, h + 1]
+        day, h = random.choice(candidates)
+
+    return {
+        "day": day,
+        "slot": [h, h + 1],
+    }
+
 
 @app.get("/suggestions")
 async def get_suggestions(request:Request,userId1: Optional[str] = Query(None, description="User ID to get suggestions for"),
@@ -132,7 +150,7 @@ async def get_suggestions(request:Request,userId1: Optional[str] = Query(None, d
     case_id = getattr(request.state, "case_id", "N/A")
     logger.info(f"[{case_id}] Computing suggestions for userId1={userId1}, userId2={userId2}")
     try:
-        get_common_avails=await httpx.AsyncClient(timeout=10.0).get(f"{AVAIL_BASE}/common_availabilities", params={"userId1":userId1,"userId2":userId2}, headers={"CASE-ID":case_id})
+        get_common_avails=await httpx.AsyncClient(timeout=10.0).get(f"{AVAIL_BASE}/availabilities", params={"userId1":userId1,"userId2":userId2}, headers={"CASE-ID":case_id})
     except Exception as e:
         logger.error(f"[{case_id}] availability-service unreachable: {e}")
         raise HTTPException(status_code=503, detail="Availability service is unavailable")
@@ -158,7 +176,7 @@ async def get_suggestions(request:Request,userId1: Optional[str] = Query(None, d
         #different preferences
 
         suggestions=[]
-        common_avails = availabitilies_and_preferences.get("common_availabilities",[])
+        common_avails = availabitilies_and_preferences.get("common_availabilities",{})
         s1 = pick_slot(common_avails, user1_preference)
         s2 = pick_slot(common_avails, user2_preference)
 

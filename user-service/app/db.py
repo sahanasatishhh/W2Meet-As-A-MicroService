@@ -26,7 +26,7 @@ Weekday = Literal[
 ]
 
 class UserAvail(SQLModel, table=True):
-    __tablename__ = "exchange_rate"  # matches our table name in SQL
+    __tablename__ = "useravail"  # matches our table name in SQL
     email: str= Field(sa_column=Column(String,unique=True,primary_key=True))
     # stored as [0,11,12,16,23] representing start times of free hours in a day in 24-hour format
     

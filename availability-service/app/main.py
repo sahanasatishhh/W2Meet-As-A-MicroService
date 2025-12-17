@@ -42,7 +42,7 @@ async def add_case_id(request: Request, call_next):
 
 @app.exception_handler(HTTPException)
 async def http_exception_handler(request: Request, exc: HTTPException):
-    case_id = getattr(request)
+    case_id = getattr(request.state, "case_id", "N/A")
     logger.error(
         f"[{case_id}] ERROR {request.method} {request.url.path} "
         f"status={exc.status_code} detail={exc.detail}"
@@ -58,7 +58,7 @@ async def http_exception_handler(request: Request, exc: HTTPException):
 
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request: Request, exc: RequestValidationError):
-    case_id = getattr(request)
+    case_id = getattr(request.state, "case_id", "N/A")
 
     details = []
     for err in exc.errors():
@@ -144,42 +144,46 @@ def compute_common_availability(request:Request,avails_list: List[dict]) -> dict
     # Convert sets back to sorted lists
     return {day: sorted(list(hours)) for day, hours in common.items()}
 
-
 @app.get("/availabilities")
-async def get_common_avails(request: Request, userId1: Optional[str] = Query(None, description="User ID to get common availability for"),
-                          userId2: Optional[str] = Query(None, description="Second User ID to get common availability for")):
-    """
-    Essentially first computes a user_Avail list and uses a helper called compute_common_availbilty to return the intersection 
-    """
+async def get_common_avails(
+    request: Request,
+    userId1: Optional[str] = Query(None),
+    userId2: Optional[str] = Query(None),
+):
     case_id = getattr(request.state, "case_id", "N/A")
-    t0 = time.perf_counter()
     logger.info(f"[{case_id}] Computing common availability for userId1={userId1}, userId2={userId2}")
-    try:
-        user1_data= await httpx.AsyncClient().get(f"{USER_SERVICE_BASE}/user-avail/cache_aside/{userId1}",headers={"Case-ID": case_id})
-        logger.info(f"[{case_id}] CALL user-service path=/user-avail/cache_aside status={user1_data.status_code}")
 
-        user2_data=  await httpx.AsyncClient().get(f"{USER_SERVICE_BASE}/user-avail/cache_aside/{userId2}",headers={"Case-ID": case_id})
-        logger.info(f"[{case_id}] CALL user-service path=/user-avail/cache_aside status={user2_data.status_code}")
+    try:
+        async with httpx.AsyncClient(timeout=10.0) as client:
+            user1_resp = await client.get(
+                f"{USER_SERVICE_BASE}/user-avail/cache-aside",
+                params={"user1email": userId1},
+                headers={"Case-ID": case_id},
+            )
+            user2_resp = await client.get(
+                f"{USER_SERVICE_BASE}/user-avail/cache-aside",
+                params={"user1email": userId2},
+                headers={"Case-ID": case_id},
+            )
     except Exception as e:
         logger.error(f"[{case_id}] ERROR CALL user-service status=unreachable error={e}")
         raise HTTPException(status_code=503, detail="User service is unavailable")
 
-    if user1_data.status_code == 404 or user1_data.status_code == 404:
+    if user1_resp.status_code == 404 or user2_resp.status_code == 404:
         raise HTTPException(status_code=404, detail="One or both users not found")
-    if user2_data.status_code >= 400 or user2_data.status_code >= 400:
+    if user1_resp.status_code >= 400 or user2_resp.status_code >= 400:
         raise HTTPException(status_code=502, detail="User service error")
-    avails=[]
-    user1_avails = user1_data.get("availabilities", [])
-    user2_avails = user2_data.get("availabilities", [])
-    avails = [user1_avails, user2_avails]
-    common = compute_common_availability(avails)
 
-    logger.info(
-        f"[{case_id}] GET AVAILABILITIES: Computed common availability for userId1={userId1} userId2={userId2}"
-    )
+    u1 = user1_resp.json()
+    u2 = user2_resp.json()
+
+    user1_avails = u1.get("availabilities", {})
+    user2_avails = u2.get("availabilities", {})
+
+    common = compute_common_availability(request, [user1_avails, user2_avails])
 
     return {
         "common_availabilities": common,
-        "user1preference": user1_data.get("preferences", "first"),
-        "user2preference": user2_data.get("preferences", "first"),
+        "user1preference": u1.get("preferences", "first"),
+        "user2preference": u2.get("preferences", "first"),
     }

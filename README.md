@@ -87,7 +87,7 @@ curl http://localhost:8000/health
 Each service would return a response with an example format:
 
 ```
-{
+{"case_id": some-case-id,
   "service": "service-name",
   "status": "healthy",
   "dependencies": {
@@ -103,11 +103,11 @@ if the service state is unhealthy it would return a 503 response (Service Unavai
 
 1. **For user-service:**
  ```
-docker-compose exec user-service \curl http://localhost:8000/health
+docker-compose exec user-service \curl http://localhost:8000/users/health
 ```
 **Response Format:**
 ```
-{
+{"case_id": some-case-id,
   "service": "user-service",
   "status": "healthy",
   "dependencies": {
@@ -121,11 +121,11 @@ docker-compose exec user-service \curl http://localhost:8000/health
 
 2. **For availability-service:**
  ```
-docker-compose exec availability-service \curl http://localhost:8000/health
+docker-compose exec availability-service \curl http://localhost:8000/availability/health
 ```
 **Response Format:**
 ```
-{
+{"case_id": some-case-id,
   "service": "availability-service",
   "status": "healthy",
   "dependencies": {
@@ -139,11 +139,11 @@ docker-compose exec availability-service \curl http://localhost:8000/health
 ```
 3. **For suggestion-service:**
  ```
-docker-compose exec suggestion-service \curl http://localhost:8000/health
+docker-compose exec suggestion-service \curl http://localhost:8000/suggestion/health
 ```
 **Response Format:**
 ```
-{
+{"case_id": some-case-id,
   "service": "suggestion-service",
   "status": "healthy",
   "dependencies": {
@@ -164,6 +164,24 @@ curl http://localhost:8080/health
 ```
 **Response Format**
 ``ok``
+
+5. **For user-service:**
+ ```
+docker-compose exec user-service \curl http://localhost:8000/worker/health
+```
+**Response Format:**
+```
+{"case_id": some-case-id,
+  "service": "worker-service",
+  "status": "healthy",
+  "dependencies": {
+    "redis": {
+      "status": "healthy",
+      "response_time_ms": 10
+    }
+  }
+}
+```
 **For each service: **
 ```
 curl http://localhost:8080/{user/availability/suggestion/worker}/health
@@ -227,24 +245,32 @@ W2MEET-AS-A-MICROSERVICE/
 ├── user-service/
 │   ├── app/
 │       |____ main.py
+|   |___logs/
+|         |_____worker_log.txt
 │   ├── requirements.txt
 │   ├── Dockerfile
 │
-├── availability-aggregator/
+├── availability-service/
 │   ├── app/
 │       |_____ main.py
+|   |___logs/
+|         |_____worker_log.txt
 │   ├── requirements.txt
 │   ├── Dockerfile
 │
 └── suggestion-service/
 │   ├── app/
 │       |_____ main.py
+|   |_____logs/
+|           |_____suggest_log.txt
 │    ├── requirements.txt
 │    ├── Dockerfile
 │
 └── worker-service/
 │   ├── app/
 │       |_____ main.py
+|   |___logs/
+|         |_____worker_log.txt
 │    ├── requirements.txt
 │    ├── Dockerfile
 │

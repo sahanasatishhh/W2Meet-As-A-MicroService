@@ -8,7 +8,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi import Request
 from fastapi.responses import JSONResponse
 import time
-from db import init_db,close_db_connection,engine
+from app.db import init_db,close_db_connection,engine
 from contextlib import asynccontextmanager
 import logging
 import json
@@ -23,8 +23,8 @@ async def lifespan(app: FastAPI):
     close_db_connection()
     
 
-app = FastAPI(root_path="/users", lifespan=lifespan)
-
+app = FastAPI( lifespan=lifespan)
+os.makedirs("logs", exist_ok=True)
 # this is an example that you can use
 logging.basicConfig(
     level=logging.INFO,
@@ -170,29 +170,44 @@ async def health_check(response: Response, request: Request):
 
 @app.post("/users", status_code=201)
 async def create_user(user: UserCreate, request: Request):
-    # Implementation here
     case_id = getattr(request.state, "case_id", "N/A")
 
-    created_at=datetime.now()
-    user_data={"email":user.email,"availabilities":user.availabilities,"preferences":user.preferences,"created_at":created_at}
-    try:
-        #set iaof not exist
-        #if it was already there, created will be false
-        #setnx does not overwrite
+    created_at = datetime.utcnow().isoformat()
+    user_data = {
+        "email": user.email,
+        "availabilities": user.availabilities,
+        "preferences": user.preferences,
+        "created_at": created_at,
+    }
 
-        redis_client.hset(f"user:{user.email}",mapping=user_data)
-        with engine.connect() as conn:
-            txt=text(
-                f"INSERT INTO USERAVAIL (email, availabilities, preferences, created_at) "
-                f"VALUES ('{user.email}', '{json.dumps(user.availabilities)}', "
-                f"'{user.preferences}', '{created_at}') "
-                f"ON CONFLICT (email) DO NOTHING"
+    try:
+        redis_client.hset(f"user:{user.email}", mapping={
+            "email": user.email,
+            "availabilities": json.dumps(user.availabilities),
+            "preferences": user.preferences,
+            "created_at": created_at,
+        })
+
+        with engine.begin() as conn:
+            conn.execute(
+                text(
+                    "INSERT INTO USERAVAIL (email, availabilities, preferences, created_at) "
+                    "VALUES (:email, :availabilities, :preferences, :created_at) "
+                    "ON CONFLICT (email) DO NOTHING"
+                ),
+                {
+                    "email": user.email,
+                    "availabilities": json.dumps(user.availabilities),
+                    "preferences": user.preferences,
+                    "created_at": created_at,
+                },
             )
-            conn.execute(txt)
-        logging.info(f" [{case_id}] USER CREATE: User created with email: {user.email}")
+
+        logging.info(f"[{case_id}] USER CREATE: User created with email: {user.email}")
         return user_data
-    except Exception:
-        logging.error(f" [{case_id}] USER CREATE: Failed to create user with email: {user.email}")
+
+    except Exception as e:
+        logging.error(f"[{case_id}] USER CREATE: Failed to create user with email: {user.email} err={e}")
         raise HTTPException(status_code=500, detail="Failed to create user")
 
 @app.get("/users/{email_id}")
@@ -295,10 +310,11 @@ async def get_user_avail_cache_aside(request: Request, user1email:str= Query()):
                     if not rows:
                         logger.info(f"[{case_id}] CACHE_ASIDE 404 email={user1email}")
                         raise HTTPException(status_code=404, detail=f"User {user1email} not found in database")
+                    rows=rows[0]
                     data = {
                     "email": rows.email,
                     "preferences": rows.preferences,
-                    "availabilities": json.loads(rows.availabilities),  # IMPORTANT
+                    "availabilities": json.loads(rows.availabilities)if isinstance(rows.availabilities, str) else rows.availabilities,  # IMPORTANT
                     "created_at": rows.created_at.isoformat() if rows.created_at else None,
                     }
                     logging.info(f"[{case_id}] CACHE ASIDE: successfully fetched fresh data from database for cache_aside_{user1email.upper()}")
