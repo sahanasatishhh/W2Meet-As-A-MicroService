@@ -22,9 +22,10 @@ async def get_user_avail_cache_aside(
     #try and access the data in Redis or if nto present acces it in postgres if present, put it in Redis and then return teh data
 ```
 ## Justification
-```
+
 These endpoints define unique URL paths that expose the functionality like creating users, caching accessed users for the user-service. They allow external clients and internal services to create users and retrieve their availability data through well-defined HTTP routes. It is the only service with a database and maintains the isolation. 
-```
+
+
 
 # [KG2] Containerization
 
@@ -51,9 +52,9 @@ COPY app/ ./app/
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 ## Justification
-```
+
 This Dockerfile defines the build process for the users-service microservice. By setting the base image, installing dependencies, and defining the startup command, it bundles the application code and environment into a single, isolated, and portable container image, which is the definition of Containerization.
-```
+
 ## Demonstrating Container Orchestration & API Gateway [KG3 & KG4]
 
 # Knowledge Goal Number & Name: **[KG3] Container Orchestration & [KG4] API Gateway**
@@ -84,9 +85,9 @@ availability-service:
       - w2meet-network
 ```
 # Justification: 
-```
+
 This docker-compose.yml file defines and manages the multi-service application, demonstrating Container Orchestration. The gateway service acts as the API Gateway, exposing port 80 to the outside world and routing requests to the backend services (users_service and posts_service) based on the depends_on setting and its internal configuration.
-```
+
 
 # Demonstrating Load Balancing [KG5]
 
@@ -114,9 +115,9 @@ server {
     # ... proxy pass to upstream ...
 
 ```
-```
+
 Justification: This Nginx configuration fragment defines an upstream block named post_servers that lists multiple, identical instances of the post-processing service. The Nginx server is configured to distribute incoming traffic across these defined servers, automatically implementing Load Balancing to ensure no single instance is overwhelmed and to improve system availability.
-```
+
 
 
 # [KG6] Reliability, Scalability, and Maintainability
@@ -139,12 +140,11 @@ Justification: This Nginx configuration fragment defines an upstream block named
         raise HTTPException(status_code=502, detail="User service error")
 ```
 # Justification
-```
 Services gracefully handle downstream failures and return correct HTTP status codes (404, 502) for `availability-service`. This demonstrates reliability by preventing untraceable failures and giving clients meaningful error responses.
-```
+
 ## Code Fragment 2: Service Isolation via Docker Compose (Scalability & Maintainability)
 
-```yaml
+```yml
   
   availability-service:
     build:
@@ -190,9 +190,8 @@ Services gracefully handle downstream failures and return correct HTTP status co
  
 ```
 # Justification
-```
 Each microservice is built and deployed as an independent container, enabling horizontal scalability by design. Although replicas are not explicitly configured, this structure allows services to be scaled independently in the future without code changes. Clear separation of services improves maintainability by isolating responsibilities.
-```
+
 
 
 ---
@@ -246,9 +245,8 @@ if cached_data:
     #Postgres continues to fetch and also propagate this data up redis for faster access
 ```
 **Justification**
-```
 This implements a cache-aside strategy using Redis inside `user-service`. Frequently accessed data is served from memory, reducing database load and improving latency. 
-```
+
 
 # [KG9] Observability (Logging & Tracing)
 
@@ -267,9 +265,7 @@ logger.info(f"[{case_id}] Request started - Method={request.method} Path={reques
     logger.info(f"[{case_id}] Request completed - Status={response.status_code}, , Time taken={(time.perf_counter()-perf)*1000:.2f} ms")
 ```
 # Justification
-```
 Structured logs with a propagated Case-ID enable tracing requests across services. This improves debuggability and visibility into system behavior.
-```
 
 ---
 
@@ -291,16 +287,15 @@ message = aio_pika.Message(
 await rmq_channel.default_exchange.publish(message, routing_key=QUEUE_NAME)
 ```
 # Justification
-```
+
 Jobs are published to RabbitMQ and processed asynchronously by worker services. This prevents long-running tasks from blocking user-facing API requests and improves system responsiveness.
 
 Example:
 If many users request suggestions at the same time (e.g., during peak scheduling hours), jobs are queued in RabbitMQ and processed by workers  asynchronously, allowing the API to respond immediately instead of blocking while suggestions are computed. (Although only one worker instance is deployed in this demo, the queue-based design enables horizontal scaling by simply starting additional worker containers).
-```
+
 
 # Performance Impact (few notes)
-```
+
 - Caching reduced repeated availability lookups and directly contributed to improved response times measured during load testing.
 - Repeated tests on some error handling cases and the time taken in ms (synchronous) was about 41 ms for one of the requests in the `test_error_handling.sh` compared to the usual 65 ms successful suggestion service runs.
 - Successful  Cache hits found in log aand it reduced the time to 2.5 ms for each subsequent access in user-service!
-```

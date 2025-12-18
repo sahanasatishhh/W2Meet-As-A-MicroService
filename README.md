@@ -4,7 +4,7 @@
 This project is inspired from When2Meet with the aim to find the best availabilities among two users, availability in this case is series of one hours slots of a user throughout the week. 
 
 ## Architecure Overview
-The system consists of five services, each having their own domain and dependencies
+The system consists of five services, each having their own domain and dependencies. 
 1. `gateway-service`
 - Acts as the **single public entrypoint** to the system.
 - Forwards client requests to appropriate backend services.
@@ -325,3 +325,141 @@ chmod +x test_worker_service.sh
 ./test_worker_service.sh
 ```
 They just check basic functionalities and not edge cases for the entire workflow. For example user-service does not check update and delete cases - only checks insert and get wrt cache_aside.
+
+# Ideal Workflow with examples
+
+
+1. Create User 1
+
+Endpoint: POST /users/users
+
+```bash
+
+curl -s -X POST "$GATEWAY/users/users" \
+  -H "Content-Type: application/json" \
+  -H "Case-ID: $CID" \
+  -d '{
+    "email": "'"$U1"'",
+    "preferences": "first",
+    "availabilities": {
+      "monday": [9,10,11],
+      "tuesday": [14],
+      "wednesday": [],
+      "thursday": [],
+      "friday": [],
+      "saturday": [],
+      "sunday": []
+    }
+  }' | jq .
+
+```
+
+```bash
+Expected Response (200 / 201):
+
+{
+  "email": "alice_test@example.com",
+  "availabilities": {
+    "monday": [9, 10, 11],
+    "tuesday": [14],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "preferences": "first",
+  "created_at": "2025-12-17T20:10:12.123456"
+}
+```
+
+2. Create User 2
+
+Endpoint: POST /users/users
+
+```bash 
+
+curl -s -X POST "$GATEWAY/users/users" \
+  -H "Content-Type: application/json" \
+  -H "Case-ID: $CID" \
+  -d '{
+    "email": "'"$U2"'",
+    "preferences": "first",
+    "availabilities": {
+      "monday": [9,10],
+      "tuesday": [14],
+      "wednesday": [],
+      "thursday": [],
+      "friday": [],
+      "saturday": [],
+      "sunday": []
+    }
+  }' | jq .
+```
+
+Expected Response (200 / 201):
+```bash
+{
+  "email": "bob_test@example.com",
+  "availabilities": {
+    "monday": [9, 10],
+    "tuesday": [14],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "preferences": "first",
+  "created_at": "2025-12-17T20:10:14.654321"
+}
+```
+3. Get Common Availability
+
+Endpoint: GET /availability/availabilities
+```bash
+curl -s "$GATEWAY/availability/availabilities?userId1=$U1&userId2=$U2" \
+  -H "Case-ID: $CID" | jq .
+
+
+Expected Response (200):
+
+{
+  "common_availabilities": {
+    "monday": [9, 10],
+    "tuesday": [14],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "user1preference": "first",
+  "user2preference": "first"
+}
+```
+
+4. Get Meeting Suggestions
+
+Endpoint: GET /suggestion/suggestions
+```bash
+
+curl -s "$GATEWAY/suggestion/suggestions?userId1=$U1&userId2=$U2" \
+  -H "Case-ID: $CID" | jq .
+
+
+Expected Response (200):
+
+{
+  "case_id": "demo-1766000000",
+  "suggestions": [
+    {
+      "day": "monday",
+      "slot": [9, 10]
+    }
+  ]
+}
+```
+
+Explanation:
+Both users prefer "first", so the earliest common slot (Monday 9–10) is selected.
