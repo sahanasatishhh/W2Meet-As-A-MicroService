@@ -324,6 +324,8 @@ async def get_user_avail_cache_aside(request: Request, user1email:str= Query()):
                     return data
             except HTTPException:
                 raise
+    except HTTPException:
+        raise
                 #no loggin metnioned?
     except Exception as e:
         logger.error(f"[{case_id}] CACHE_ASIDE ERROR email={user1email} err={e}")

@@ -1,0 +1,294 @@
+2025-12-18 01:05:32,295 [INFO] [4533072b-1a7c-4e57-ba92-48eabae6ab18] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:05:32,382 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:05:32,384 [INFO] [4533072b-1a7c-4e57-ba92-48eabae6ab18] Request completed - Status=200, , Time taken=89.87 ms
+2025-12-18 01:07:02,595 [INFO] [68f83da3-504b-4043-93b2-f609fcc3d30e] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:07:02,693 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:07:02,694 [INFO] [68f83da3-504b-4043-93b2-f609fcc3d30e] Request completed - Status=200, , Time taken=99.10 ms
+2025-12-18 01:08:32,844 [INFO] [6e379eca-0676-4378-a9d5-70ceb7fb703b] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:08:32,910 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:08:32,910 [INFO] [6e379eca-0676-4378-a9d5-70ceb7fb703b] Request completed - Status=200, , Time taken=67.46 ms
+2025-12-18 01:10:03,031 [INFO] [2646736f-0b06-4264-ad5e-c4c55d84abbd] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:10:03,072 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:10:03,073 [INFO] [2646736f-0b06-4264-ad5e-c4c55d84abbd] Request completed - Status=200, , Time taken=41.99 ms
+2025-12-18 01:11:33,249 [INFO] [4e83bdc6-3a20-4ba5-84b4-ac6211da52f3] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:11:33,329 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:11:33,331 [INFO] [4e83bdc6-3a20-4ba5-84b4-ac6211da52f3] Request completed - Status=200, , Time taken=82.48 ms
+2025-12-18 01:13:03,445 [INFO] [b27341bb-37f1-492a-bc34-0591d66ad4e2] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:13:03,484 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:13:03,485 [INFO] [b27341bb-37f1-492a-bc34-0591d66ad4e2] Request completed - Status=200, , Time taken=40.23 ms
+2025-12-18 01:14:33,704 [INFO] [798c0656-bfc4-4124-9416-c2448a4d2c5d] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:14:33,839 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:14:33,840 [INFO] [798c0656-bfc4-4124-9416-c2448a4d2c5d] Request completed - Status=200, , Time taken=135.88 ms
+2025-12-18 01:16:03,979 [INFO] [790a2fd2-f12e-4761-827b-250c31e76153] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:16:04,034 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:16:04,035 [INFO] [790a2fd2-f12e-4761-827b-250c31e76153] Request completed - Status=200, , Time taken=56.44 ms
+2025-12-18 01:17:34,144 [INFO] [343e7592-4654-4eed-9ff4-c2385d15a28f] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:17:34,215 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:17:34,216 [INFO] [343e7592-4654-4eed-9ff4-c2385d15a28f] Request completed - Status=200, , Time taken=72.09 ms
+2025-12-18 01:19:04,317 [INFO] [42dcb3de-959a-4140-aac6-78233ce6013a] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:19:04,385 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:19:04,385 [INFO] [42dcb3de-959a-4140-aac6-78233ce6013a] Request completed - Status=200, , Time taken=70.22 ms
+2025-12-18 01:20:34,487 [INFO] [cdd3e9d9-5108-4e26-a27e-7e160446c99b] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:20:34,560 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:20:34,561 [INFO] [cdd3e9d9-5108-4e26-a27e-7e160446c99b] Request completed - Status=200, , Time taken=74.86 ms
+2025-12-18 01:22:04,710 [INFO] [0bbcb31a-2f2c-4304-8d28-3ba8d55da629] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:22:04,779 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:22:04,780 [INFO] [0bbcb31a-2f2c-4304-8d28-3ba8d55da629] Request completed - Status=200, , Time taken=70.47 ms
+2025-12-18 01:23:34,858 [INFO] [8ef91db6-aefa-4f2f-91a2-d1e7805b5b29] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:23:34,908 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:23:34,909 [INFO] [8ef91db6-aefa-4f2f-91a2-d1e7805b5b29] Request completed - Status=200, , Time taken=51.03 ms
+2025-12-18 01:25:05,041 [INFO] [cafabd36-5f2f-406d-ae1f-09932eea6c77] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:25:05,101 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:25:05,101 [INFO] [cafabd36-5f2f-406d-ae1f-09932eea6c77] Request completed - Status=200, , Time taken=60.33 ms
+2025-12-18 01:26:35,197 [INFO] [cd3f2560-3892-438e-aa32-aab17c435fbf] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:26:35,251 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:26:35,253 [INFO] [cd3f2560-3892-438e-aa32-aab17c435fbf] Request completed - Status=200, , Time taken=55.82 ms
+2025-12-18 01:28:05,343 [INFO] [3c065553-0c6c-437f-b8a0-e6ebc18faee3] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:28:05,379 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:28:05,380 [INFO] [3c065553-0c6c-437f-b8a0-e6ebc18faee3] Request completed - Status=200, , Time taken=37.64 ms
+2025-12-18 01:29:35,478 [INFO] [e28b5ba4-9e8b-4325-b752-f2aa77dd21a7] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:29:35,527 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:29:35,528 [INFO] [e28b5ba4-9e8b-4325-b752-f2aa77dd21a7] Request completed - Status=200, , Time taken=50.84 ms
+2025-12-18 01:31:05,618 [INFO] [e4dc0194-a88f-4836-9811-23921ce5b8b3] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:31:05,660 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:31:05,662 [INFO] [e4dc0194-a88f-4836-9811-23921ce5b8b3] Request completed - Status=200, , Time taken=44.26 ms
+2025-12-18 01:32:35,762 [INFO] [bdeb0041-99b0-4403-aa17-d9ba2c7bd3e7] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:32:35,826 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:32:35,827 [INFO] [bdeb0041-99b0-4403-aa17-d9ba2c7bd3e7] Request completed - Status=200, , Time taken=65.19 ms
+2025-12-18 01:34:05,952 [INFO] [5004f581-1d47-4f0e-a995-195615e36212] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:34:06,008 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:34:06,009 [INFO] [5004f581-1d47-4f0e-a995-195615e36212] Request completed - Status=200, , Time taken=57.40 ms
+2025-12-18 01:35:36,089 [INFO] [19ebb4e7-627b-48aa-8062-bbd3c6a91f6a] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:35:36,148 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:35:36,149 [INFO] [19ebb4e7-627b-48aa-8062-bbd3c6a91f6a] Request completed - Status=200, , Time taken=59.86 ms
+2025-12-18 01:37:06,337 [INFO] [6202d7ec-726d-4568-8f95-372780bfa233] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:37:06,397 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:37:06,398 [INFO] [6202d7ec-726d-4568-8f95-372780bfa233] Request completed - Status=200, , Time taken=61.02 ms
+2025-12-18 01:38:36,452 [INFO] [f31637eb-664e-49df-ba35-97efbce1ed1c] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:38:36,514 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:38:36,516 [INFO] [f31637eb-664e-49df-ba35-97efbce1ed1c] Request completed - Status=200, , Time taken=63.59 ms
+2025-12-18 01:40:06,671 [INFO] [64724046-dd05-4fcd-9b1f-71cd69d1e11a] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:40:06,700 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:40:06,700 [INFO] [64724046-dd05-4fcd-9b1f-71cd69d1e11a] Request completed - Status=200, , Time taken=29.76 ms
+2025-12-18 01:41:36,798 [INFO] [ca88d569-5b69-4a67-a5e6-8fe373b87a38] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:41:36,868 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:41:36,869 [INFO] [ca88d569-5b69-4a67-a5e6-8fe373b87a38] Request completed - Status=200, , Time taken=71.88 ms
+2025-12-18 01:43:06,966 [INFO] [4945b818-4405-4f43-aa1a-182c844a8248] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:43:07,001 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:43:07,001 [INFO] [4945b818-4405-4f43-aa1a-182c844a8248] Request completed - Status=200, , Time taken=35.62 ms
+2025-12-18 01:44:37,133 [INFO] [a8d372ab-ac78-413a-8523-431fd3f3c783] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:44:37,216 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:44:37,219 [INFO] [a8d372ab-ac78-413a-8523-431fd3f3c783] Request completed - Status=200, , Time taken=87.72 ms
+2025-12-18 01:46:07,371 [INFO] [58cc6054-83b7-4a55-8d02-128dbfe974f8] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:46:07,433 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:46:07,434 [INFO] [58cc6054-83b7-4a55-8d02-128dbfe974f8] Request completed - Status=200, , Time taken=63.26 ms
+2025-12-18 01:47:37,554 [INFO] [be5f437a-54cb-4d8c-9eb8-215685ba1e04] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:47:37,617 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:47:37,618 [INFO] [be5f437a-54cb-4d8c-9eb8-215685ba1e04] Request completed - Status=200, , Time taken=64.54 ms
+2025-12-18 01:49:07,715 [INFO] [f4708526-3c22-416b-92b6-e6339899dac6] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:49:07,767 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:49:07,769 [INFO] [f4708526-3c22-416b-92b6-e6339899dac6] Request completed - Status=200, , Time taken=54.47 ms
+2025-12-18 01:50:37,922 [INFO] [a0213c39-7784-4516-90c4-31129102293b] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:50:37,983 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:50:37,983 [INFO] [a0213c39-7784-4516-90c4-31129102293b] Request completed - Status=200, , Time taken=61.98 ms
+2025-12-18 01:52:08,205 [INFO] [ed688bd1-1de1-43d0-8d72-df25a7c2ad57] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:52:08,290 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:52:08,291 [INFO] [ed688bd1-1de1-43d0-8d72-df25a7c2ad57] Request completed - Status=200, , Time taken=86.64 ms
+2025-12-18 01:53:38,374 [INFO] [1c7040da-581f-4753-afd3-50eacdd7f63d] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:53:38,440 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:53:38,441 [INFO] [1c7040da-581f-4753-afd3-50eacdd7f63d] Request completed - Status=200, , Time taken=66.95 ms
+2025-12-18 01:55:08,531 [INFO] [185c0e0f-f094-4a19-8ed5-cad678013181] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:55:08,579 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:55:08,580 [INFO] [185c0e0f-f094-4a19-8ed5-cad678013181] Request completed - Status=200, , Time taken=48.72 ms
+2025-12-18 01:56:39,060 [INFO] [cbd064f1-ce82-4ddf-b349-8c8d8d7f4579] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:56:39,179 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:56:39,180 [INFO] [cbd064f1-ce82-4ddf-b349-8c8d8d7f4579] Request completed - Status=200, , Time taken=119.95 ms
+2025-12-18 01:58:09,282 [INFO] [9f64cc26-8742-4538-afd7-b2bbba65fcb0] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:58:09,309 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:58:09,310 [INFO] [9f64cc26-8742-4538-afd7-b2bbba65fcb0] Request completed - Status=200, , Time taken=28.29 ms
+2025-12-18 01:59:39,407 [INFO] [5f5516b5-84b0-4bde-a137-1f1fa173ef7d] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 01:59:39,463 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:59:39,463 [INFO] [5f5516b5-84b0-4bde-a137-1f1fa173ef7d] Request completed - Status=200, , Time taken=56.38 ms
+2025-12-18 02:01:09,558 [INFO] [fe2ad5bf-aeae-4385-a35b-8caa84c95815] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:01:09,597 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:01:09,598 [INFO] [fe2ad5bf-aeae-4385-a35b-8caa84c95815] Request completed - Status=200, , Time taken=40.48 ms
+2025-12-18 02:02:39,707 [INFO] [77a8309d-f72d-4145-b168-e22b5cb4be43] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:02:39,765 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:02:39,767 [INFO] [77a8309d-f72d-4145-b168-e22b5cb4be43] Request completed - Status=200, , Time taken=60.19 ms
+2025-12-18 02:04:09,872 [INFO] [76149eb8-b3a2-4d24-8a55-3f85c0e84dc8] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:04:09,907 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:04:09,910 [INFO] [76149eb8-b3a2-4d24-8a55-3f85c0e84dc8] Request completed - Status=200, , Time taken=37.75 ms
+2025-12-18 02:05:40,021 [INFO] [7452babd-5502-4bf5-bd69-045c2b0669cb] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:05:40,098 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:05:40,099 [INFO] [7452babd-5502-4bf5-bd69-045c2b0669cb] Request completed - Status=200, , Time taken=78.32 ms
+2025-12-18 02:07:10,172 [INFO] [feea8266-6c91-4e88-8c06-2b6ca5893065] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:07:10,235 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:07:10,236 [INFO] [feea8266-6c91-4e88-8c06-2b6ca5893065] Request completed - Status=200, , Time taken=64.25 ms
+2025-12-18 02:08:40,373 [INFO] [19a45605-4d96-47ae-8f7d-07b550620e4b] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:08:40,437 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:08:40,438 [INFO] [19a45605-4d96-47ae-8f7d-07b550620e4b] Request completed - Status=200, , Time taken=65.72 ms
+2025-12-18 02:10:10,551 [INFO] [89ec1ffd-60c2-442b-8d0a-e2b23a83dfbb] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:10:10,600 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:10:10,602 [INFO] [89ec1ffd-60c2-442b-8d0a-e2b23a83dfbb] Request completed - Status=200, , Time taken=52.27 ms
+2025-12-18 02:11:40,731 [INFO] [9b72811a-c1e0-4783-a20a-3bf8f5fa6da7] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:11:40,825 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:11:40,828 [INFO] [9b72811a-c1e0-4783-a20a-3bf8f5fa6da7] Request completed - Status=200, , Time taken=98.10 ms
+2025-12-18 02:13:10,971 [INFO] [0161258c-2b1b-4836-b100-fd46abe6c600] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:13:11,074 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:13:11,075 [INFO] [0161258c-2b1b-4836-b100-fd46abe6c600] Request completed - Status=200, , Time taken=105.12 ms
+2025-12-18 02:14:41,223 [INFO] [b269fea9-9268-4f17-82a4-0a9451df6c7e] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:14:41,321 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:14:41,324 [INFO] [b269fea9-9268-4f17-82a4-0a9451df6c7e] Request completed - Status=200, , Time taken=101.89 ms
+2025-12-18 02:16:11,389 [INFO] [4d877b03-a79d-4cc1-85b6-3cb7de66580d] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:16:11,417 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:16:11,418 [INFO] [4d877b03-a79d-4cc1-85b6-3cb7de66580d] Request completed - Status=200, , Time taken=28.99 ms
+2025-12-18 02:17:41,544 [INFO] [03fae59b-0116-4d47-b418-274bdd0ea3f6] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:17:41,616 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:17:41,617 [INFO] [03fae59b-0116-4d47-b418-274bdd0ea3f6] Request completed - Status=200, , Time taken=73.23 ms
+2025-12-18 02:19:11,754 [INFO] [dacdcca5-8da9-4ab6-a86f-6baed621522e] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:19:11,825 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:19:11,826 [INFO] [dacdcca5-8da9-4ab6-a86f-6baed621522e] Request completed - Status=200, , Time taken=72.55 ms
+2025-12-18 02:20:42,045 [INFO] [9ad96af2-7366-4216-b337-88ef555b406f] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:20:42,133 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:20:42,134 [INFO] [9ad96af2-7366-4216-b337-88ef555b406f] Request completed - Status=200, , Time taken=89.43 ms
+2025-12-18 02:22:12,228 [INFO] [1fb20da5-7a49-4801-857b-c5ee07bf816d] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:22:12,265 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:22:12,265 [INFO] [1fb20da5-7a49-4801-857b-c5ee07bf816d] Request completed - Status=200, , Time taken=38.05 ms
+2025-12-18 02:23:42,384 [INFO] [8d6e2f1d-30a2-4998-a353-3af9c9ceb694] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:23:42,447 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:23:42,448 [INFO] [8d6e2f1d-30a2-4998-a353-3af9c9ceb694] Request completed - Status=200, , Time taken=63.42 ms
+2025-12-18 02:25:12,550 [INFO] [e935a29f-7872-4dd6-9dd6-96b64b5b1fd1] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:25:12,663 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:25:12,666 [INFO] [e935a29f-7872-4dd6-9dd6-96b64b5b1fd1] Request completed - Status=200, , Time taken=115.57 ms
+2025-12-18 02:26:42,807 [INFO] [44a2602f-884f-47b5-9dd6-db35b7978fd8] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:26:42,869 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:26:42,871 [INFO] [44a2602f-884f-47b5-9dd6-db35b7978fd8] Request completed - Status=200, , Time taken=64.68 ms
+2025-12-18 02:28:13,015 [INFO] [c068616e-9bb8-4302-a08e-645ff9cad504] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:28:13,116 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:28:13,118 [INFO] [c068616e-9bb8-4302-a08e-645ff9cad504] Request completed - Status=200, , Time taken=102.69 ms
+2025-12-18 02:29:43,319 [INFO] [b89110d9-759d-4a8c-b0e5-6a1bdb1a06ec] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:29:43,428 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:29:43,432 [INFO] [b89110d9-759d-4a8c-b0e5-6a1bdb1a06ec] Request completed - Status=200, , Time taken=114.09 ms
+2025-12-18 02:31:13,542 [INFO] [bbe4f54e-fbcc-49ee-b642-4dd3443f94f6] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:31:13,625 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:31:13,626 [INFO] [bbe4f54e-fbcc-49ee-b642-4dd3443f94f6] Request completed - Status=200, , Time taken=83.84 ms
+2025-12-18 02:32:43,719 [INFO] [103d69b5-a23e-43ce-a87a-9971188ec131] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:32:43,773 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:32:43,774 [INFO] [103d69b5-a23e-43ce-a87a-9971188ec131] Request completed - Status=200, , Time taken=54.88 ms
+2025-12-18 02:34:13,867 [INFO] [a51fa5a5-a2ac-4dd2-befd-a8d17ea2f3a3] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:34:13,915 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:34:13,916 [INFO] [a51fa5a5-a2ac-4dd2-befd-a8d17ea2f3a3] Request completed - Status=200, , Time taken=49.24 ms
+2025-12-18 02:35:44,042 [INFO] [aa470eeb-a012-4be0-aca1-d15e47e2bab7] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:35:44,112 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:35:44,113 [INFO] [aa470eeb-a012-4be0-aca1-d15e47e2bab7] Request completed - Status=200, , Time taken=71.71 ms
+2025-12-18 02:37:14,198 [INFO] [db1d7ec6-c318-40e5-b3a5-ad5c72c427b5] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:37:14,260 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:37:14,261 [INFO] [db1d7ec6-c318-40e5-b3a5-ad5c72c427b5] Request completed - Status=200, , Time taken=63.86 ms
+2025-12-18 02:38:44,375 [INFO] [582db219-e86a-469b-96af-9f5b4c740914] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:38:44,442 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:38:44,443 [INFO] [582db219-e86a-469b-96af-9f5b4c740914] Request completed - Status=200, , Time taken=68.38 ms
+2025-12-18 02:40:14,536 [INFO] [b0ed906b-7662-447e-b52f-b8e6d94f8065] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:40:14,596 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:40:14,597 [INFO] [b0ed906b-7662-447e-b52f-b8e6d94f8065] Request completed - Status=200, , Time taken=61.45 ms
+2025-12-18 02:41:14,259 [INFO] [test-suggest-1766025674] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:41:14,321 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:41:14,322 [INFO] [test-suggest-1766025674] Request completed - Status=200, , Time taken=64.07 ms
+2025-12-18 02:41:14,346 [INFO] [test-suggest-1766025674] Request started - Method=GET Path=/suggestion-service/suggestions
+2025-12-18 02:41:14,366 [INFO] [test-suggest-1766025674] Computing suggestions for userId1=alice_test@example.com, userId2=bob_test@example.com
+2025-12-18 02:41:14,415 [INFO] HTTP Request: GET http://availability-service:8000/availabilities?userId1=alice_test%40example.com&userId2=bob_test%40example.com "HTTP/1.1 200 OK"
+2025-12-18 02:41:14,415 [INFO] [test-suggest-1766025674] Request completed - Status=200, , Time taken=69.85 ms
+2025-12-18 02:41:44,708 [INFO] [92b6328c-818f-4f20-9705-040915483f79] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:41:44,771 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:41:44,772 [INFO] [92b6328c-818f-4f20-9705-040915483f79] Request completed - Status=200, , Time taken=63.67 ms
+2025-12-18 02:43:14,855 [INFO] [9b45d22f-76ab-4dbf-a3e7-06e6355ad7e1] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:43:14,921 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:43:14,923 [INFO] [9b45d22f-76ab-4dbf-a3e7-06e6355ad7e1] Request completed - Status=200, , Time taken=68.10 ms
+2025-12-18 02:44:45,040 [INFO] [aff43b31-7868-423b-be63-5ca2d912a851] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:44:45,115 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:44:45,116 [INFO] [aff43b31-7868-423b-be63-5ca2d912a851] Request completed - Status=200, , Time taken=75.86 ms
+2025-12-18 02:46:15,204 [INFO] [2e68ea05-7a68-4eef-9187-31288ebce81e] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:46:15,265 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:46:15,266 [INFO] [2e68ea05-7a68-4eef-9187-31288ebce81e] Request completed - Status=200, , Time taken=62.38 ms
+2025-12-18 02:47:45,429 [INFO] [f5a01c5f-5f49-4657-9942-c24964ff968c] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:47:45,513 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:47:45,514 [INFO] [f5a01c5f-5f49-4657-9942-c24964ff968c] Request completed - Status=200, , Time taken=85.12 ms
+2025-12-18 02:49:15,656 [INFO] [c11f85de-102b-4a3f-ae2d-dbc65187625b] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:49:15,759 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:49:15,762 [INFO] [c11f85de-102b-4a3f-ae2d-dbc65187625b] Request completed - Status=200, , Time taken=106.07 ms
+2025-12-18 02:50:46,888 [INFO] [5f71b68a-29d0-4d07-b8bf-0de29a898f7d] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:50:47,141 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:50:47,150 [INFO] [5f71b68a-29d0-4d07-b8bf-0de29a898f7d] Request completed - Status=200, , Time taken=263.43 ms
+2025-12-18 02:52:17,585 [INFO] [dabb6158-52e8-4b03-92ac-52ad3b61458b] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:52:17,637 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:52:17,638 [INFO] [dabb6158-52e8-4b03-92ac-52ad3b61458b] Request completed - Status=200, , Time taken=53.21 ms
+2025-12-18 02:53:47,788 [INFO] [57b9c547-3c22-4ebe-9606-33e195182d41] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:53:47,844 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:53:47,845 [INFO] [57b9c547-3c22-4ebe-9606-33e195182d41] Request completed - Status=200, , Time taken=56.77 ms
+2025-12-18 02:55:17,911 [INFO] [8acfba8d-21ad-4e0a-b7de-d4c783d67c19] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:55:17,938 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:55:17,940 [INFO] [8acfba8d-21ad-4e0a-b7de-d4c783d67c19] Request completed - Status=200, , Time taken=29.01 ms
+2025-12-18 02:56:48,098 [INFO] [4696c6d5-b2a1-452a-b72d-37ccc3172710] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:56:48,164 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:56:48,173 [INFO] [4696c6d5-b2a1-452a-b72d-37ccc3172710] Request completed - Status=200, , Time taken=75.14 ms
+2025-12-18 02:58:18,291 [INFO] [cf0c497a-8c1e-4cc5-8271-5e6135cbfe29] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:58:18,390 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:58:18,391 [INFO] [cf0c497a-8c1e-4cc5-8271-5e6135cbfe29] Request completed - Status=200, , Time taken=100.55 ms
+2025-12-18 02:59:48,493 [INFO] [6e84ff0b-4962-4f8b-9894-8136bacf29c1] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 02:59:48,551 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:59:48,552 [INFO] [6e84ff0b-4962-4f8b-9894-8136bacf29c1] Request completed - Status=200, , Time taken=59.21 ms
+2025-12-18 03:01:11,585 [INFO] [test-errors-1766026871] Request started - Method=GET Path=/suggestion-service/suggestions
+2025-12-18 03:01:11,601 [INFO] [test-errors-1766026871] Computing suggestions for userId1=alice_test@example.com, userId2=ghost_user_1766026871@example.com
+2025-12-18 03:01:11,672 [INFO] HTTP Request: GET http://availability-service:8000/availabilities?userId1=alice_test%40example.com&userId2=ghost_user_1766026871%40example.com "HTTP/1.1 502 Bad Gateway"
+2025-12-18 03:01:11,677 [ERROR] [test-errors-1766026871] ERROR GET /suggestion-service/suggestions status=502 detail=Availability service error
+2025-12-18 03:01:11,678 [INFO] [test-errors-1766026871] Request completed - Status=502, , Time taken=93.63 ms
+2025-12-18 03:01:18,640 [INFO] [c9371622-1c3a-42e3-b510-013e3943d85d] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:01:18,667 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:01:18,671 [INFO] [c9371622-1c3a-42e3-b510-013e3943d85d] Request completed - Status=200, , Time taken=31.66 ms
+2025-12-18 03:02:48,798 [INFO] [205a4835-3912-4e82-818d-b6926ef69eeb] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:02:48,873 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:02:48,875 [INFO] [205a4835-3912-4e82-818d-b6926ef69eeb] Request completed - Status=200, , Time taken=76.84 ms
+2025-12-18 03:04:18,965 [INFO] [557b080e-2cce-49c8-8a15-b90fad8ce361] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:04:18,991 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:04:18,992 [INFO] [557b080e-2cce-49c8-8a15-b90fad8ce361] Request completed - Status=200, , Time taken=27.68 ms
+2025-12-18 03:05:49,133 [INFO] [91e2cfdc-1bde-430f-8506-e5eccd61e9f0] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:05:49,192 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:05:49,193 [INFO] [91e2cfdc-1bde-430f-8506-e5eccd61e9f0] Request completed - Status=200, , Time taken=60.27 ms
+2025-12-18 03:07:19,264 [INFO] [0b008173-b8b5-410e-88e9-e0fb4bb66d47] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:07:19,297 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:07:19,298 [INFO] [0b008173-b8b5-410e-88e9-e0fb4bb66d47] Request completed - Status=200, , Time taken=34.99 ms
+2025-12-18 03:08:49,559 [INFO] [355e8f5e-37df-477f-b395-2315d9492f47] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:08:49,873 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:08:49,877 [INFO] [355e8f5e-37df-477f-b395-2315d9492f47] Request completed - Status=200, , Time taken=318.50 ms
+2025-12-18 03:10:20,060 [INFO] [a0711374-07fc-49c3-aaa8-6cc8326e9c25] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:10:20,106 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:10:20,108 [INFO] [a0711374-07fc-49c3-aaa8-6cc8326e9c25] Request completed - Status=200, , Time taken=47.73 ms
+2025-12-18 03:12:42,210 [INFO] [edaa23e4-fe54-430e-bb8e-10060e8035b8] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:12:42,282 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:12:42,283 [INFO] [edaa23e4-fe54-430e-bb8e-10060e8035b8] Request completed - Status=200, , Time taken=73.53 ms
+2025-12-18 03:12:54,103 [INFO] [test-errors-1766027573] Request started - Method=GET Path=/suggestion-service/suggestions
+2025-12-18 03:12:54,106 [INFO] [test-errors-1766027573] Computing suggestions for userId1=alice_test@example.com, userId2=ghost_user_1766027573@example.com
+2025-12-18 03:12:54,143 [INFO] HTTP Request: GET http://availability-service:8000/availabilities?userId1=alice_test%40example.com&userId2=ghost_user_1766027573%40example.com "HTTP/1.1 404 Not Found"
+2025-12-18 03:12:54,143 [ERROR] [test-errors-1766027573] ERROR GET /suggestion-service/suggestions status=404 detail=One or both users not found
+2025-12-18 03:12:54,143 [INFO] [test-errors-1766027573] Request completed - Status=404, , Time taken=41.15 ms
+2025-12-18 03:13:15,600 [INFO] [test-suggest-1766027595] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:13:15,656 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:13:15,657 [INFO] [test-suggest-1766027595] Request completed - Status=200, , Time taken=57.79 ms
+2025-12-18 03:13:15,689 [INFO] [test-suggest-1766027595] Request started - Method=GET Path=/suggestion-service/suggestions
+2025-12-18 03:13:15,690 [INFO] [test-suggest-1766027595] Computing suggestions for userId1=alice_test@example.com, userId2=bob_test@example.com
+2025-12-18 03:13:15,724 [INFO] HTTP Request: GET http://availability-service:8000/availabilities?userId1=alice_test%40example.com&userId2=bob_test%40example.com "HTTP/1.1 200 OK"
+2025-12-18 03:13:15,725 [INFO] [test-suggest-1766027595] Request completed - Status=200, , Time taken=35.97 ms
+2025-12-18 03:14:12,408 [INFO] [a00ac166-7963-4672-9a56-758de74cf284] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:14:12,474 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:14:12,475 [INFO] [a00ac166-7963-4672-9a56-758de74cf284] Request completed - Status=200, , Time taken=67.45 ms
+2025-12-18 03:15:42,631 [INFO] [798dc1b3-4702-4db4-977b-86c615cc9b83] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:15:42,690 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:15:42,691 [INFO] [798dc1b3-4702-4db4-977b-86c615cc9b83] Request completed - Status=200, , Time taken=60.02 ms
+2025-12-18 03:17:29,996 [INFO] [1b5cb53e-dbbd-45d8-b2df-377ca7dcf631] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:17:31,203 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:17:31,218 [INFO] [1b5cb53e-dbbd-45d8-b2df-377ca7dcf631] Request completed - Status=200, , Time taken=1228.63 ms
+2025-12-18 03:19:01,476 [INFO] [1736607b-9a54-45f4-837f-7cddb5bb5423] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:19:01,585 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:19:01,594 [INFO] [1736607b-9a54-45f4-837f-7cddb5bb5423] Request completed - Status=200, , Time taken=120.72 ms
+2025-12-18 03:20:31,748 [INFO] [10e71906-7f3d-4bca-b524-88b42857d2bc] Request started - Method=GET Path=/suggestion-service/health
+2025-12-18 03:20:31,942 [INFO] HTTP Request: GET http://availability-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:20:31,970 [INFO] [10e71906-7f3d-4bca-b524-88b42857d2bc] Request completed - Status=200, , Time taken=222.76 ms

@@ -125,7 +125,7 @@ class TaskIn(BaseModel):
 
 
 async def process_message(message: aio_pika.IncomingMessage):
-    async with message.process(requeue=True):
+    async with message.process(requeue=False):
         payload = json.loads(message.body.decode("utf-8"))
         case_id = payload.get("case_id", "N/A")
         job_id = payload.get("job_id", "N/A")

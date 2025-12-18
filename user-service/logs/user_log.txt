@@ -1,0 +1,1133 @@
+2025-12-18 01:07:59,188 [INFO] [3d8d1603-38fb-484d-8d8f-27264375b205] Request started - Method=GET Path=/health
+2025-12-18 01:07:59,201 [INFO] [3d8d1603-38fb-484d-8d8f-27264375b205] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.560500000276079}, 'postgresql': {'status': 'healthy', 'response_time_ms': 10.34783300019626}}
+2025-12-18 01:07:59,202 [INFO] [3d8d1603-38fb-484d-8d8f-27264375b205] Request completed - Status=200, Time taken=14.53 ms
+2025-12-18 01:08:21,111 [INFO] [001f1b41-a719-4c84-9423-09bc0a3343df] Request started - Method=GET Path=/health
+2025-12-18 01:08:21,120 [INFO] [001f1b41-a719-4c84-9423-09bc0a3343df] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.7702499999359134}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.416959000034694}}
+2025-12-18 01:08:21,123 [INFO] [001f1b41-a719-4c84-9423-09bc0a3343df] Request completed - Status=200, Time taken=12.50 ms
+2025-12-18 01:08:32,895 [INFO] [6e379eca-0676-4378-a9d5-70ceb7fb703b] Request started - Method=GET Path=/health
+2025-12-18 01:08:32,905 [INFO] [6e379eca-0676-4378-a9d5-70ceb7fb703b] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.6497080002627627}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.166000000324857}}
+2025-12-18 01:08:32,906 [INFO] [6e379eca-0676-4378-a9d5-70ceb7fb703b] Request completed - Status=200, Time taken=11.86 ms
+2025-12-18 01:08:59,392 [INFO] [17ac912c-321a-4856-9548-30af14f455b8] Request started - Method=GET Path=/health
+2025-12-18 01:08:59,402 [INFO] [17ac912c-321a-4856-9548-30af14f455b8] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8795829999144189}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.080082999687875}}
+2025-12-18 01:08:59,405 [INFO] [17ac912c-321a-4856-9548-30af14f455b8] Request completed - Status=200, Time taken=12.78 ms
+2025-12-18 01:09:31,238 [INFO] [745dcd99-974f-4acd-ac60-6fb78cbe2fa3] Request started - Method=GET Path=/health
+2025-12-18 01:09:31,246 [INFO] [745dcd99-974f-4acd-ac60-6fb78cbe2fa3] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9954160000233969}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.434666000179277}}
+2025-12-18 01:09:31,247 [INFO] [745dcd99-974f-4acd-ac60-6fb78cbe2fa3] Request completed - Status=200, Time taken=8.76 ms
+2025-12-18 01:09:59,576 [INFO] [14627d79-c9f4-4554-a9e3-c3dafa898c12] Request started - Method=GET Path=/health
+2025-12-18 01:09:59,587 [INFO] [14627d79-c9f4-4554-a9e3-c3dafa898c12] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.7547909999157127}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.061707999833743}}
+2025-12-18 01:09:59,588 [INFO] [14627d79-c9f4-4554-a9e3-c3dafa898c12] Request completed - Status=200, Time taken=11.73 ms
+2025-12-18 01:10:03,066 [INFO] [2646736f-0b06-4264-ad5e-c4c55d84abbd] Request started - Method=GET Path=/health
+2025-12-18 01:10:03,069 [INFO] [2646736f-0b06-4264-ad5e-c4c55d84abbd] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.48533399967709556}, 'postgresql': {'status': 'healthy', 'response_time_ms': 2.259709000099974}}
+2025-12-18 01:10:03,070 [INFO] [2646736f-0b06-4264-ad5e-c4c55d84abbd] Request completed - Status=200, Time taken=3.85 ms
+2025-12-18 01:10:41,364 [INFO] [21c276ff-ff9d-4616-a71e-cfb0b45d3441] Request started - Method=GET Path=/health
+2025-12-18 01:10:41,372 [INFO] [21c276ff-ff9d-4616-a71e-cfb0b45d3441] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2145829996370594}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.190332999518432}}
+2025-12-18 01:10:41,373 [INFO] [21c276ff-ff9d-4616-a71e-cfb0b45d3441] Request completed - Status=200, Time taken=9.81 ms
+2025-12-18 01:10:59,779 [INFO] [f665a117-ac5a-41e8-8203-ae985352805a] Request started - Method=GET Path=/health
+2025-12-18 01:10:59,796 [INFO] [f665a117-ac5a-41e8-8203-ae985352805a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.4613339999414166}, 'postgresql': {'status': 'healthy', 'response_time_ms': 13.636624999890046}}
+2025-12-18 01:10:59,798 [INFO] [f665a117-ac5a-41e8-8203-ae985352805a] Request completed - Status=200, Time taken=18.91 ms
+2025-12-18 01:11:33,310 [INFO] [4e83bdc6-3a20-4ba5-84b4-ac6211da52f3] Request started - Method=GET Path=/health
+2025-12-18 01:11:33,319 [INFO] [4e83bdc6-3a20-4ba5-84b4-ac6211da52f3] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.9497080002111034}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.948625000404718}}
+2025-12-18 01:11:33,320 [INFO] [4e83bdc6-3a20-4ba5-84b4-ac6211da52f3] Request completed - Status=200, Time taken=10.78 ms
+2025-12-18 01:11:51,514 [INFO] [2a3237e8-7804-48de-a13b-89d341c8e09d] Request started - Method=GET Path=/health
+2025-12-18 01:11:51,526 [INFO] [2a3237e8-7804-48de-a13b-89d341c8e09d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.2429589998864685}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.089459000279021}}
+2025-12-18 01:11:51,528 [INFO] [2a3237e8-7804-48de-a13b-89d341c8e09d] Request completed - Status=200, Time taken=14.74 ms
+2025-12-18 01:11:59,949 [INFO] [b471b900-05c2-41b9-b5ce-0e8a08bd39c3] Request started - Method=GET Path=/health
+2025-12-18 01:11:59,956 [INFO] [b471b900-05c2-41b9-b5ce-0e8a08bd39c3] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1359580003045266}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.434458000105224}}
+2025-12-18 01:11:59,957 [INFO] [b471b900-05c2-41b9-b5ce-0e8a08bd39c3] Request completed - Status=200, Time taken=7.89 ms
+2025-12-18 01:13:00,093 [INFO] [07cd6359-f977-4f79-b0d4-c85a9dd62b07] Request started - Method=GET Path=/health
+2025-12-18 01:13:00,100 [INFO] [07cd6359-f977-4f79-b0d4-c85a9dd62b07] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8304169996335986}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.343416999290639}}
+2025-12-18 01:13:00,101 [INFO] [07cd6359-f977-4f79-b0d4-c85a9dd62b07] Request completed - Status=200, Time taken=10.70 ms
+2025-12-18 01:13:01,626 [INFO] [814e7dc5-a3c3-407c-9714-9828bc7ccd7d] Request started - Method=GET Path=/health
+2025-12-18 01:13:01,628 [INFO] [814e7dc5-a3c3-407c-9714-9828bc7ccd7d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.21400000059657032}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.6435000004785252}}
+2025-12-18 01:13:01,628 [INFO] [814e7dc5-a3c3-407c-9714-9828bc7ccd7d] Request completed - Status=200, Time taken=2.11 ms
+2025-12-18 01:13:03,480 [INFO] [b27341bb-37f1-492a-bc34-0591d66ad4e2] Request started - Method=GET Path=/health
+2025-12-18 01:13:03,482 [INFO] [b27341bb-37f1-492a-bc34-0591d66ad4e2] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.3145000000586151}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.7634169996890705}}
+2025-12-18 01:13:03,482 [INFO] [b27341bb-37f1-492a-bc34-0591d66ad4e2] Request completed - Status=200, Time taken=1.52 ms
+2025-12-18 01:14:00,234 [INFO] [cdee5649-9030-413d-976b-d39eb88980d0] Request started - Method=GET Path=/health
+2025-12-18 01:14:00,244 [INFO] [cdee5649-9030-413d-976b-d39eb88980d0] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.7516669993492542}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.285708999304916}}
+2025-12-18 01:14:00,245 [INFO] [cdee5649-9030-413d-976b-d39eb88980d0] Request completed - Status=200, Time taken=10.54 ms
+2025-12-18 01:14:11,741 [INFO] [7c4004bc-b41e-42d2-9dcf-9fef577b27ad] Request started - Method=GET Path=/health
+2025-12-18 01:14:11,748 [INFO] [7c4004bc-b41e-42d2-9dcf-9fef577b27ad] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.4995829997133114}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.280000000107975}}
+2025-12-18 01:14:11,748 [INFO] [7c4004bc-b41e-42d2-9dcf-9fef577b27ad] Request completed - Status=200, Time taken=7.14 ms
+2025-12-18 01:14:33,809 [INFO] [798c0656-bfc4-4124-9416-c2448a4d2c5d] Request started - Method=GET Path=/health
+2025-12-18 01:14:33,828 [INFO] [798c0656-bfc4-4124-9416-c2448a4d2c5d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.7844169999298174}, 'postgresql': {'status': 'healthy', 'response_time_ms': 11.199499999747786}}
+2025-12-18 01:14:33,833 [INFO] [798c0656-bfc4-4124-9416-c2448a4d2c5d] Request completed - Status=200, Time taken=25.92 ms
+2025-12-18 01:15:00,420 [INFO] [f9d5c0f4-ede2-472b-9af8-1edcc749f98f] Request started - Method=GET Path=/health
+2025-12-18 01:15:00,431 [INFO] [f9d5c0f4-ede2-472b-9af8-1edcc749f98f] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0704579999583075}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.397167000206537}}
+2025-12-18 01:15:00,432 [INFO] [f9d5c0f4-ede2-472b-9af8-1edcc749f98f] Request completed - Status=200, Time taken=12.97 ms
+2025-12-18 01:15:21,878 [INFO] [51f07bce-f370-49dd-90f3-d9312337b92f] Request started - Method=GET Path=/health
+2025-12-18 01:15:21,899 [INFO] [51f07bce-f370-49dd-90f3-d9312337b92f] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.7195830005221069}, 'postgresql': {'status': 'healthy', 'response_time_ms': 12.458082999728504}}
+2025-12-18 01:15:21,900 [INFO] [51f07bce-f370-49dd-90f3-d9312337b92f] Request completed - Status=200, Time taken=22.34 ms
+2025-12-18 01:16:00,581 [INFO] [95f80577-8958-4fff-b32c-7830432119eb] Request started - Method=GET Path=/health
+2025-12-18 01:16:00,588 [INFO] [95f80577-8958-4fff-b32c-7830432119eb] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8373749997190316}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.675833999499446}}
+2025-12-18 01:16:00,589 [INFO] [95f80577-8958-4fff-b32c-7830432119eb] Request completed - Status=200, Time taken=8.50 ms
+2025-12-18 01:16:04,031 [INFO] [790a2fd2-f12e-4761-827b-250c31e76153] Request started - Method=GET Path=/health
+2025-12-18 01:16:04,032 [INFO] [790a2fd2-f12e-4761-827b-250c31e76153] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.26950000028591603}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.0690829994928208}}
+2025-12-18 01:16:04,033 [INFO] [790a2fd2-f12e-4761-827b-250c31e76153] Request completed - Status=200, Time taken=1.80 ms
+2025-12-18 01:16:32,020 [INFO] [65d435a0-0be5-4e8e-b6d0-27a8b6d66021] Request started - Method=GET Path=/health
+2025-12-18 01:16:32,029 [INFO] [65d435a0-0be5-4e8e-b6d0-27a8b6d66021] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.4029169997229474}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.882499999643187}}
+2025-12-18 01:16:32,029 [INFO] [65d435a0-0be5-4e8e-b6d0-27a8b6d66021] Request completed - Status=200, Time taken=10.03 ms
+2025-12-18 01:17:00,727 [INFO] [aceb942e-eadc-4758-a1fc-e8dc5d74b133] Request started - Method=GET Path=/health
+2025-12-18 01:17:00,739 [INFO] [aceb942e-eadc-4758-a1fc-e8dc5d74b133] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.065709000613424}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.761000000144122}}
+2025-12-18 01:17:00,740 [INFO] [aceb942e-eadc-4758-a1fc-e8dc5d74b133] Request completed - Status=200, Time taken=12.43 ms
+2025-12-18 01:17:34,199 [INFO] [343e7592-4654-4eed-9ff4-c2385d15a28f] Request started - Method=GET Path=/health
+2025-12-18 01:17:34,207 [INFO] [343e7592-4654-4eed-9ff4-c2385d15a28f] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1170409998157993}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.2778329993307125}}
+2025-12-18 01:17:34,210 [INFO] [343e7592-4654-4eed-9ff4-c2385d15a28f] Request completed - Status=200, Time taken=11.79 ms
+2025-12-18 01:17:42,130 [INFO] [b418bd39-a8b6-42d0-9a39-c4e1b19872c5] Request started - Method=GET Path=/health
+2025-12-18 01:17:42,132 [INFO] [b418bd39-a8b6-42d0-9a39-c4e1b19872c5] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.29158300003473414}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.2873329997091787}}
+2025-12-18 01:17:42,132 [INFO] [b418bd39-a8b6-42d0-9a39-c4e1b19872c5] Request completed - Status=200, Time taken=2.33 ms
+2025-12-18 01:18:00,865 [INFO] [1d2a2640-c33b-4a61-a573-75353398e505] Request started - Method=GET Path=/health
+2025-12-18 01:18:00,875 [INFO] [1d2a2640-c33b-4a61-a573-75353398e505] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.7842909999453695}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.16983300026186}}
+2025-12-18 01:18:00,878 [INFO] [1d2a2640-c33b-4a61-a573-75353398e505] Request completed - Status=200, Time taken=13.23 ms
+2025-12-18 01:18:52,237 [INFO] [1ea4ff06-5360-4c5b-b9fc-4ea84a3564c4] Request started - Method=GET Path=/health
+2025-12-18 01:18:52,249 [INFO] [1ea4ff06-5360-4c5b-b9fc-4ea84a3564c4] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.4085409997715033}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.533999999599473}}
+2025-12-18 01:18:52,250 [INFO] [1ea4ff06-5360-4c5b-b9fc-4ea84a3564c4] Request completed - Status=200, Time taken=13.56 ms
+2025-12-18 01:19:00,999 [INFO] [521b4f79-0a25-4b6e-812e-4c97a99232f9] Request started - Method=GET Path=/health
+2025-12-18 01:19:01,000 [INFO] [521b4f79-0a25-4b6e-812e-4c97a99232f9] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.2801669998007128}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.9603329999663401}}
+2025-12-18 01:19:01,001 [INFO] [521b4f79-0a25-4b6e-812e-4c97a99232f9] Request completed - Status=200, Time taken=1.83 ms
+2025-12-18 01:19:04,375 [INFO] [42dcb3de-959a-4140-aac6-78233ce6013a] Request started - Method=GET Path=/health
+2025-12-18 01:19:04,381 [INFO] [42dcb3de-959a-4140-aac6-78233ce6013a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.6859159993837238}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.227458000059414}}
+2025-12-18 01:19:04,382 [INFO] [42dcb3de-959a-4140-aac6-78233ce6013a] Request completed - Status=200, Time taken=7.18 ms
+2025-12-18 01:20:01,128 [INFO] [1a8f3370-c8a8-4e10-99a7-516ce1fc7c13] Request started - Method=GET Path=/health
+2025-12-18 01:20:01,138 [INFO] [1a8f3370-c8a8-4e10-99a7-516ce1fc7c13] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9476670002186438}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.6977919996134005}}
+2025-12-18 01:20:01,139 [INFO] [1a8f3370-c8a8-4e10-99a7-516ce1fc7c13] Request completed - Status=200, Time taken=10.75 ms
+2025-12-18 01:20:02,381 [INFO] [2ce465dd-ffb2-4652-aea5-50f589b52273] Request started - Method=GET Path=/health
+2025-12-18 01:20:02,383 [INFO] [2ce465dd-ffb2-4652-aea5-50f589b52273] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.6197910006449092}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.3955829999758862}}
+2025-12-18 01:20:02,383 [INFO] [2ce465dd-ffb2-4652-aea5-50f589b52273] Request completed - Status=200, Time taken=2.63 ms
+2025-12-18 01:20:34,552 [INFO] [cdd3e9d9-5108-4e26-a27e-7e160446c99b] Request started - Method=GET Path=/health
+2025-12-18 01:20:34,557 [INFO] [cdd3e9d9-5108-4e26-a27e-7e160446c99b] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8265830001619179}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.567083000234561}}
+2025-12-18 01:20:34,557 [INFO] [cdd3e9d9-5108-4e26-a27e-7e160446c99b] Request completed - Status=200, Time taken=5.87 ms
+2025-12-18 01:21:01,264 [INFO] [4013b7d0-bd27-4f88-8ccd-a9e8725d5269] Request started - Method=GET Path=/health
+2025-12-18 01:21:01,276 [INFO] [4013b7d0-bd27-4f88-8ccd-a9e8725d5269] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9001669995996053}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.969874999915191}}
+2025-12-18 01:21:01,278 [INFO] [4013b7d0-bd27-4f88-8ccd-a9e8725d5269] Request completed - Status=200, Time taken=14.53 ms
+2025-12-18 01:21:12,493 [INFO] [f3c551fd-59c1-4ada-9305-baf3796fd3d2] Request started - Method=GET Path=/health
+2025-12-18 01:21:12,498 [INFO] [f3c551fd-59c1-4ada-9305-baf3796fd3d2] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0089170000355807}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.340375000334461}}
+2025-12-18 01:21:12,499 [INFO] [f3c551fd-59c1-4ada-9305-baf3796fd3d2] Request completed - Status=200, Time taken=6.21 ms
+2025-12-18 01:22:01,454 [INFO] [5d1f447b-3edd-4f62-93a6-57fccc58b5a9] Request started - Method=GET Path=/health
+2025-12-18 01:22:01,461 [INFO] [5d1f447b-3edd-4f62-93a6-57fccc58b5a9] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9207499997501145}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.265583000233164}}
+2025-12-18 01:22:01,462 [INFO] [5d1f447b-3edd-4f62-93a6-57fccc58b5a9] Request completed - Status=200, Time taken=8.14 ms
+2025-12-18 01:22:04,759 [INFO] [0bbcb31a-2f2c-4304-8d28-3ba8d55da629] Request started - Method=GET Path=/health
+2025-12-18 01:22:04,774 [INFO] [0bbcb31a-2f2c-4304-8d28-3ba8d55da629] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.976209000327799}, 'postgresql': {'status': 'healthy', 'response_time_ms': 12.696875000074215}}
+2025-12-18 01:22:04,775 [INFO] [0bbcb31a-2f2c-4304-8d28-3ba8d55da629] Request completed - Status=200, Time taken=15.98 ms
+2025-12-18 01:22:22,603 [INFO] [9fe260c5-d988-45aa-89ee-dba90ea40fd2] Request started - Method=GET Path=/health
+2025-12-18 01:22:22,611 [INFO] [9fe260c5-d988-45aa-89ee-dba90ea40fd2] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.3038750003033783}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.092917000183661}}
+2025-12-18 01:22:22,614 [INFO] [9fe260c5-d988-45aa-89ee-dba90ea40fd2] Request completed - Status=200, Time taken=11.02 ms
+2025-12-18 01:23:01,671 [INFO] [b9e369f5-fa21-45a1-9be1-4303e3ec93d9] Request started - Method=GET Path=/health
+2025-12-18 01:23:01,678 [INFO] [b9e369f5-fa21-45a1-9be1-4303e3ec93d9] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9045419992617099}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.660874999899534}}
+2025-12-18 01:23:01,679 [INFO] [b9e369f5-fa21-45a1-9be1-4303e3ec93d9] Request completed - Status=200, Time taken=8.42 ms
+2025-12-18 01:23:32,711 [INFO] [c7ba35ed-6787-43c2-87b1-200fbd7c5872] Request started - Method=GET Path=/health
+2025-12-18 01:23:32,724 [INFO] [c7ba35ed-6787-43c2-87b1-200fbd7c5872] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.247791999958281}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.925917000240588}}
+2025-12-18 01:23:32,725 [INFO] [c7ba35ed-6787-43c2-87b1-200fbd7c5872] Request completed - Status=200, Time taken=14.21 ms
+2025-12-18 01:23:34,900 [INFO] [8ef91db6-aefa-4f2f-91a2-d1e7805b5b29] Request started - Method=GET Path=/health
+2025-12-18 01:23:34,902 [INFO] [8ef91db6-aefa-4f2f-91a2-d1e7805b5b29] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.1604999997653067}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.6329999996523838}}
+2025-12-18 01:23:34,902 [INFO] [8ef91db6-aefa-4f2f-91a2-d1e7805b5b29] Request completed - Status=200, Time taken=1.49 ms
+2025-12-18 01:24:01,829 [INFO] [b53ba492-dd0e-4258-bd2c-be3812e91fb4] Request started - Method=GET Path=/health
+2025-12-18 01:24:01,836 [INFO] [b53ba492-dd0e-4258-bd2c-be3812e91fb4] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1917499996343395}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.3913749996136175}}
+2025-12-18 01:24:01,837 [INFO] [b53ba492-dd0e-4258-bd2c-be3812e91fb4] Request completed - Status=200, Time taken=8.35 ms
+2025-12-18 01:24:42,860 [INFO] [42e03647-471c-4adc-b54a-e15419ef52a9] Request started - Method=GET Path=/health
+2025-12-18 01:24:42,871 [INFO] [42e03647-471c-4adc-b54a-e15419ef52a9] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2025000005451147}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.406250000007276}}
+2025-12-18 01:24:42,872 [INFO] [42e03647-471c-4adc-b54a-e15419ef52a9] Request completed - Status=200, Time taken=12.05 ms
+2025-12-18 01:25:01,975 [INFO] [ca4ded71-3b18-452d-aba9-6337f27b1682] Request started - Method=GET Path=/health
+2025-12-18 01:25:02,053 [INFO] [ca4ded71-3b18-452d-aba9-6337f27b1682] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 8.503500000188069}, 'postgresql': {'status': 'healthy', 'response_time_ms': 69.8627090005175}}
+2025-12-18 01:25:02,064 [INFO] [ca4ded71-3b18-452d-aba9-6337f27b1682] Request completed - Status=200, Time taken=89.61 ms
+2025-12-18 01:25:05,091 [INFO] [cafabd36-5f2f-406d-ae1f-09932eea6c77] Request started - Method=GET Path=/health
+2025-12-18 01:25:05,097 [INFO] [cafabd36-5f2f-406d-ae1f-09932eea6c77] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8726670002943138}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.264750000402273}}
+2025-12-18 01:25:05,098 [INFO] [cafabd36-5f2f-406d-ae1f-09932eea6c77] Request completed - Status=200, Time taken=7.24 ms
+2025-12-18 01:25:52,972 [INFO] [a1f1e0a4-25f3-40e6-af97-b55db5ad0d41] Request started - Method=GET Path=/health
+2025-12-18 01:25:52,983 [INFO] [a1f1e0a4-25f3-40e6-af97-b55db5ad0d41] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.2554170002185856}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.432708000327693}}
+2025-12-18 01:25:52,985 [INFO] [a1f1e0a4-25f3-40e6-af97-b55db5ad0d41] Request completed - Status=200, Time taken=13.23 ms
+2025-12-18 01:26:02,267 [INFO] [3ce5faa4-d4e2-4d9e-967a-0ba678c45426] Request started - Method=GET Path=/health
+2025-12-18 01:26:02,268 [INFO] [3ce5faa4-d4e2-4d9e-967a-0ba678c45426] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.19987500036222627}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.0501249998924322}}
+2025-12-18 01:26:02,269 [INFO] [3ce5faa4-d4e2-4d9e-967a-0ba678c45426] Request completed - Status=200, Time taken=1.91 ms
+2025-12-18 01:26:35,241 [INFO] [cd3f2560-3892-438e-aa32-aab17c435fbf] Request started - Method=GET Path=/health
+2025-12-18 01:26:35,246 [INFO] [cd3f2560-3892-438e-aa32-aab17c435fbf] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.7820420005373308}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.560250000191445}}
+2025-12-18 01:26:35,247 [INFO] [cd3f2560-3892-438e-aa32-aab17c435fbf] Request completed - Status=200, Time taken=6.03 ms
+2025-12-18 01:27:02,454 [INFO] [7eca776c-486f-4880-b7a6-c78e3daf0556] Request started - Method=GET Path=/health
+2025-12-18 01:27:02,462 [INFO] [7eca776c-486f-4880-b7a6-c78e3daf0556] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.395875000525848}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.922332999944047}}
+2025-12-18 01:27:02,463 [INFO] [7eca776c-486f-4880-b7a6-c78e3daf0556] Request completed - Status=200, Time taken=9.61 ms
+2025-12-18 01:27:03,062 [INFO] [daa07df4-e5e7-4329-b258-4f4c8a30e827] Request started - Method=GET Path=/health
+2025-12-18 01:27:03,064 [INFO] [daa07df4-e5e7-4329-b258-4f4c8a30e827] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.7425419998980942}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.487874999838823}}
+2025-12-18 01:27:03,065 [INFO] [daa07df4-e5e7-4329-b258-4f4c8a30e827] Request completed - Status=200, Time taken=3.28 ms
+2025-12-18 01:28:02,594 [INFO] [1e515d6f-b0ef-46bc-beb3-31dd9b96fd5a] Request started - Method=GET Path=/health
+2025-12-18 01:28:02,606 [INFO] [1e515d6f-b0ef-46bc-beb3-31dd9b96fd5a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.1872079998720437}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.518167000147514}}
+2025-12-18 01:28:02,607 [INFO] [1e515d6f-b0ef-46bc-beb3-31dd9b96fd5a] Request completed - Status=200, Time taken=12.87 ms
+2025-12-18 01:28:05,375 [INFO] [3c065553-0c6c-437f-b8a0-e6ebc18faee3] Request started - Method=GET Path=/health
+2025-12-18 01:28:05,377 [INFO] [3c065553-0c6c-437f-b8a0-e6ebc18faee3] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.15441699997609248}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.0691250008676434}}
+2025-12-18 01:28:05,377 [INFO] [3c065553-0c6c-437f-b8a0-e6ebc18faee3] Request completed - Status=200, Time taken=1.78 ms
+2025-12-18 01:28:13,193 [INFO] [d3b7502f-fdbf-45c3-bb60-4c6481679bb7] Request started - Method=GET Path=/health
+2025-12-18 01:28:13,205 [INFO] [d3b7502f-fdbf-45c3-bb60-4c6481679bb7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1742920005417545}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.290708000458835}}
+2025-12-18 01:28:13,206 [INFO] [d3b7502f-fdbf-45c3-bb60-4c6481679bb7] Request completed - Status=200, Time taken=13.12 ms
+2025-12-18 01:29:02,749 [INFO] [6050be61-df68-4077-be39-cda0382e02d8] Request started - Method=GET Path=/health
+2025-12-18 01:29:02,759 [INFO] [6050be61-df68-4077-be39-cda0382e02d8] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.050959000167495}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.8259590002999175}}
+2025-12-18 01:29:02,760 [INFO] [6050be61-df68-4077-be39-cda0382e02d8] Request completed - Status=200, Time taken=11.82 ms
+2025-12-18 01:29:23,343 [INFO] [f8d0bc61-770d-409b-b69a-b270c184331d] Request started - Method=GET Path=/health
+2025-12-18 01:29:23,350 [INFO] [f8d0bc61-770d-409b-b69a-b270c184331d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.155875000222295}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.874749999544292}}
+2025-12-18 01:29:23,351 [INFO] [f8d0bc61-770d-409b-b69a-b270c184331d] Request completed - Status=200, Time taken=8.36 ms
+2025-12-18 01:29:35,511 [INFO] [e28b5ba4-9e8b-4325-b752-f2aa77dd21a7] Request started - Method=GET Path=/health
+2025-12-18 01:29:35,524 [INFO] [e28b5ba4-9e8b-4325-b752-f2aa77dd21a7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 4.386999999951513}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.37054099974921}}
+2025-12-18 01:29:35,524 [INFO] [e28b5ba4-9e8b-4325-b752-f2aa77dd21a7] Request completed - Status=200, Time taken=13.24 ms
+2025-12-18 01:30:02,898 [INFO] [ecf98c7d-5a3f-41a5-88b1-9e023e8e1084] Request started - Method=GET Path=/health
+2025-12-18 01:30:02,909 [INFO] [ecf98c7d-5a3f-41a5-88b1-9e023e8e1084] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.1010000000387663}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.551082999976643}}
+2025-12-18 01:30:02,910 [INFO] [ecf98c7d-5a3f-41a5-88b1-9e023e8e1084] Request completed - Status=200, Time taken=12.66 ms
+2025-12-18 01:30:33,409 [INFO] [7105db37-2185-4562-8c2d-1993de9340eb] Request started - Method=GET Path=/health
+2025-12-18 01:30:33,416 [INFO] [7105db37-2185-4562-8c2d-1993de9340eb] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.158166999630339}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.410999999890919}}
+2025-12-18 01:30:33,416 [INFO] [7105db37-2185-4562-8c2d-1993de9340eb] Request completed - Status=200, Time taken=7.24 ms
+2025-12-18 01:31:03,067 [INFO] [07326974-66a0-4e9d-9f76-83444e5b87a2] Request started - Method=GET Path=/health
+2025-12-18 01:31:03,074 [INFO] [07326974-66a0-4e9d-9f76-83444e5b87a2] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8159579992934596}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.530749999503314}}
+2025-12-18 01:31:03,075 [INFO] [07326974-66a0-4e9d-9f76-83444e5b87a2] Request completed - Status=200, Time taken=7.81 ms
+2025-12-18 01:31:05,654 [INFO] [e4dc0194-a88f-4836-9811-23921ce5b8b3] Request started - Method=GET Path=/health
+2025-12-18 01:31:05,655 [INFO] [e4dc0194-a88f-4836-9811-23921ce5b8b3] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.24516600024071522}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.6419580004148884}}
+2025-12-18 01:31:05,655 [INFO] [e4dc0194-a88f-4836-9811-23921ce5b8b3] Request completed - Status=200, Time taken=1.32 ms
+2025-12-18 01:31:43,527 [INFO] [b1ea1ed4-652f-453a-9fd2-7a104c67a620] Request started - Method=GET Path=/health
+2025-12-18 01:31:43,540 [INFO] [b1ea1ed4-652f-453a-9fd2-7a104c67a620] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.7306670006291824}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.725709000216739}}
+2025-12-18 01:31:43,541 [INFO] [b1ea1ed4-652f-453a-9fd2-7a104c67a620] Request completed - Status=200, Time taken=14.40 ms
+2025-12-18 01:32:03,247 [INFO] [3a06c861-5d5e-4690-88aa-a0b114701685] Request started - Method=GET Path=/health
+2025-12-18 01:32:03,258 [INFO] [3a06c861-5d5e-4690-88aa-a0b114701685] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.73245799983124}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.2775830003593}}
+2025-12-18 01:32:03,259 [INFO] [3a06c861-5d5e-4690-88aa-a0b114701685] Request completed - Status=200, Time taken=11.91 ms
+2025-12-18 01:32:35,811 [INFO] [bdeb0041-99b0-4403-aa17-d9ba2c7bd3e7] Request started - Method=GET Path=/health
+2025-12-18 01:32:35,821 [INFO] [bdeb0041-99b0-4403-aa17-d9ba2c7bd3e7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.7799169998179423}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.260583999595838}}
+2025-12-18 01:32:35,822 [INFO] [bdeb0041-99b0-4403-aa17-d9ba2c7bd3e7] Request completed - Status=200, Time taken=10.31 ms
+2025-12-18 01:32:53,632 [INFO] [7c69da03-3c9d-4239-9227-9b5f4461d80f] Request started - Method=GET Path=/health
+2025-12-18 01:32:53,640 [INFO] [7c69da03-3c9d-4239-9227-9b5f4461d80f] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9108330004892196}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.856125000515021}}
+2025-12-18 01:32:53,641 [INFO] [7c69da03-3c9d-4239-9227-9b5f4461d80f] Request completed - Status=200, Time taken=8.92 ms
+2025-12-18 01:33:03,389 [INFO] [5e219b24-ddb8-4e47-b329-7a52250cb3a8] Request started - Method=GET Path=/health
+2025-12-18 01:33:03,392 [INFO] [5e219b24-ddb8-4e47-b329-7a52250cb3a8] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.4622079995897366}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.8428749999657157}}
+2025-12-18 01:33:03,392 [INFO] [5e219b24-ddb8-4e47-b329-7a52250cb3a8] Request completed - Status=200, Time taken=3.45 ms
+2025-12-18 01:34:03,547 [INFO] [2eae0d0f-c93e-448a-871d-5fbc73507249] Request started - Method=GET Path=/health
+2025-12-18 01:34:03,557 [INFO] [2eae0d0f-c93e-448a-871d-5fbc73507249] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9015830000862479}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.849958000202605}}
+2025-12-18 01:34:03,558 [INFO] [2eae0d0f-c93e-448a-871d-5fbc73507249] Request completed - Status=200, Time taken=10.96 ms
+2025-12-18 01:34:03,713 [INFO] [c7f49f66-bc4c-4271-acef-fbc114acfad1] Request started - Method=GET Path=/health
+2025-12-18 01:34:03,714 [INFO] [c7f49f66-bc4c-4271-acef-fbc114acfad1] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.18987499970535282}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.8202079998227418}}
+2025-12-18 01:34:03,714 [INFO] [c7f49f66-bc4c-4271-acef-fbc114acfad1] Request completed - Status=200, Time taken=1.52 ms
+2025-12-18 01:34:05,996 [INFO] [5004f581-1d47-4f0e-a995-195615e36212] Request started - Method=GET Path=/health
+2025-12-18 01:34:06,003 [INFO] [5004f581-1d47-4f0e-a995-195615e36212] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.2023330002411967}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.057540999383491}}
+2025-12-18 01:34:06,004 [INFO] [5004f581-1d47-4f0e-a995-195615e36212] Request completed - Status=200, Time taken=8.33 ms
+2025-12-18 01:35:03,734 [INFO] [a165f1c1-7849-4a10-be2f-e9a0159a8666] Request started - Method=GET Path=/health
+2025-12-18 01:35:03,747 [INFO] [a165f1c1-7849-4a10-be2f-e9a0159a8666] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 4.151499999352382}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.09591699999146}}
+2025-12-18 01:35:03,748 [INFO] [a165f1c1-7849-4a10-be2f-e9a0159a8666] Request completed - Status=200, Time taken=14.23 ms
+2025-12-18 01:35:13,835 [INFO] [11c7dd76-b957-4c1a-8e4c-f578807ad20d] Request started - Method=GET Path=/health
+2025-12-18 01:35:13,843 [INFO] [11c7dd76-b957-4c1a-8e4c-f578807ad20d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2974999999642023}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.093249999845284}}
+2025-12-18 01:35:13,844 [INFO] [11c7dd76-b957-4c1a-8e4c-f578807ad20d] Request completed - Status=200, Time taken=9.01 ms
+2025-12-18 01:35:36,137 [INFO] [19ebb4e7-627b-48aa-8062-bbd3c6a91f6a] Request started - Method=GET Path=/health
+2025-12-18 01:35:36,145 [INFO] [19ebb4e7-627b-48aa-8062-bbd3c6a91f6a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.3185419993533287}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.54183399961039}}
+2025-12-18 01:35:36,145 [INFO] [19ebb4e7-627b-48aa-8062-bbd3c6a91f6a] Request completed - Status=200, Time taken=8.12 ms
+2025-12-18 01:36:03,873 [INFO] [df6c6766-5029-47c6-8256-d33e4337e6aa] Request started - Method=GET Path=/health
+2025-12-18 01:36:03,884 [INFO] [df6c6766-5029-47c6-8256-d33e4337e6aa] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8533330001228023}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.751583000143}}
+2025-12-18 01:36:03,885 [INFO] [df6c6766-5029-47c6-8256-d33e4337e6aa] Request completed - Status=200, Time taken=12.55 ms
+2025-12-18 01:36:23,950 [INFO] [0eb33004-29aa-4e6b-8d73-b7ef84449771] Request started - Method=GET Path=/health
+2025-12-18 01:36:23,956 [INFO] [0eb33004-29aa-4e6b-8d73-b7ef84449771] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.8898749995059916}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.068457999892416}}
+2025-12-18 01:36:23,957 [INFO] [0eb33004-29aa-4e6b-8d73-b7ef84449771] Request completed - Status=200, Time taken=7.00 ms
+2025-12-18 01:37:03,967 [INFO] [c8021482-6378-4be5-908b-981307091c6c] Request started - Method=GET Path=/health
+2025-12-18 01:37:03,974 [INFO] [c8021482-6378-4be5-908b-981307091c6c] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.6668329997410183}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.862208000100509}}
+2025-12-18 01:37:03,975 [INFO] [c8021482-6378-4be5-908b-981307091c6c] Request completed - Status=200, Time taken=7.88 ms
+2025-12-18 01:37:06,381 [INFO] [6202d7ec-726d-4568-8f95-372780bfa233] Request started - Method=GET Path=/health
+2025-12-18 01:37:06,385 [INFO] [6202d7ec-726d-4568-8f95-372780bfa233] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.6902499999341671}, 'postgresql': {'status': 'healthy', 'response_time_ms': 2.856624999367341}}
+2025-12-18 01:37:06,386 [INFO] [6202d7ec-726d-4568-8f95-372780bfa233] Request completed - Status=200, Time taken=4.73 ms
+2025-12-18 01:37:34,073 [INFO] [9965ebe5-0048-402b-8666-80fd38a027dd] Request started - Method=GET Path=/health
+2025-12-18 01:37:34,082 [INFO] [9965ebe5-0048-402b-8666-80fd38a027dd] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.554583000142884}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.303875000208791}}
+2025-12-18 01:37:34,083 [INFO] [9965ebe5-0048-402b-8666-80fd38a027dd] Request completed - Status=200, Time taken=10.12 ms
+2025-12-18 01:38:04,121 [INFO] [36932760-9dd8-4343-ac7b-ebf97c4f78ef] Request started - Method=GET Path=/health
+2025-12-18 01:38:04,134 [INFO] [36932760-9dd8-4343-ac7b-ebf97c4f78ef] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9238750008080387}, 'postgresql': {'status': 'healthy', 'response_time_ms': 11.220792000131041}}
+2025-12-18 01:38:04,135 [INFO] [36932760-9dd8-4343-ac7b-ebf97c4f78ef] Request completed - Status=200, Time taken=14.86 ms
+2025-12-18 01:38:36,503 [INFO] [f31637eb-664e-49df-ba35-97efbce1ed1c] Request started - Method=GET Path=/health
+2025-12-18 01:38:36,510 [INFO] [f31637eb-664e-49df-ba35-97efbce1ed1c] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2506249995567487}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.12320799932786}}
+2025-12-18 01:38:36,510 [INFO] [f31637eb-664e-49df-ba35-97efbce1ed1c] Request completed - Status=200, Time taken=7.21 ms
+2025-12-18 01:38:44,213 [INFO] [0bf1387b-c53b-4725-8022-505bed931b34] Request started - Method=GET Path=/health
+2025-12-18 01:38:44,221 [INFO] [0bf1387b-c53b-4725-8022-505bed931b34] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0491670000192244}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.622916999527661}}
+2025-12-18 01:38:44,222 [INFO] [0bf1387b-c53b-4725-8022-505bed931b34] Request completed - Status=200, Time taken=8.90 ms
+2025-12-18 01:39:04,277 [INFO] [2a08dc64-a599-40dc-869b-6b4d961b32bb] Request started - Method=GET Path=/health
+2025-12-18 01:39:04,283 [INFO] [2a08dc64-a599-40dc-869b-6b4d961b32bb] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.850582999191829}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.877749999446678}}
+2025-12-18 01:39:04,283 [INFO] [2a08dc64-a599-40dc-869b-6b4d961b32bb] Request completed - Status=200, Time taken=7.11 ms
+2025-12-18 01:39:54,372 [INFO] [cd1ada16-f722-4c4d-98c3-7222ac619b83] Request started - Method=GET Path=/health
+2025-12-18 01:39:54,382 [INFO] [cd1ada16-f722-4c4d-98c3-7222ac619b83] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.0021249993078527}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.452165999689896}}
+2025-12-18 01:39:54,383 [INFO] [cd1ada16-f722-4c4d-98c3-7222ac619b83] Request completed - Status=200, Time taken=11.28 ms
+2025-12-18 01:40:04,427 [INFO] [2f72b2c5-6371-4df2-b929-735331668848] Request started - Method=GET Path=/health
+2025-12-18 01:40:04,437 [INFO] [2f72b2c5-6371-4df2-b929-735331668848] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8607500003563473}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.943333000483108}}
+2025-12-18 01:40:04,438 [INFO] [2f72b2c5-6371-4df2-b929-735331668848] Request completed - Status=200, Time taken=12.53 ms
+2025-12-18 01:40:06,697 [INFO] [64724046-dd05-4fcd-9b1f-71cd69d1e11a] Request started - Method=GET Path=/health
+2025-12-18 01:40:06,697 [INFO] [64724046-dd05-4fcd-9b1f-71cd69d1e11a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.1977500005523325}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.540834000275936}}
+2025-12-18 01:40:06,698 [INFO] [64724046-dd05-4fcd-9b1f-71cd69d1e11a] Request completed - Status=200, Time taken=1.16 ms
+2025-12-18 01:41:04,506 [INFO] [78c610c9-c6ee-4f6b-bce5-69af66e69a33] Request started - Method=GET Path=/health
+2025-12-18 01:41:04,540 [INFO] [78c610c9-c6ee-4f6b-bce5-69af66e69a33] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 8.392083000217099}, 'postgresql': {'status': 'healthy', 'response_time_ms': 26.637332999598584}}
+2025-12-18 01:41:04,542 [INFO] [78c610c9-c6ee-4f6b-bce5-69af66e69a33] Request completed - Status=200, Time taken=37.90 ms
+2025-12-18 01:41:04,552 [INFO] [fdead32b-ce96-4289-9e23-4b6d1e8493d6] Request started - Method=GET Path=/health
+2025-12-18 01:41:04,552 [INFO] [fdead32b-ce96-4289-9e23-4b6d1e8493d6] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.15391600027214736}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.5400829995778622}}
+2025-12-18 01:41:04,553 [INFO] [fdead32b-ce96-4289-9e23-4b6d1e8493d6] Request completed - Status=200, Time taken=1.11 ms
+2025-12-18 01:41:36,855 [INFO] [ca88d569-5b69-4a67-a5e6-8fe373b87a38] Request started - Method=GET Path=/health
+2025-12-18 01:41:36,863 [INFO] [ca88d569-5b69-4a67-a5e6-8fe373b87a38] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1591660004341975}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.394750000254135}}
+2025-12-18 01:41:36,864 [INFO] [ca88d569-5b69-4a67-a5e6-8fe373b87a38] Request completed - Status=200, Time taken=9.54 ms
+2025-12-18 01:42:04,703 [INFO] [2f6f3500-36b0-4465-96f0-9a78035fb645] Request started - Method=GET Path=/health
+2025-12-18 01:42:04,710 [INFO] [2f6f3500-36b0-4465-96f0-9a78035fb645] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0856250000870205}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.912500000500586}}
+2025-12-18 01:42:04,712 [INFO] [2f6f3500-36b0-4465-96f0-9a78035fb645] Request completed - Status=200, Time taken=9.56 ms
+2025-12-18 01:42:14,661 [INFO] [3a779619-709a-4c9c-a726-575d184bbeb9] Request started - Method=GET Path=/health
+2025-12-18 01:42:14,670 [INFO] [3a779619-709a-4c9c-a726-575d184bbeb9] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1030420000679442}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.870457999459177}}
+2025-12-18 01:42:14,671 [INFO] [3a779619-709a-4c9c-a726-575d184bbeb9] Request completed - Status=200, Time taken=9.91 ms
+2025-12-18 01:43:04,850 [INFO] [9cffef9f-b3cb-4a8e-8004-6ac15ab6d4e4] Request started - Method=GET Path=/health
+2025-12-18 01:43:04,857 [INFO] [9cffef9f-b3cb-4a8e-8004-6ac15ab6d4e4] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9425829994142987}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.2042919994855765}}
+2025-12-18 01:43:04,858 [INFO] [9cffef9f-b3cb-4a8e-8004-6ac15ab6d4e4] Request completed - Status=200, Time taken=7.91 ms
+2025-12-18 01:43:06,997 [INFO] [4945b818-4405-4f43-aa1a-182c844a8248] Request started - Method=GET Path=/health
+2025-12-18 01:43:06,999 [INFO] [4945b818-4405-4f43-aa1a-182c844a8248] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.16745799985073972}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.7157079999160487}}
+2025-12-18 01:43:06,999 [INFO] [4945b818-4405-4f43-aa1a-182c844a8248] Request completed - Status=200, Time taken=1.39 ms
+2025-12-18 01:43:24,750 [INFO] [f36b2426-d0c9-4a18-881d-49261116d9c8] Request started - Method=GET Path=/health
+2025-12-18 01:43:24,767 [INFO] [f36b2426-d0c9-4a18-881d-49261116d9c8] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.316083999881812}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.985541999412817}}
+2025-12-18 01:43:24,770 [INFO] [f36b2426-d0c9-4a18-881d-49261116d9c8] Request completed - Status=200, Time taken=20.04 ms
+2025-12-18 01:44:05,021 [INFO] [024cab11-e565-4d9d-aa7e-58ac4915d3eb] Request started - Method=GET Path=/health
+2025-12-18 01:44:05,030 [INFO] [024cab11-e565-4d9d-aa7e-58ac4915d3eb] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9412919998794678}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.018916999688372}}
+2025-12-18 01:44:05,033 [INFO] [024cab11-e565-4d9d-aa7e-58ac4915d3eb] Request completed - Status=200, Time taken=12.92 ms
+2025-12-18 01:44:34,860 [INFO] [9bd714d5-e247-4dbf-8a93-8af2519249b1] Request started - Method=GET Path=/health
+2025-12-18 01:44:34,876 [INFO] [9bd714d5-e247-4dbf-8a93-8af2519249b1] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 6.211124999936146}, 'postgresql': {'status': 'healthy', 'response_time_ms': 13.394458999755443}}
+2025-12-18 01:44:34,878 [INFO] [9bd714d5-e247-4dbf-8a93-8af2519249b1] Request completed - Status=200, Time taken=17.38 ms
+2025-12-18 01:44:37,211 [INFO] [a8d372ab-ac78-413a-8523-431fd3f3c783] Request started - Method=GET Path=/health
+2025-12-18 01:44:37,212 [INFO] [a8d372ab-ac78-413a-8523-431fd3f3c783] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.27641599990602117}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.9273750001739245}}
+2025-12-18 01:44:37,212 [INFO] [a8d372ab-ac78-413a-8523-431fd3f3c783] Request completed - Status=200, Time taken=1.77 ms
+2025-12-18 01:45:05,216 [INFO] [9e24e337-f58d-4829-961a-1df653bc16d7] Request started - Method=GET Path=/health
+2025-12-18 01:45:05,222 [INFO] [9e24e337-f58d-4829-961a-1df653bc16d7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8655840001665638}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.562375000205066}}
+2025-12-18 01:45:05,224 [INFO] [9e24e337-f58d-4829-961a-1df653bc16d7] Request completed - Status=200, Time taken=8.61 ms
+2025-12-18 01:45:44,990 [INFO] [663af7cb-abc9-405d-8cf3-7e77931f1bdc] Request started - Method=GET Path=/health
+2025-12-18 01:45:44,999 [INFO] [663af7cb-abc9-405d-8cf3-7e77931f1bdc] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0629580001477734}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.584749999594351}}
+2025-12-18 01:45:45,000 [INFO] [663af7cb-abc9-405d-8cf3-7e77931f1bdc] Request completed - Status=200, Time taken=11.27 ms
+2025-12-18 01:46:05,351 [INFO] [6046136d-68ff-4eb2-ba77-685938babb89] Request started - Method=GET Path=/health
+2025-12-18 01:46:05,363 [INFO] [6046136d-68ff-4eb2-ba77-685938babb89] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.6991670001734747}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.94458400014264}}
+2025-12-18 01:46:05,364 [INFO] [6046136d-68ff-4eb2-ba77-685938babb89] Request completed - Status=200, Time taken=13.17 ms
+2025-12-18 01:46:07,417 [INFO] [58cc6054-83b7-4a55-8d02-128dbfe974f8] Request started - Method=GET Path=/health
+2025-12-18 01:46:07,429 [INFO] [58cc6054-83b7-4a55-8d02-128dbfe974f8] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.853000000664906}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.270084000490897}}
+2025-12-18 01:46:07,429 [INFO] [58cc6054-83b7-4a55-8d02-128dbfe974f8] Request completed - Status=200, Time taken=12.73 ms
+2025-12-18 01:46:55,145 [INFO] [0a390bcf-be4d-46bf-929a-18e9cd3201ad] Request started - Method=GET Path=/health
+2025-12-18 01:46:55,154 [INFO] [0a390bcf-be4d-46bf-929a-18e9cd3201ad] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2513339997894946}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.639209000037226}}
+2025-12-18 01:46:55,155 [INFO] [0a390bcf-be4d-46bf-929a-18e9cd3201ad] Request completed - Status=200, Time taken=9.58 ms
+2025-12-18 01:47:05,546 [INFO] [6c09d780-9328-4466-a5dc-939bd8f5e347] Request started - Method=GET Path=/health
+2025-12-18 01:47:05,558 [INFO] [6c09d780-9328-4466-a5dc-939bd8f5e347] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.861832999769831}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.929750000381318}}
+2025-12-18 01:47:05,559 [INFO] [6c09d780-9328-4466-a5dc-939bd8f5e347] Request completed - Status=200, Time taken=13.20 ms
+2025-12-18 01:47:37,604 [INFO] [be5f437a-54cb-4d8c-9eb8-215685ba1e04] Request started - Method=GET Path=/health
+2025-12-18 01:47:37,613 [INFO] [be5f437a-54cb-4d8c-9eb8-215685ba1e04] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8359580006072065}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.1694580001349095}}
+2025-12-18 01:47:37,614 [INFO] [be5f437a-54cb-4d8c-9eb8-215685ba1e04] Request completed - Status=200, Time taken=10.03 ms
+2025-12-18 01:48:05,293 [INFO] [8b0eae09-6fdd-4c76-89da-2352650dab36] Request started - Method=GET Path=/health
+2025-12-18 01:48:05,302 [INFO] [8b0eae09-6fdd-4c76-89da-2352650dab36] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.139958000749175}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.254208000427752}}
+2025-12-18 01:48:05,303 [INFO] [8b0eae09-6fdd-4c76-89da-2352650dab36] Request completed - Status=200, Time taken=10.33 ms
+2025-12-18 01:48:05,716 [INFO] [1f89e15c-dc89-4c2c-8cc2-f8679e373145] Request started - Method=GET Path=/health
+2025-12-18 01:48:05,722 [INFO] [1f89e15c-dc89-4c2c-8cc2-f8679e373145] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.5411250003817258}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.7294590006713406}}
+2025-12-18 01:48:05,722 [INFO] [1f89e15c-dc89-4c2c-8cc2-f8679e373145] Request completed - Status=200, Time taken=6.55 ms
+2025-12-18 01:49:05,860 [INFO] [e335d4df-bbc0-43af-9abe-d799ab0cc4c5] Request started - Method=GET Path=/health
+2025-12-18 01:49:05,871 [INFO] [e335d4df-bbc0-43af-9abe-d799ab0cc4c5] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.781209000000672}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.40708400078438}}
+2025-12-18 01:49:05,872 [INFO] [e335d4df-bbc0-43af-9abe-d799ab0cc4c5] Request completed - Status=200, Time taken=12.10 ms
+2025-12-18 01:49:07,764 [INFO] [f4708526-3c22-416b-92b6-e6339899dac6] Request started - Method=GET Path=/health
+2025-12-18 01:49:07,765 [INFO] [f4708526-3c22-416b-92b6-e6339899dac6] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.2451250002195593}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.6036670001776656}}
+2025-12-18 01:49:07,765 [INFO] [f4708526-3c22-416b-92b6-e6339899dac6] Request completed - Status=200, Time taken=1.20 ms
+2025-12-18 01:49:15,392 [INFO] [88578394-fac6-4537-b9f7-2ad63eebae21] Request started - Method=GET Path=/health
+2025-12-18 01:49:15,394 [INFO] [88578394-fac6-4537-b9f7-2ad63eebae21] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.306667000586458}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.8504590005031787}}
+2025-12-18 01:49:15,394 [INFO] [88578394-fac6-4537-b9f7-2ad63eebae21] Request completed - Status=200, Time taken=2.02 ms
+2025-12-18 01:50:06,016 [INFO] [75128eb0-3b04-4c28-9ee8-18903d2350a3] Request started - Method=GET Path=/health
+2025-12-18 01:50:06,031 [INFO] [75128eb0-3b04-4c28-9ee8-18903d2350a3] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9231670001099701}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.703125000669388}}
+2025-12-18 01:50:06,032 [INFO] [75128eb0-3b04-4c28-9ee8-18903d2350a3] Request completed - Status=200, Time taken=15.44 ms
+2025-12-18 01:50:25,523 [INFO] [9f95c80e-e0a4-4d39-99f0-9f5008183b90] Request started - Method=GET Path=/health
+2025-12-18 01:50:25,537 [INFO] [9f95c80e-e0a4-4d39-99f0-9f5008183b90] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.3890419995732373}, 'postgresql': {'status': 'healthy', 'response_time_ms': 10.714584000197647}}
+2025-12-18 01:50:25,538 [INFO] [9f95c80e-e0a4-4d39-99f0-9f5008183b90] Request completed - Status=200, Time taken=14.96 ms
+2025-12-18 01:50:37,969 [INFO] [a0213c39-7784-4516-90c4-31129102293b] Request started - Method=GET Path=/health
+2025-12-18 01:50:37,974 [INFO] [a0213c39-7784-4516-90c4-31129102293b] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9411250002813176}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.709209000589908}}
+2025-12-18 01:50:37,977 [INFO] [a0213c39-7784-4516-90c4-31129102293b] Request completed - Status=200, Time taken=8.74 ms
+2025-12-18 01:51:06,202 [INFO] [f6e1c300-f714-4e91-8482-fa1dbe5e1eaf] Request started - Method=GET Path=/health
+2025-12-18 01:51:06,213 [INFO] [f6e1c300-f714-4e91-8482-fa1dbe5e1eaf] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.5964169999497244}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.980541999837442}}
+2025-12-18 01:51:06,214 [INFO] [f6e1c300-f714-4e91-8482-fa1dbe5e1eaf] Request completed - Status=200, Time taken=13.15 ms
+2025-12-18 01:51:35,783 [INFO] [ed938d93-b7e8-48f3-aa8b-d26425a77142] Request started - Method=GET Path=/health
+2025-12-18 01:51:35,792 [INFO] [ed938d93-b7e8-48f3-aa8b-d26425a77142] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2218329993629595}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.081749999997555}}
+2025-12-18 01:51:35,793 [INFO] [ed938d93-b7e8-48f3-aa8b-d26425a77142] Request completed - Status=200, Time taken=11.01 ms
+2025-12-18 01:52:06,360 [INFO] [ede57515-17c3-4980-85f3-442be1b4a7ff] Request started - Method=GET Path=/health
+2025-12-18 01:52:06,373 [INFO] [ede57515-17c3-4980-85f3-442be1b4a7ff] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.7772499997809064}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.520791999719222}}
+2025-12-18 01:52:06,373 [INFO] [ede57515-17c3-4980-85f3-442be1b4a7ff] Request completed - Status=200, Time taken=14.07 ms
+2025-12-18 01:52:08,270 [INFO] [ed688bd1-1de1-43d0-8d72-df25a7c2ad57] Request started - Method=GET Path=/health
+2025-12-18 01:52:08,283 [INFO] [ed688bd1-1de1-43d0-8d72-df25a7c2ad57] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.5582079999585403}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.292708000022685}}
+2025-12-18 01:52:08,285 [INFO] [ed688bd1-1de1-43d0-8d72-df25a7c2ad57] Request completed - Status=200, Time taken=15.06 ms
+2025-12-18 01:52:45,902 [INFO] [2a1da623-d896-4e57-a66b-3a6300d7d907] Request started - Method=GET Path=/health
+2025-12-18 01:52:45,912 [INFO] [2a1da623-d896-4e57-a66b-3a6300d7d907] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.135458999873663}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.490749999509717}}
+2025-12-18 01:52:45,913 [INFO] [2a1da623-d896-4e57-a66b-3a6300d7d907] Request completed - Status=200, Time taken=11.72 ms
+2025-12-18 01:53:06,520 [INFO] [7ff07e0b-2223-4eaa-a036-d57c4569a5f7] Request started - Method=GET Path=/health
+2025-12-18 01:53:06,532 [INFO] [7ff07e0b-2223-4eaa-a036-d57c4569a5f7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.3322920003702166}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.759458000189625}}
+2025-12-18 01:53:06,533 [INFO] [7ff07e0b-2223-4eaa-a036-d57c4569a5f7] Request completed - Status=200, Time taken=13.11 ms
+2025-12-18 01:53:38,425 [INFO] [1c7040da-581f-4753-afd3-50eacdd7f63d] Request started - Method=GET Path=/health
+2025-12-18 01:53:38,435 [INFO] [1c7040da-581f-4753-afd3-50eacdd7f63d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.734000000396918}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.811749999746098}}
+2025-12-18 01:53:38,436 [INFO] [1c7040da-581f-4753-afd3-50eacdd7f63d] Request completed - Status=200, Time taken=10.93 ms
+2025-12-18 01:53:56,010 [INFO] [368bec34-2b83-4051-be30-902ccad21eb6] Request started - Method=GET Path=/health
+2025-12-18 01:53:56,027 [INFO] [368bec34-2b83-4051-be30-902ccad21eb6] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.3005420007393695}, 'postgresql': {'status': 'healthy', 'response_time_ms': 11.104083000645915}}
+2025-12-18 01:53:56,028 [INFO] [368bec34-2b83-4051-be30-902ccad21eb6] Request completed - Status=200, Time taken=18.00 ms
+2025-12-18 01:54:06,696 [INFO] [aaf92d73-6345-4732-8f0e-26175aba1c23] Request started - Method=GET Path=/health
+2025-12-18 01:54:06,705 [INFO] [aaf92d73-6345-4732-8f0e-26175aba1c23] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9031250001498847}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.2245840004397905}}
+2025-12-18 01:54:06,706 [INFO] [aaf92d73-6345-4732-8f0e-26175aba1c23] Request completed - Status=200, Time taken=10.68 ms
+2025-12-18 01:55:06,162 [INFO] [6458252e-5b06-4b7c-bfd2-666cf61c04da] Request started - Method=GET Path=/health
+2025-12-18 01:55:06,172 [INFO] [6458252e-5b06-4b7c-bfd2-666cf61c04da] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0991670005751075}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.747000000359549}}
+2025-12-18 01:55:06,173 [INFO] [6458252e-5b06-4b7c-bfd2-666cf61c04da] Request completed - Status=200, Time taken=10.88 ms
+2025-12-18 01:55:06,828 [INFO] [57ca21fd-8268-4609-ac58-d24f34c0b8b1] Request started - Method=GET Path=/health
+2025-12-18 01:55:06,829 [INFO] [57ca21fd-8268-4609-ac58-d24f34c0b8b1] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.30720899940206436}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.6148749998828862}}
+2025-12-18 01:55:06,829 [INFO] [57ca21fd-8268-4609-ac58-d24f34c0b8b1] Request completed - Status=200, Time taken=1.20 ms
+2025-12-18 01:55:08,573 [INFO] [185c0e0f-f094-4a19-8ed5-cad678013181] Request started - Method=GET Path=/health
+2025-12-18 01:55:08,576 [INFO] [185c0e0f-f094-4a19-8ed5-cad678013181] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.5358750004234025}, 'postgresql': {'status': 'healthy', 'response_time_ms': 2.0984580005460884}}
+2025-12-18 01:55:08,577 [INFO] [185c0e0f-f094-4a19-8ed5-cad678013181] Request completed - Status=200, Time taken=3.81 ms
+2025-12-18 01:56:06,935 [INFO] [a5528055-f58e-4de9-b0c9-4a7b128ceeb2] Request started - Method=GET Path=/health
+2025-12-18 01:56:06,943 [INFO] [a5528055-f58e-4de9-b0c9-4a7b128ceeb2] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.149540999904275}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.974999999831198}}
+2025-12-18 01:56:06,944 [INFO] [a5528055-f58e-4de9-b0c9-4a7b128ceeb2] Request completed - Status=200, Time taken=9.00 ms
+2025-12-18 01:56:16,329 [INFO] [ec216751-577b-4c3c-9c17-b61f5eac58af] Request started - Method=GET Path=/health
+2025-12-18 01:56:16,339 [INFO] [ec216751-577b-4c3c-9c17-b61f5eac58af] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.1225000000413274}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.382415999723889}}
+2025-12-18 01:56:16,340 [INFO] [ec216751-577b-4c3c-9c17-b61f5eac58af] Request completed - Status=200, Time taken=11.73 ms
+2025-12-18 01:56:39,158 [INFO] [cbd064f1-ce82-4ddf-b349-8c8d8d7f4579] Request started - Method=GET Path=/health
+2025-12-18 01:56:39,172 [INFO] [cbd064f1-ce82-4ddf-b349-8c8d8d7f4579] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0606670002744067}, 'postgresql': {'status': 'healthy', 'response_time_ms': 10.769667000204208}}
+2025-12-18 01:56:39,173 [INFO] [cbd064f1-ce82-4ddf-b349-8c8d8d7f4579] Request completed - Status=200, Time taken=15.23 ms
+2025-12-18 01:57:07,115 [INFO] [44673a0e-c587-4a0c-9a67-cac8d73b06c2] Request started - Method=GET Path=/health
+2025-12-18 01:57:07,126 [INFO] [44673a0e-c587-4a0c-9a67-cac8d73b06c2] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.7181249993664096}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.891874999790161}}
+2025-12-18 01:57:07,129 [INFO] [44673a0e-c587-4a0c-9a67-cac8d73b06c2] Request completed - Status=200, Time taken=13.70 ms
+2025-12-18 01:57:26,468 [INFO] [855c48d9-e7d9-44fc-9dc2-747d73227261] Request started - Method=GET Path=/health
+2025-12-18 01:57:26,480 [INFO] [855c48d9-e7d9-44fc-9dc2-747d73227261] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.6320410004482255}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.489166000093974}}
+2025-12-18 01:57:26,482 [INFO] [855c48d9-e7d9-44fc-9dc2-747d73227261] Request completed - Status=200, Time taken=14.93 ms
+2025-12-18 01:58:07,320 [INFO] [c60b58e2-b7a4-415f-8335-ee12c3408124] Request started - Method=GET Path=/health
+2025-12-18 01:58:07,331 [INFO] [c60b58e2-b7a4-415f-8335-ee12c3408124] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2312909993852372}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.2323329997962}}
+2025-12-18 01:58:07,332 [INFO] [c60b58e2-b7a4-415f-8335-ee12c3408124] Request completed - Status=200, Time taken=11.96 ms
+2025-12-18 01:58:09,306 [INFO] [9f64cc26-8742-4538-afd7-b2bbba65fcb0] Request started - Method=GET Path=/health
+2025-12-18 01:58:09,307 [INFO] [9f64cc26-8742-4538-afd7-b2bbba65fcb0] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.1492909996159142}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.0055409993583453}}
+2025-12-18 01:58:09,308 [INFO] [9f64cc26-8742-4538-afd7-b2bbba65fcb0] Request completed - Status=200, Time taken=1.59 ms
+2025-12-18 01:58:36,583 [INFO] [0eb67764-ad7a-432b-914d-a4a9c73d7137] Request started - Method=GET Path=/health
+2025-12-18 01:58:36,591 [INFO] [0eb67764-ad7a-432b-914d-a4a9c73d7137] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2688749993685633}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.280124999444524}}
+2025-12-18 01:58:36,592 [INFO] [0eb67764-ad7a-432b-914d-a4a9c73d7137] Request completed - Status=200, Time taken=9.34 ms
+2025-12-18 01:59:07,530 [INFO] [6423d4c7-9c3f-47cf-9ce7-0fb3269ff7b3] Request started - Method=GET Path=/health
+2025-12-18 01:59:07,537 [INFO] [6423d4c7-9c3f-47cf-9ce7-0fb3269ff7b3] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9825830002228031}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.701041000771511}}
+2025-12-18 01:59:07,538 [INFO] [6423d4c7-9c3f-47cf-9ce7-0fb3269ff7b3] Request completed - Status=200, Time taken=8.35 ms
+2025-12-18 01:59:39,454 [INFO] [5f5516b5-84b0-4bde-a137-1f1fa173ef7d] Request started - Method=GET Path=/health
+2025-12-18 01:59:39,459 [INFO] [5f5516b5-84b0-4bde-a137-1f1fa173ef7d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8170000000973232}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.6931249996996485}}
+2025-12-18 01:59:39,460 [INFO] [5f5516b5-84b0-4bde-a137-1f1fa173ef7d] Request completed - Status=200, Time taken=6.22 ms
+2025-12-18 01:59:46,677 [INFO] [3bbb2442-262f-4a18-9983-0b29683678e4] Request started - Method=GET Path=/health
+2025-12-18 01:59:46,679 [INFO] [3bbb2442-262f-4a18-9983-0b29683678e4] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.2579160000095726}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.9492079998381087}}
+2025-12-18 01:59:46,679 [INFO] [3bbb2442-262f-4a18-9983-0b29683678e4] Request completed - Status=200, Time taken=2.07 ms
+2025-12-18 02:00:07,681 [INFO] [f1006187-39cb-49db-b498-1f50acc52541] Request started - Method=GET Path=/health
+2025-12-18 02:00:07,689 [INFO] [f1006187-39cb-49db-b498-1f50acc52541] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8981250002761954}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.900124999949185}}
+2025-12-18 02:00:07,689 [INFO] [f1006187-39cb-49db-b498-1f50acc52541] Request completed - Status=200, Time taken=8.56 ms
+2025-12-18 02:00:56,761 [INFO] [f91a7543-bdac-4451-bc58-2bbdd3e09593] Request started - Method=GET Path=/health
+2025-12-18 02:00:56,777 [INFO] [f91a7543-bdac-4451-bc58-2bbdd3e09593] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.7530840004837955}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.284792000267771}}
+2025-12-18 02:00:56,778 [INFO] [f91a7543-bdac-4451-bc58-2bbdd3e09593] Request completed - Status=200, Time taken=17.52 ms
+2025-12-18 02:01:07,844 [INFO] [80a7efc4-7541-491d-88d6-573a954ed324] Request started - Method=GET Path=/health
+2025-12-18 02:01:07,853 [INFO] [80a7efc4-7541-491d-88d6-573a954ed324] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9406669996678829}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.64691699926334}}
+2025-12-18 02:01:07,855 [INFO] [80a7efc4-7541-491d-88d6-573a954ed324] Request completed - Status=200, Time taken=11.29 ms
+2025-12-18 02:01:09,594 [INFO] [fe2ad5bf-aeae-4385-a35b-8caa84c95815] Request started - Method=GET Path=/health
+2025-12-18 02:01:09,595 [INFO] [fe2ad5bf-aeae-4385-a35b-8caa84c95815] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.17291700078203576}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.968125000326836}}
+2025-12-18 02:01:09,596 [INFO] [fe2ad5bf-aeae-4385-a35b-8caa84c95815] Request completed - Status=200, Time taken=1.57 ms
+2025-12-18 02:02:06,914 [INFO] [f3e31d70-78e8-49c2-ad55-02175f227d25] Request started - Method=GET Path=/health
+2025-12-18 02:02:06,924 [INFO] [f3e31d70-78e8-49c2-ad55-02175f227d25] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.179290999971272}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.0679159994615475}}
+2025-12-18 02:02:06,926 [INFO] [f3e31d70-78e8-49c2-ad55-02175f227d25] Request completed - Status=200, Time taken=11.56 ms
+2025-12-18 02:02:07,985 [INFO] [be21ae82-e66e-477b-9b53-358f490a22f0] Request started - Method=GET Path=/health
+2025-12-18 02:02:07,986 [INFO] [be21ae82-e66e-477b-9b53-358f490a22f0] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.1544579999972484}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.5535829996006214}}
+2025-12-18 02:02:07,986 [INFO] [be21ae82-e66e-477b-9b53-358f490a22f0] Request completed - Status=200, Time taken=1.50 ms
+2025-12-18 02:02:39,752 [INFO] [77a8309d-f72d-4145-b168-e22b5cb4be43] Request started - Method=GET Path=/health
+2025-12-18 02:02:39,757 [INFO] [77a8309d-f72d-4145-b168-e22b5cb4be43] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.7450000002791057}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.672374999950989}}
+2025-12-18 02:02:39,758 [INFO] [77a8309d-f72d-4145-b168-e22b5cb4be43] Request completed - Status=200, Time taken=6.28 ms
+2025-12-18 02:03:08,147 [INFO] [6b97e932-d619-4cf9-ac55-263e780ca21a] Request started - Method=GET Path=/health
+2025-12-18 02:03:08,159 [INFO] [6b97e932-d619-4cf9-ac55-263e780ca21a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.784958000120241}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.465499999649182}}
+2025-12-18 02:03:08,161 [INFO] [6b97e932-d619-4cf9-ac55-263e780ca21a] Request completed - Status=200, Time taken=14.50 ms
+2025-12-18 02:03:17,020 [INFO] [99c22f5d-851b-46eb-85df-9bd941d32f9e] Request started - Method=GET Path=/health
+2025-12-18 02:03:17,022 [INFO] [99c22f5d-851b-46eb-85df-9bd941d32f9e] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.28500000007625204}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.3803339998048614}}
+2025-12-18 02:03:17,023 [INFO] [99c22f5d-851b-46eb-85df-9bd941d32f9e] Request completed - Status=200, Time taken=2.73 ms
+2025-12-18 02:04:08,365 [INFO] [761b6ea6-17bf-4e8d-b64d-4665a1969741] Request started - Method=GET Path=/health
+2025-12-18 02:04:08,371 [INFO] [761b6ea6-17bf-4e8d-b64d-4665a1969741] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9206249997077975}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.494290999900841}}
+2025-12-18 02:04:08,372 [INFO] [761b6ea6-17bf-4e8d-b64d-4665a1969741] Request completed - Status=200, Time taken=8.04 ms
+2025-12-18 02:04:09,902 [INFO] [76149eb8-b3a2-4d24-8a55-3f85c0e84dc8] Request started - Method=GET Path=/health
+2025-12-18 02:04:09,903 [INFO] [76149eb8-b3a2-4d24-8a55-3f85c0e84dc8] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.21854100032214774}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.7215410005301237}}
+2025-12-18 02:04:09,903 [INFO] [76149eb8-b3a2-4d24-8a55-3f85c0e84dc8] Request completed - Status=200, Time taken=1.45 ms
+2025-12-18 02:04:27,145 [INFO] [4933b9b5-460c-45c4-9fff-135847b61679] Request started - Method=GET Path=/health
+2025-12-18 02:04:27,156 [INFO] [4933b9b5-460c-45c4-9fff-135847b61679] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.328500000658096}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.486624999932246}}
+2025-12-18 02:04:27,157 [INFO] [4933b9b5-460c-45c4-9fff-135847b61679] Request completed - Status=200, Time taken=12.06 ms
+2025-12-18 02:05:08,546 [INFO] [b0395f34-562a-44d9-98e0-e92a1ec8631a] Request started - Method=GET Path=/health
+2025-12-18 02:05:08,555 [INFO] [b0395f34-562a-44d9-98e0-e92a1ec8631a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1419580005167518}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.779416999961541}}
+2025-12-18 02:05:08,556 [INFO] [b0395f34-562a-44d9-98e0-e92a1ec8631a] Request completed - Status=200, Time taken=10.34 ms
+2025-12-18 02:05:37,269 [INFO] [0af85400-5bb6-4ed7-a0b2-80d34b7098fa] Request started - Method=GET Path=/health
+2025-12-18 02:05:37,286 [INFO] [0af85400-5bb6-4ed7-a0b2-80d34b7098fa] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.850833999218594}, 'postgresql': {'status': 'healthy', 'response_time_ms': 11.791916999754903}}
+2025-12-18 02:05:37,287 [INFO] [0af85400-5bb6-4ed7-a0b2-80d34b7098fa] Request completed - Status=200, Time taken=19.16 ms
+2025-12-18 02:05:40,083 [INFO] [7452babd-5502-4bf5-bd69-045c2b0669cb] Request started - Method=GET Path=/health
+2025-12-18 02:05:40,094 [INFO] [7452babd-5502-4bf5-bd69-045c2b0669cb] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9659580000516144}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.445583000138868}}
+2025-12-18 02:05:40,095 [INFO] [7452babd-5502-4bf5-bd69-045c2b0669cb] Request completed - Status=200, Time taken=11.92 ms
+2025-12-18 02:06:08,733 [INFO] [370fd529-d8fd-4fc7-bcf3-bc5a816368b7] Request started - Method=GET Path=/health
+2025-12-18 02:06:08,740 [INFO] [370fd529-d8fd-4fc7-bcf3-bc5a816368b7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8822079998935806}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.182542000307876}}
+2025-12-18 02:06:08,740 [INFO] [370fd529-d8fd-4fc7-bcf3-bc5a816368b7] Request completed - Status=200, Time taken=7.83 ms
+2025-12-18 02:06:47,519 [INFO] [228d5ba7-46e1-4704-919c-1054813222ad] Request started - Method=GET Path=/health
+2025-12-18 02:06:47,565 [INFO] [228d5ba7-46e1-4704-919c-1054813222ad] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 6.681207999463368}, 'postgresql': {'status': 'healthy', 'response_time_ms': 34.198792000097455}}
+2025-12-18 02:06:47,567 [INFO] [228d5ba7-46e1-4704-919c-1054813222ad] Request completed - Status=200, Time taken=49.66 ms
+2025-12-18 02:07:08,919 [INFO] [06d60fea-d294-4c5b-8f0b-3ad8f4e3068d] Request started - Method=GET Path=/health
+2025-12-18 02:07:08,929 [INFO] [06d60fea-d294-4c5b-8f0b-3ad8f4e3068d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9634999996706028}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.674625000006927}}
+2025-12-18 02:07:08,930 [INFO] [06d60fea-d294-4c5b-8f0b-3ad8f4e3068d] Request completed - Status=200, Time taken=11.23 ms
+2025-12-18 02:07:10,230 [INFO] [feea8266-6c91-4e88-8c06-2b6ca5893065] Request started - Method=GET Path=/health
+2025-12-18 02:07:10,232 [INFO] [feea8266-6c91-4e88-8c06-2b6ca5893065] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.14529200052493252}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.7005420002315077}}
+2025-12-18 02:07:10,232 [INFO] [feea8266-6c91-4e88-8c06-2b6ca5893065] Request completed - Status=200, Time taken=1.35 ms
+2025-12-18 02:07:57,667 [INFO] [187c20c9-748c-4cd7-a5e2-59bc23d95607] Request started - Method=GET Path=/health
+2025-12-18 02:07:57,675 [INFO] [187c20c9-748c-4cd7-a5e2-59bc23d95607] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.095708000320883}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.466749999868625}}
+2025-12-18 02:07:57,676 [INFO] [187c20c9-748c-4cd7-a5e2-59bc23d95607] Request completed - Status=200, Time taken=9.66 ms
+2025-12-18 02:08:09,091 [INFO] [096b02aa-46c9-4978-9fb5-87a728620d41] Request started - Method=GET Path=/health
+2025-12-18 02:08:09,098 [INFO] [096b02aa-46c9-4978-9fb5-87a728620d41] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8401670002058381}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.335374999755004}}
+2025-12-18 02:08:09,099 [INFO] [096b02aa-46c9-4978-9fb5-87a728620d41] Request completed - Status=200, Time taken=7.70 ms
+2025-12-18 02:08:40,424 [INFO] [19a45605-4d96-47ae-8f7d-07b550620e4b] Request started - Method=GET Path=/health
+2025-12-18 02:08:40,430 [INFO] [19a45605-4d96-47ae-8f7d-07b550620e4b] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8244169994213735}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.988624999692547}}
+2025-12-18 02:08:40,431 [INFO] [19a45605-4d96-47ae-8f7d-07b550620e4b] Request completed - Status=200, Time taken=7.18 ms
+2025-12-18 02:09:07,830 [INFO] [2ff57aa7-2b85-4593-a8c6-b0df46e05955] Request started - Method=GET Path=/health
+2025-12-18 02:09:07,846 [INFO] [2ff57aa7-2b85-4593-a8c6-b0df46e05955] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 4.33279200024117}, 'postgresql': {'status': 'healthy', 'response_time_ms': 10.306250000212458}}
+2025-12-18 02:09:07,847 [INFO] [2ff57aa7-2b85-4593-a8c6-b0df46e05955] Request completed - Status=200, Time taken=16.66 ms
+2025-12-18 02:09:09,389 [INFO] [b10d8840-a41d-4a95-99ef-ac9e2981a472] Request started - Method=GET Path=/health
+2025-12-18 02:09:09,416 [INFO] [b10d8840-a41d-4a95-99ef-ac9e2981a472] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.9370419995539123}, 'postgresql': {'status': 'healthy', 'response_time_ms': 15.20362499923067}}
+2025-12-18 02:09:09,418 [INFO] [b10d8840-a41d-4a95-99ef-ac9e2981a472] Request completed - Status=200, Time taken=29.09 ms
+2025-12-18 02:10:09,610 [INFO] [18104156-4259-4e48-809a-c0cb9db243b0] Request started - Method=GET Path=/health
+2025-12-18 02:10:09,626 [INFO] [18104156-4259-4e48-809a-c0cb9db243b0] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.155916000447178}, 'postgresql': {'status': 'healthy', 'response_time_ms': 12.747499999932188}}
+2025-12-18 02:10:09,627 [INFO] [18104156-4259-4e48-809a-c0cb9db243b0] Request completed - Status=200, Time taken=17.32 ms
+2025-12-18 02:10:10,597 [INFO] [89ec1ffd-60c2-442b-8d0a-e2b23a83dfbb] Request started - Method=GET Path=/health
+2025-12-18 02:10:10,598 [INFO] [89ec1ffd-60c2-442b-8d0a-e2b23a83dfbb] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.18716700014920207}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.5135840001457836}}
+2025-12-18 02:10:10,598 [INFO] [89ec1ffd-60c2-442b-8d0a-e2b23a83dfbb] Request completed - Status=200, Time taken=1.07 ms
+2025-12-18 02:10:17,945 [INFO] [4cb43290-4b05-495f-9418-08412fc2a9b7] Request started - Method=GET Path=/health
+2025-12-18 02:10:17,946 [INFO] [4cb43290-4b05-495f-9418-08412fc2a9b7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.2584160001788405}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.7761249999020947}}
+2025-12-18 02:10:17,947 [INFO] [4cb43290-4b05-495f-9418-08412fc2a9b7] Request completed - Status=200, Time taken=1.54 ms
+2025-12-18 02:11:09,955 [INFO] [5a4d0310-c8af-4ef2-b4ea-a3e4b4ed8137] Request started - Method=GET Path=/health
+2025-12-18 02:11:10,008 [INFO] [5a4d0310-c8af-4ef2-b4ea-a3e4b4ed8137] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 8.817416999590932}, 'postgresql': {'status': 'healthy', 'response_time_ms': 41.87658299997565}}
+2025-12-18 02:11:10,010 [INFO] [5a4d0310-c8af-4ef2-b4ea-a3e4b4ed8137] Request completed - Status=200, Time taken=56.41 ms
+2025-12-18 02:11:28,083 [INFO] [75004497-fe0a-4908-b200-e6a5492ea5b9] Request started - Method=GET Path=/health
+2025-12-18 02:11:28,097 [INFO] [75004497-fe0a-4908-b200-e6a5492ea5b9] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1123330004920717}, 'postgresql': {'status': 'healthy', 'response_time_ms': 10.131708000699291}}
+2025-12-18 02:11:28,098 [INFO] [75004497-fe0a-4908-b200-e6a5492ea5b9] Request completed - Status=200, Time taken=14.82 ms
+2025-12-18 02:11:40,812 [INFO] [9b72811a-c1e0-4783-a20a-3bf8f5fa6da7] Request started - Method=GET Path=/health
+2025-12-18 02:11:40,819 [INFO] [9b72811a-c1e0-4783-a20a-3bf8f5fa6da7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0395409999546246}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.536625000582717}}
+2025-12-18 02:11:40,820 [INFO] [9b72811a-c1e0-4783-a20a-3bf8f5fa6da7] Request completed - Status=200, Time taken=9.78 ms
+2025-12-18 02:12:10,242 [INFO] [300d7260-83d5-4974-9e6c-55c201561491] Request started - Method=GET Path=/health
+2025-12-18 02:12:10,251 [INFO] [300d7260-83d5-4974-9e6c-55c201561491] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.3315840005816426}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.705667000256653}}
+2025-12-18 02:12:10,252 [INFO] [300d7260-83d5-4974-9e6c-55c201561491] Request completed - Status=200, Time taken=10.02 ms
+2025-12-18 02:12:38,343 [INFO] [57c813d0-5ea1-479c-8fed-17b6c6c8e523] Request started - Method=GET Path=/health
+2025-12-18 02:12:38,367 [INFO] [57c813d0-5ea1-479c-8fed-17b6c6c8e523] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.946291999956884}, 'postgresql': {'status': 'healthy', 'response_time_ms': 11.135834000015166}}
+2025-12-18 02:12:38,368 [INFO] [57c813d0-5ea1-479c-8fed-17b6c6c8e523] Request completed - Status=200, Time taken=27.91 ms
+2025-12-18 02:13:10,576 [INFO] [0ae22371-0687-489b-9911-983dddbe7300] Request started - Method=GET Path=/health
+2025-12-18 02:13:10,601 [INFO] [0ae22371-0687-489b-9911-983dddbe7300] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 4.349916999672132}, 'postgresql': {'status': 'healthy', 'response_time_ms': 20.373832999212027}}
+2025-12-18 02:13:10,602 [INFO] [0ae22371-0687-489b-9911-983dddbe7300] Request completed - Status=200, Time taken=27.70 ms
+2025-12-18 02:13:11,068 [INFO] [0161258c-2b1b-4836-b100-fd46abe6c600] Request started - Method=GET Path=/health
+2025-12-18 02:13:11,069 [INFO] [0161258c-2b1b-4836-b100-fd46abe6c600] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.33637500018812716}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.7769579997329856}}
+2025-12-18 02:13:11,070 [INFO] [0161258c-2b1b-4836-b100-fd46abe6c600] Request completed - Status=200, Time taken=2.30 ms
+2025-12-18 02:13:48,499 [INFO] [1127f969-26aa-4290-a502-beb9751ebe61] Request started - Method=GET Path=/health
+2025-12-18 02:13:48,511 [INFO] [1127f969-26aa-4290-a502-beb9751ebe61] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.478500000303029}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.760208000036073}}
+2025-12-18 02:13:48,512 [INFO] [1127f969-26aa-4290-a502-beb9751ebe61] Request completed - Status=200, Time taken=13.20 ms
+2025-12-18 02:14:10,981 [INFO] [f6f9f0b7-53d0-4fba-ace1-df240ed4d50e] Request started - Method=GET Path=/health
+2025-12-18 02:14:10,994 [INFO] [f6f9f0b7-53d0-4fba-ace1-df240ed4d50e] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1013330004061572}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.081707999939681}}
+2025-12-18 02:14:10,995 [INFO] [f6f9f0b7-53d0-4fba-ace1-df240ed4d50e] Request completed - Status=200, Time taken=16.59 ms
+2025-12-18 02:14:41,301 [INFO] [b269fea9-9268-4f17-82a4-0a9451df6c7e] Request started - Method=GET Path=/health
+2025-12-18 02:14:41,309 [INFO] [b269fea9-9268-4f17-82a4-0a9451df6c7e] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.7817920006564236}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.495709000570059}}
+2025-12-18 02:14:41,311 [INFO] [b269fea9-9268-4f17-82a4-0a9451df6c7e] Request completed - Status=200, Time taken=10.09 ms
+2025-12-18 02:14:58,600 [INFO] [badcf68b-6837-45ea-a988-bceda556a042] Request started - Method=GET Path=/health
+2025-12-18 02:14:58,611 [INFO] [badcf68b-6837-45ea-a988-bceda556a042] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.0420419996298733}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.192458999474184}}
+2025-12-18 02:14:58,612 [INFO] [badcf68b-6837-45ea-a988-bceda556a042] Request completed - Status=200, Time taken=12.13 ms
+2025-12-18 02:15:11,153 [INFO] [ee44bd68-7d7e-4a6e-8c7c-c8c076b1f58a] Request started - Method=GET Path=/health
+2025-12-18 02:15:11,160 [INFO] [ee44bd68-7d7e-4a6e-8c7c-c8c076b1f58a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0871249996853294}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.116416999953799}}
+2025-12-18 02:15:11,161 [INFO] [ee44bd68-7d7e-4a6e-8c7c-c8c076b1f58a] Request completed - Status=200, Time taken=8.54 ms
+2025-12-18 02:16:08,754 [INFO] [c52c713c-7827-4f87-aac2-1e8784c38a0f] Request started - Method=GET Path=/health
+2025-12-18 02:16:08,766 [INFO] [c52c713c-7827-4f87-aac2-1e8784c38a0f] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2466669995774282}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.057166999904439}}
+2025-12-18 02:16:08,767 [INFO] [c52c713c-7827-4f87-aac2-1e8784c38a0f] Request completed - Status=200, Time taken=13.39 ms
+2025-12-18 02:16:11,307 [INFO] [730f72ed-16b9-4a2c-9e92-d7b03f96d0e1] Request started - Method=GET Path=/health
+2025-12-18 02:16:11,309 [INFO] [730f72ed-16b9-4a2c-9e92-d7b03f96d0e1] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.32125000052474206}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.8246670004155021}}
+2025-12-18 02:16:11,309 [INFO] [730f72ed-16b9-4a2c-9e92-d7b03f96d0e1] Request completed - Status=200, Time taken=1.71 ms
+2025-12-18 02:16:11,413 [INFO] [4d877b03-a79d-4cc1-85b6-3cb7de66580d] Request started - Method=GET Path=/health
+2025-12-18 02:16:11,414 [INFO] [4d877b03-a79d-4cc1-85b6-3cb7de66580d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.24783299977571005}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.7022500003586174}}
+2025-12-18 02:16:11,414 [INFO] [4d877b03-a79d-4cc1-85b6-3cb7de66580d] Request completed - Status=200, Time taken=1.39 ms
+2025-12-18 02:17:11,477 [INFO] [b55fe97b-c893-491a-895f-2e9dc516907a] Request started - Method=GET Path=/health
+2025-12-18 02:17:11,491 [INFO] [b55fe97b-c893-491a-895f-2e9dc516907a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.705375000005006}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.222625000395055}}
+2025-12-18 02:17:11,492 [INFO] [b55fe97b-c893-491a-895f-2e9dc516907a] Request completed - Status=200, Time taken=15.94 ms
+2025-12-18 02:17:18,850 [INFO] [00817c3a-2757-4b54-a86b-49d7bac36bfa] Request started - Method=GET Path=/health
+2025-12-18 02:17:18,852 [INFO] [00817c3a-2757-4b54-a86b-49d7bac36bfa] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.2978750007969211}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.8241250006904011}}
+2025-12-18 02:17:18,852 [INFO] [00817c3a-2757-4b54-a86b-49d7bac36bfa] Request completed - Status=200, Time taken=1.82 ms
+2025-12-18 02:17:41,602 [INFO] [03fae59b-0116-4d47-b418-274bdd0ea3f6] Request started - Method=GET Path=/health
+2025-12-18 02:17:41,612 [INFO] [03fae59b-0116-4d47-b418-274bdd0ea3f6] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.7309579998254776}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.724791999862646}}
+2025-12-18 02:17:41,613 [INFO] [03fae59b-0116-4d47-b418-274bdd0ea3f6] Request completed - Status=200, Time taken=11.20 ms
+2025-12-18 02:18:11,661 [INFO] [be04fb13-54cc-402e-928b-1daa2a960560] Request started - Method=GET Path=/health
+2025-12-18 02:18:11,676 [INFO] [be04fb13-54cc-402e-928b-1daa2a960560] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.3021250001183944}, 'postgresql': {'status': 'healthy', 'response_time_ms': 12.44333300019207}}
+2025-12-18 02:18:11,677 [INFO] [be04fb13-54cc-402e-928b-1daa2a960560] Request completed - Status=200, Time taken=15.82 ms
+2025-12-18 02:18:29,046 [INFO] [0829831f-e88c-41d5-88bf-aa1b96d563ad] Request started - Method=GET Path=/health
+2025-12-18 02:18:29,061 [INFO] [0829831f-e88c-41d5-88bf-aa1b96d563ad] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.7583750004632748}, 'postgresql': {'status': 'healthy', 'response_time_ms': 11.595917000704503}}
+2025-12-18 02:18:29,063 [INFO] [0829831f-e88c-41d5-88bf-aa1b96d563ad] Request completed - Status=200, Time taken=16.76 ms
+2025-12-18 02:19:11,794 [INFO] [83c50fd1-eebd-4c49-9e6a-3887afb1330f] Request started - Method=GET Path=/health
+2025-12-18 02:19:11,810 [INFO] [83c50fd1-eebd-4c49-9e6a-3887afb1330f] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 6.614333000470651}, 'postgresql': {'status': 'healthy', 'response_time_ms': 10.958124999888241}}
+2025-12-18 02:19:11,811 [INFO] [83c50fd1-eebd-4c49-9e6a-3887afb1330f] Request completed - Status=200, Time taken=18.58 ms
+2025-12-18 02:19:11,812 [INFO] [dacdcca5-8da9-4ab6-a86f-6baed621522e] Request started - Method=GET Path=/health
+2025-12-18 02:19:11,814 [INFO] [dacdcca5-8da9-4ab6-a86f-6baed621522e] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.6954159998713294}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.0374160010542255}}
+2025-12-18 02:19:11,820 [INFO] [dacdcca5-8da9-4ab6-a86f-6baed621522e] Request completed - Status=200, Time taken=7.23 ms
+2025-12-18 02:19:39,170 [INFO] [cdcabe89-74d3-45a8-87c5-d09351c4be38] Request started - Method=GET Path=/health
+2025-12-18 02:19:39,178 [INFO] [cdcabe89-74d3-45a8-87c5-d09351c4be38] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.091999998607207}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.407332999107894}}
+2025-12-18 02:19:39,179 [INFO] [cdcabe89-74d3-45a8-87c5-d09351c4be38] Request completed - Status=200, Time taken=9.84 ms
+2025-12-18 02:20:11,980 [INFO] [645eccca-c7d9-4f38-84e6-1cb7c9995d95] Request started - Method=GET Path=/health
+2025-12-18 02:20:11,994 [INFO] [645eccca-c7d9-4f38-84e6-1cb7c9995d95] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2246669994055992}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.84708399946976}}
+2025-12-18 02:20:11,995 [INFO] [645eccca-c7d9-4f38-84e6-1cb7c9995d95] Request completed - Status=200, Time taken=15.48 ms
+2025-12-18 02:20:42,115 [INFO] [9ad96af2-7366-4216-b337-88ef555b406f] Request started - Method=GET Path=/health
+2025-12-18 02:20:42,129 [INFO] [9ad96af2-7366-4216-b337-88ef555b406f] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.104834000216215}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.711167000001296}}
+2025-12-18 02:20:42,130 [INFO] [9ad96af2-7366-4216-b337-88ef555b406f] Request completed - Status=200, Time taken=15.30 ms
+2025-12-18 02:20:49,334 [INFO] [96dd0490-3e21-435b-b9e6-a5c835ad2354] Request started - Method=GET Path=/health
+2025-12-18 02:20:49,341 [INFO] [96dd0490-3e21-435b-b9e6-a5c835ad2354] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1488749987620395}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.991832998712198}}
+2025-12-18 02:20:49,342 [INFO] [96dd0490-3e21-435b-b9e6-a5c835ad2354] Request completed - Status=200, Time taken=8.59 ms
+2025-12-18 02:21:12,139 [INFO] [945aa2c8-f5d9-4bdf-9cd8-fbc009ed8952] Request started - Method=GET Path=/health
+2025-12-18 02:21:12,148 [INFO] [945aa2c8-f5d9-4bdf-9cd8-fbc009ed8952] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9377500009577489}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.89720800073701}}
+2025-12-18 02:21:12,149 [INFO] [945aa2c8-f5d9-4bdf-9cd8-fbc009ed8952] Request completed - Status=200, Time taken=10.09 ms
+2025-12-18 02:21:59,438 [INFO] [b2027c5d-2967-4dee-9179-eeb3046e8b64] Request started - Method=GET Path=/health
+2025-12-18 02:21:59,448 [INFO] [b2027c5d-2967-4dee-9179-eeb3046e8b64] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0935829996014945}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.921832998865284}}
+2025-12-18 02:21:59,450 [INFO] [b2027c5d-2967-4dee-9179-eeb3046e8b64] Request completed - Status=200, Time taken=12.44 ms
+2025-12-18 02:22:12,247 [INFO] [d2689e80-a3bb-4bd0-8db8-fe60aaa65468] Request started - Method=GET Path=/health
+2025-12-18 02:22:12,250 [INFO] [d2689e80-a3bb-4bd0-8db8-fe60aaa65468] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.5467499995575054}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.50079200102482}}
+2025-12-18 02:22:12,251 [INFO] [d2689e80-a3bb-4bd0-8db8-fe60aaa65468] Request completed - Status=200, Time taken=3.74 ms
+2025-12-18 02:22:12,261 [INFO] [1fb20da5-7a49-4801-857b-c5ee07bf816d] Request started - Method=GET Path=/health
+2025-12-18 02:22:12,262 [INFO] [1fb20da5-7a49-4801-857b-c5ee07bf816d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.4519579997577239}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.035625000440632}}
+2025-12-18 02:22:12,263 [INFO] [1fb20da5-7a49-4801-857b-c5ee07bf816d] Request completed - Status=200, Time taken=1.95 ms
+2025-12-18 02:23:09,554 [INFO] [09b33d3c-c4c8-4050-aec8-8b908c8e4d57] Request started - Method=GET Path=/health
+2025-12-18 02:23:09,560 [INFO] [09b33d3c-c4c8-4050-aec8-8b908c8e4d57] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.7978749999892898}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.7691249999625143}}
+2025-12-18 02:23:09,561 [INFO] [09b33d3c-c4c8-4050-aec8-8b908c8e4d57] Request completed - Status=200, Time taken=7.49 ms
+2025-12-18 02:23:12,359 [INFO] [6388575d-6cac-4beb-9c2c-b5f07688fd0d] Request started - Method=GET Path=/health
+2025-12-18 02:23:12,360 [INFO] [6388575d-6cac-4beb-9c2c-b5f07688fd0d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.35245800063421484}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.863375000335509}}
+2025-12-18 02:23:12,360 [INFO] [6388575d-6cac-4beb-9c2c-b5f07688fd0d] Request completed - Status=200, Time taken=1.67 ms
+2025-12-18 02:23:42,432 [INFO] [8d6e2f1d-30a2-4998-a353-3af9c9ceb694] Request started - Method=GET Path=/health
+2025-12-18 02:23:42,441 [INFO] [8d6e2f1d-30a2-4998-a353-3af9c9ceb694] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0588749992166413}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.765665999206249}}
+2025-12-18 02:23:42,443 [INFO] [8d6e2f1d-30a2-4998-a353-3af9c9ceb694] Request completed - Status=200, Time taken=11.68 ms
+2025-12-18 02:24:12,542 [INFO] [a70faeca-4f84-478d-bb13-ea89384f2fe1] Request started - Method=GET Path=/health
+2025-12-18 02:24:12,563 [INFO] [a70faeca-4f84-478d-bb13-ea89384f2fe1] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.8193750006030314}, 'postgresql': {'status': 'healthy', 'response_time_ms': 17.9046670000389}}
+2025-12-18 02:24:12,566 [INFO] [a70faeca-4f84-478d-bb13-ea89384f2fe1] Request completed - Status=200, Time taken=24.69 ms
+2025-12-18 02:24:19,697 [INFO] [4b9f8fd5-c0fd-46ed-89ec-b7021da69e20] Request started - Method=GET Path=/health
+2025-12-18 02:24:19,705 [INFO] [4b9f8fd5-c0fd-46ed-89ec-b7021da69e20] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2916249997942941}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.968667000866844}}
+2025-12-18 02:24:19,706 [INFO] [4b9f8fd5-c0fd-46ed-89ec-b7021da69e20] Request completed - Status=200, Time taken=8.96 ms
+2025-12-18 02:25:12,637 [INFO] [e935a29f-7872-4dd6-9dd6-96b64b5b1fd1] Request started - Method=GET Path=/health
+2025-12-18 02:25:12,654 [INFO] [e935a29f-7872-4dd6-9dd6-96b64b5b1fd1] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.331458001208375}, 'postgresql': {'status': 'healthy', 'response_time_ms': 12.768458000209648}}
+2025-12-18 02:25:12,657 [INFO] [e935a29f-7872-4dd6-9dd6-96b64b5b1fd1] Request completed - Status=200, Time taken=20.16 ms
+2025-12-18 02:25:12,665 [INFO] [64aa0e3a-e537-4f33-b615-ca3d4e06b134] Request started - Method=GET Path=/health
+2025-12-18 02:25:12,667 [INFO] [64aa0e3a-e537-4f33-b615-ca3d4e06b134] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.3587499995774124}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.9127909997914685}}
+2025-12-18 02:25:12,667 [INFO] [64aa0e3a-e537-4f33-b615-ca3d4e06b134] Request completed - Status=200, Time taken=1.99 ms
+2025-12-18 02:25:29,831 [INFO] [2d71f073-0757-49a3-89dd-b1ac991fb0d9] Request started - Method=GET Path=/health
+2025-12-18 02:25:29,848 [INFO] [2d71f073-0757-49a3-89dd-b1ac991fb0d9] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.8920830009155907}, 'postgresql': {'status': 'healthy', 'response_time_ms': 10.46883300114132}}
+2025-12-18 02:25:29,850 [INFO] [2d71f073-0757-49a3-89dd-b1ac991fb0d9] Request completed - Status=200, Time taken=19.91 ms
+2025-12-18 02:26:12,826 [INFO] [6cdaeb1a-8ec9-4c0b-81b1-0e23e23a83ee] Request started - Method=GET Path=/health
+2025-12-18 02:26:12,836 [INFO] [6cdaeb1a-8ec9-4c0b-81b1-0e23e23a83ee] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0257089998049196}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.6147090001322795}}
+2025-12-18 02:26:12,837 [INFO] [6cdaeb1a-8ec9-4c0b-81b1-0e23e23a83ee] Request completed - Status=200, Time taken=11.47 ms
+2025-12-18 02:26:39,985 [INFO] [80768c7c-2eac-45c6-adbe-9feba568bd7b] Request started - Method=GET Path=/health
+2025-12-18 02:26:39,996 [INFO] [80768c7c-2eac-45c6-adbe-9feba568bd7b] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1695420016621938}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.9584580010559876}}
+2025-12-18 02:26:39,997 [INFO] [80768c7c-2eac-45c6-adbe-9feba568bd7b] Request completed - Status=200, Time taken=11.70 ms
+2025-12-18 02:26:42,865 [INFO] [44a2602f-884f-47b5-9dd6-db35b7978fd8] Request started - Method=GET Path=/health
+2025-12-18 02:26:42,866 [INFO] [44a2602f-884f-47b5-9dd6-db35b7978fd8] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.18820800141838845}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.5265420004434418}}
+2025-12-18 02:26:42,866 [INFO] [44a2602f-884f-47b5-9dd6-db35b7978fd8] Request completed - Status=200, Time taken=1.62 ms
+2025-12-18 02:27:13,041 [INFO] [c4fdf6d5-edba-451a-aa7d-939ca7f1408b] Request started - Method=GET Path=/health
+2025-12-18 02:27:13,060 [INFO] [c4fdf6d5-edba-451a-aa7d-939ca7f1408b] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.811374999306281}, 'postgresql': {'status': 'healthy', 'response_time_ms': 13.435875000141095}}
+2025-12-18 02:27:13,063 [INFO] [c4fdf6d5-edba-451a-aa7d-939ca7f1408b] Request completed - Status=200, Time taken=21.99 ms
+2025-12-18 02:27:50,110 [INFO] [dc6727ad-13a8-4aec-872b-c1273f960b7e] Request started - Method=GET Path=/health
+2025-12-18 02:27:50,126 [INFO] [dc6727ad-13a8-4aec-872b-c1273f960b7e] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.468207998390426}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.639499999844702}}
+2025-12-18 02:27:50,128 [INFO] [dc6727ad-13a8-4aec-872b-c1273f960b7e] Request completed - Status=200, Time taken=17.71 ms
+2025-12-18 02:28:13,088 [INFO] [c068616e-9bb8-4302-a08e-645ff9cad504] Request started - Method=GET Path=/health
+2025-12-18 02:28:13,105 [INFO] [c068616e-9bb8-4302-a08e-645ff9cad504] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.0632499999919673}, 'postgresql': {'status': 'healthy', 'response_time_ms': 11.92629199977091}}
+2025-12-18 02:28:13,106 [INFO] [c068616e-9bb8-4302-a08e-645ff9cad504] Request completed - Status=200, Time taken=18.44 ms
+2025-12-18 02:28:13,170 [INFO] [ee5b05a4-9587-42c8-b074-80f1b304435e] Request started - Method=GET Path=/health
+2025-12-18 02:28:13,171 [INFO] [ee5b05a4-9587-42c8-b074-80f1b304435e] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.1632920011616079}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.6157500010885997}}
+2025-12-18 02:28:13,172 [INFO] [ee5b05a4-9587-42c8-b074-80f1b304435e] Request completed - Status=200, Time taken=1.27 ms
+2025-12-18 02:29:00,367 [INFO] [2a34e886-1085-4a52-839f-c70e8459d1b7] Request started - Method=GET Path=/health
+2025-12-18 02:29:00,430 [INFO] [2a34e886-1085-4a52-839f-c70e8459d1b7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 6.544708001456456}, 'postgresql': {'status': 'healthy', 'response_time_ms': 43.29304100065201}}
+2025-12-18 02:29:00,435 [INFO] [2a34e886-1085-4a52-839f-c70e8459d1b7] Request completed - Status=200, Time taken=70.58 ms
+2025-12-18 02:29:13,514 [INFO] [d0770056-e8b0-4ceb-a2c6-d54fc6fb655d] Request started - Method=GET Path=/health
+2025-12-18 02:29:13,530 [INFO] [d0770056-e8b0-4ceb-a2c6-d54fc6fb655d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2058329994033556}, 'postgresql': {'status': 'healthy', 'response_time_ms': 12.085582999134203}}
+2025-12-18 02:29:13,531 [INFO] [d0770056-e8b0-4ceb-a2c6-d54fc6fb655d] Request completed - Status=200, Time taken=18.69 ms
+2025-12-18 02:29:43,413 [INFO] [b89110d9-759d-4a8c-b0e5-6a1bdb1a06ec] Request started - Method=GET Path=/health
+2025-12-18 02:29:43,422 [INFO] [b89110d9-759d-4a8c-b0e5-6a1bdb1a06ec] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1746250002033776}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.440624999915599}}
+2025-12-18 02:29:43,423 [INFO] [b89110d9-759d-4a8c-b0e5-6a1bdb1a06ec] Request completed - Status=200, Time taken=10.27 ms
+2025-12-18 02:30:10,590 [INFO] [f820a8b0-f62e-4d25-afd2-5f6a23a7c007] Request started - Method=GET Path=/health
+2025-12-18 02:30:10,600 [INFO] [f820a8b0-f62e-4d25-afd2-5f6a23a7c007] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.489583001079154}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.044333000521874}}
+2025-12-18 02:30:10,604 [INFO] [f820a8b0-f62e-4d25-afd2-5f6a23a7c007] Request completed - Status=200, Time taken=14.45 ms
+2025-12-18 02:30:13,671 [INFO] [81504ae0-ea70-4f16-87f5-662ea7f7cbc0] Request started - Method=GET Path=/health
+2025-12-18 02:30:13,672 [INFO] [81504ae0-ea70-4f16-87f5-662ea7f7cbc0] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.1633749998291023}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.5562499991356162}}
+2025-12-18 02:30:13,672 [INFO] [81504ae0-ea70-4f16-87f5-662ea7f7cbc0] Request completed - Status=200, Time taken=1.27 ms
+2025-12-18 02:31:13,613 [INFO] [bbe4f54e-fbcc-49ee-b642-4dd3443f94f6] Request started - Method=GET Path=/health
+2025-12-18 02:31:13,621 [INFO] [bbe4f54e-fbcc-49ee-b642-4dd3443f94f6] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9075409998331452}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.970791000232566}}
+2025-12-18 02:31:13,621 [INFO] [bbe4f54e-fbcc-49ee-b642-4dd3443f94f6] Request completed - Status=200, Time taken=8.26 ms
+2025-12-18 02:31:13,744 [INFO] [56b55fe5-6eef-46c4-8a1a-12089237ce64] Request started - Method=GET Path=/health
+2025-12-18 02:31:13,745 [INFO] [56b55fe5-6eef-46c4-8a1a-12089237ce64] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.17616699915379286}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.5330419990059454}}
+2025-12-18 02:31:13,746 [INFO] [56b55fe5-6eef-46c4-8a1a-12089237ce64] Request completed - Status=200, Time taken=1.08 ms
+2025-12-18 02:31:20,752 [INFO] [2b1d7a98-c92c-48f4-84da-25efdec99d92] Request started - Method=GET Path=/health
+2025-12-18 02:31:20,759 [INFO] [2b1d7a98-c92c-48f4-84da-25efdec99d92] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0916249993897509}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.8317920009139925}}
+2025-12-18 02:31:20,760 [INFO] [2b1d7a98-c92c-48f4-84da-25efdec99d92] Request completed - Status=200, Time taken=8.41 ms
+2025-12-18 02:32:13,867 [INFO] [4535cfe9-d04f-45be-8690-c7d98bd9a150] Request started - Method=GET Path=/health
+2025-12-18 02:32:13,881 [INFO] [4535cfe9-d04f-45be-8690-c7d98bd9a150] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0684999997465638}, 'postgresql': {'status': 'healthy', 'response_time_ms': 12.100583000574261}}
+2025-12-18 02:32:13,882 [INFO] [4535cfe9-d04f-45be-8690-c7d98bd9a150] Request completed - Status=200, Time taken=15.85 ms
+2025-12-18 02:32:30,874 [INFO] [25249f53-0113-472f-ab3a-fc0feaf06108] Request started - Method=GET Path=/health
+2025-12-18 02:32:30,889 [INFO] [25249f53-0113-472f-ab3a-fc0feaf06108] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.6246249997493578}, 'postgresql': {'status': 'healthy', 'response_time_ms': 10.913000000073225}}
+2025-12-18 02:32:30,890 [INFO] [25249f53-0113-472f-ab3a-fc0feaf06108] Request completed - Status=200, Time taken=16.25 ms
+2025-12-18 02:32:43,765 [INFO] [103d69b5-a23e-43ce-a87a-9971188ec131] Request started - Method=GET Path=/health
+2025-12-18 02:32:43,769 [INFO] [103d69b5-a23e-43ce-a87a-9971188ec131] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.5794170010631206}, 'postgresql': {'status': 'healthy', 'response_time_ms': 2.6781249998748535}}
+2025-12-18 02:32:43,770 [INFO] [103d69b5-a23e-43ce-a87a-9971188ec131] Request completed - Status=200, Time taken=4.59 ms
+2025-12-18 02:33:14,001 [INFO] [5e9dfc30-1d35-4be4-b59f-cca39cbd68c2] Request started - Method=GET Path=/health
+2025-12-18 02:33:14,009 [INFO] [5e9dfc30-1d35-4be4-b59f-cca39cbd68c2] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8772090004640631}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.5915420014353}}
+2025-12-18 02:33:14,009 [INFO] [5e9dfc30-1d35-4be4-b59f-cca39cbd68c2] Request completed - Status=200, Time taken=9.41 ms
+2025-12-18 02:33:40,986 [INFO] [4450c737-0a76-45cd-9338-f240643ead56] Request started - Method=GET Path=/health
+2025-12-18 02:33:41,001 [INFO] [4450c737-0a76-45cd-9338-f240643ead56] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1165840005560312}, 'postgresql': {'status': 'healthy', 'response_time_ms': 12.1913749990199}}
+2025-12-18 02:33:41,002 [INFO] [4450c737-0a76-45cd-9338-f240643ead56] Request completed - Status=200, Time taken=16.78 ms
+2025-12-18 02:34:13,906 [INFO] [a51fa5a5-a2ac-4dd2-befd-a8d17ea2f3a3] Request started - Method=GET Path=/health
+2025-12-18 02:34:13,911 [INFO] [a51fa5a5-a2ac-4dd2-befd-a8d17ea2f3a3] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.6601249988307245}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.546291000020574}}
+2025-12-18 02:34:13,912 [INFO] [a51fa5a5-a2ac-4dd2-befd-a8d17ea2f3a3] Request completed - Status=200, Time taken=6.20 ms
+2025-12-18 02:34:14,093 [INFO] [0f0bac68-2041-41da-ad8c-7a3170b0afdd] Request started - Method=GET Path=/health
+2025-12-18 02:34:14,094 [INFO] [0f0bac68-2041-41da-ad8c-7a3170b0afdd] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.18008299957728013}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.5618750001303852}}
+2025-12-18 02:34:14,094 [INFO] [0f0bac68-2041-41da-ad8c-7a3170b0afdd] Request completed - Status=200, Time taken=1.22 ms
+2025-12-18 02:34:51,100 [INFO] [5bfc88b3-4ff5-4181-acdb-9647d79b54f6] Request started - Method=GET Path=/health
+2025-12-18 02:34:51,114 [INFO] [5bfc88b3-4ff5-4181-acdb-9647d79b54f6] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 6.3002919996506535}, 'postgresql': {'status': 'healthy', 'response_time_ms': 11.698333999447641}}
+2025-12-18 02:34:51,115 [INFO] [5bfc88b3-4ff5-4181-acdb-9647d79b54f6] Request completed - Status=200, Time taken=15.95 ms
+2025-12-18 02:35:14,208 [INFO] [010a19e1-95b1-4b3e-ac01-d161952024b4] Request started - Method=GET Path=/health
+2025-12-18 02:35:14,213 [INFO] [010a19e1-95b1-4b3e-ac01-d161952024b4] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.6316250000963919}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.028999999514781}}
+2025-12-18 02:35:14,214 [INFO] [010a19e1-95b1-4b3e-ac01-d161952024b4] Request completed - Status=200, Time taken=5.46 ms
+2025-12-18 02:35:44,096 [INFO] [aa470eeb-a012-4be0-aca1-d15e47e2bab7] Request started - Method=GET Path=/health
+2025-12-18 02:35:44,108 [INFO] [aa470eeb-a012-4be0-aca1-d15e47e2bab7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.922374999092426}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.7846660005889134}}
+2025-12-18 02:35:44,109 [INFO] [aa470eeb-a012-4be0-aca1-d15e47e2bab7] Request completed - Status=200, Time taken=12.89 ms
+2025-12-18 02:36:01,213 [INFO] [f1be1176-5b4d-4e7a-9365-8f52f25b9a92] Request started - Method=GET Path=/health
+2025-12-18 02:36:01,224 [INFO] [f1be1176-5b4d-4e7a-9365-8f52f25b9a92] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9634170000936138}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.839833999241819}}
+2025-12-18 02:36:01,225 [INFO] [f1be1176-5b4d-4e7a-9365-8f52f25b9a92] Request completed - Status=200, Time taken=12.33 ms
+2025-12-18 02:36:14,328 [INFO] [f0dcdab0-fa74-4766-9b5e-67a0c30e38d0] Request started - Method=GET Path=/health
+2025-12-18 02:36:14,332 [INFO] [f0dcdab0-fa74-4766-9b5e-67a0c30e38d0] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.5872080000699498}, 'postgresql': {'status': 'healthy', 'response_time_ms': 2.3842499995225808}}
+2025-12-18 02:36:14,332 [INFO] [f0dcdab0-fa74-4766-9b5e-67a0c30e38d0] Request completed - Status=200, Time taken=4.31 ms
+2025-12-18 02:37:11,319 [INFO] [163cbe0e-df0b-48ef-93fc-c5cced3abc45] Request started - Method=GET Path=/health
+2025-12-18 02:37:11,330 [INFO] [163cbe0e-df0b-48ef-93fc-c5cced3abc45] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.222708000568673}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.029125001077773}}
+2025-12-18 02:37:11,331 [INFO] [163cbe0e-df0b-48ef-93fc-c5cced3abc45] Request completed - Status=200, Time taken=12.71 ms
+2025-12-18 02:37:14,256 [INFO] [db1d7ec6-c318-40e5-b3a5-ad5c72c427b5] Request started - Method=GET Path=/health
+2025-12-18 02:37:14,257 [INFO] [db1d7ec6-c318-40e5-b3a5-ad5c72c427b5] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.24595899958512746}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.7360839990724344}}
+2025-12-18 02:37:14,258 [INFO] [db1d7ec6-c318-40e5-b3a5-ad5c72c427b5] Request completed - Status=200, Time taken=1.70 ms
+2025-12-18 02:37:14,411 [INFO] [9d6d575f-b52d-4d47-9bfa-18143f20a779] Request started - Method=GET Path=/health
+2025-12-18 02:37:14,413 [INFO] [9d6d575f-b52d-4d47-9bfa-18143f20a779] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.17295799989369698}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.6458749994635582}}
+2025-12-18 02:37:14,413 [INFO] [9d6d575f-b52d-4d47-9bfa-18143f20a779] Request completed - Status=200, Time taken=2.41 ms
+2025-12-18 02:38:14,607 [INFO] [014512cd-781e-431b-9f28-482558b57353] Request started - Method=GET Path=/health
+2025-12-18 02:38:14,615 [INFO] [014512cd-781e-431b-9f28-482558b57353] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.986916998954257}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.223582998951315}}
+2025-12-18 02:38:14,616 [INFO] [014512cd-781e-431b-9f28-482558b57353] Request completed - Status=200, Time taken=8.93 ms
+2025-12-18 02:38:21,458 [INFO] [7426b4cb-7021-4c34-aae5-4252ca6a054a] Request started - Method=GET Path=/health
+2025-12-18 02:38:21,466 [INFO] [7426b4cb-7021-4c34-aae5-4252ca6a054a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1696250003296882}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.385915999795543}}
+2025-12-18 02:38:21,467 [INFO] [7426b4cb-7021-4c34-aae5-4252ca6a054a] Request completed - Status=200, Time taken=9.65 ms
+2025-12-18 02:38:44,430 [INFO] [582db219-e86a-469b-96af-9f5b4c740914] Request started - Method=GET Path=/health
+2025-12-18 02:38:44,438 [INFO] [582db219-e86a-469b-96af-9f5b4c740914] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8870000001479639}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.460833999677561}}
+2025-12-18 02:38:44,439 [INFO] [582db219-e86a-469b-96af-9f5b4c740914] Request completed - Status=200, Time taken=9.14 ms
+2025-12-18 02:39:14,785 [INFO] [bc706b4f-5d26-42e9-b332-8c73bd5734e7] Request started - Method=GET Path=/health
+2025-12-18 02:39:14,792 [INFO] [bc706b4f-5d26-42e9-b332-8c73bd5734e7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0763749996840488}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.647416000807425}}
+2025-12-18 02:39:14,793 [INFO] [bc706b4f-5d26-42e9-b332-8c73bd5734e7] Request completed - Status=200, Time taken=8.32 ms
+2025-12-18 02:39:31,657 [INFO] [1281ddc5-23bb-4256-9c4f-e948c1069e96] Request started - Method=GET Path=/health
+2025-12-18 02:39:31,675 [INFO] [1281ddc5-23bb-4256-9c4f-e948c1069e96] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 8.46304200058512}, 'postgresql': {'status': 'healthy', 'response_time_ms': 15.411624999615015}}
+2025-12-18 02:39:31,676 [INFO] [1281ddc5-23bb-4256-9c4f-e948c1069e96] Request completed - Status=200, Time taken=19.31 ms
+2025-12-18 02:40:14,582 [INFO] [b0ed906b-7662-447e-b52f-b8e6d94f8065] Request started - Method=GET Path=/health
+2025-12-18 02:40:14,591 [INFO] [b0ed906b-7662-447e-b52f-b8e6d94f8065] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9883340007945662}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.256500000949018}}
+2025-12-18 02:40:14,592 [INFO] [b0ed906b-7662-447e-b52f-b8e6d94f8065] Request completed - Status=200, Time taken=11.00 ms
+2025-12-18 02:40:14,888 [INFO] [338b7a6e-68eb-4174-b4d4-591f09c94aac] Request started - Method=GET Path=/health
+2025-12-18 02:40:14,889 [INFO] [338b7a6e-68eb-4174-b4d4-591f09c94aac] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.24854200091795065}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.7223749998956919}}
+2025-12-18 02:40:14,890 [INFO] [338b7a6e-68eb-4174-b4d4-591f09c94aac] Request completed - Status=200, Time taken=1.54 ms
+2025-12-18 02:40:41,801 [INFO] [393e04b9-8c18-46cc-b9dc-5160abc9d3fb] Request started - Method=GET Path=/health
+2025-12-18 02:40:41,815 [INFO] [393e04b9-8c18-46cc-b9dc-5160abc9d3fb] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 4.608000001098844}, 'postgresql': {'status': 'healthy', 'response_time_ms': 10.581959000774077}}
+2025-12-18 02:40:41,816 [INFO] [393e04b9-8c18-46cc-b9dc-5160abc9d3fb] Request completed - Status=200, Time taken=14.71 ms
+2025-12-18 02:40:58,454 [INFO] [test-user-1766025658] Request started - Method=GET Path=/health
+2025-12-18 02:40:58,461 [INFO] [test-user-1766025658] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8109999998850981}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.198000000542379}}
+2025-12-18 02:40:58,462 [INFO] [test-user-1766025658] Request completed - Status=200, Time taken=8.19 ms
+2025-12-18 02:40:58,496 [INFO] [test-user-1766025658] Request started - Method=POST Path=/users
+2025-12-18 02:40:58,588 [INFO] [test-user-1766025658] USER CREATE: User created with email: alice_test@example.com
+2025-12-18 02:40:58,588 [INFO] [test-user-1766025658] Request completed - Status=201, Time taken=92.51 ms
+2025-12-18 02:40:58,607 [INFO] [test-user-1766025658] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 02:40:58,609 [INFO] CACHE ASIDE: request received for symbols alice_test@example.com
+2025-12-18 02:40:58,610 [INFO] [test-user-1766025658] CACHE ASIDE: CACHE MISS with key cache_aside_ALICE_TEST@EXAMPLE.COM fetching from provider
+2025-12-18 02:40:58,634 [INFO] [test-user-1766025658] CACHE ASIDE: successfully fetched fresh data from database for cache_aside_ALICE_TEST@EXAMPLE.COM
+2025-12-18 02:40:58,640 [INFO] [test-user-1766025658] CACHE ASIDE: WRITE CACHE with cache_aside_ALICE_TEST@EXAMPLE.COM stored with TTL=300s
+2025-12-18 02:40:58,640 [INFO] [test-user-1766025658] Request completed - Status=200, Time taken=33.60 ms
+2025-12-18 02:41:14,310 [INFO] [test-suggest-1766025674] Request started - Method=GET Path=/health
+2025-12-18 02:41:14,316 [INFO] [test-suggest-1766025674] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2262079999345588}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.8343329997587716}}
+2025-12-18 02:41:14,317 [INFO] [test-suggest-1766025674] Request completed - Status=200, Time taken=6.65 ms
+2025-12-18 02:41:14,406 [INFO] [test-suggest-1766025674] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 02:41:14,407 [INFO] CACHE ASIDE: request received for symbols alice_test@example.com
+2025-12-18 02:41:14,408 [INFO] [test-suggest-1766025674] CACHE ASIDE: CACHE HIT with key cache_aside_ALICE_TEST@EXAMPLE.COM served from Redis {"email": "alice_test@example.com", "preferences": "first", "availabilities": {"friday": [], "monday": [9, 10, 11], "sunday": [], "tuesday": [14], "saturday": [], "thursday": [], "wednesday": []}, "created_at": "2025-12-17T21:16:33.135108"}
+2025-12-18 02:41:14,408 [INFO] [test-suggest-1766025674] Request completed - Status=200, Time taken=1.86 ms
+2025-12-18 02:41:14,409 [INFO] [test-suggest-1766025674] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 02:41:14,409 [INFO] CACHE ASIDE: request received for symbols bob_test@example.com
+2025-12-18 02:41:14,410 [INFO] [test-suggest-1766025674] CACHE ASIDE: CACHE MISS with key cache_aside_BOB_TEST@EXAMPLE.COM fetching from provider
+2025-12-18 02:41:14,411 [INFO] [test-suggest-1766025674] CACHE ASIDE: successfully fetched fresh data from database for cache_aside_BOB_TEST@EXAMPLE.COM
+2025-12-18 02:41:14,412 [INFO] [test-suggest-1766025674] CACHE ASIDE: WRITE CACHE with cache_aside_BOB_TEST@EXAMPLE.COM stored with TTL=300s
+2025-12-18 02:41:14,412 [INFO] [test-suggest-1766025674] Request completed - Status=200, Time taken=2.66 ms
+2025-12-18 02:41:15,010 [INFO] [f4d905c9-3ff7-4fc7-b928-99a5accce1e3] Request started - Method=GET Path=/health
+2025-12-18 02:41:15,011 [INFO] [f4d905c9-3ff7-4fc7-b928-99a5accce1e3] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.22004200036462862}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.0559170004853513}}
+2025-12-18 02:41:15,011 [INFO] [f4d905c9-3ff7-4fc7-b928-99a5accce1e3] Request completed - Status=200, Time taken=1.80 ms
+2025-12-18 02:41:44,759 [INFO] [92b6328c-818f-4f20-9705-040915483f79] Request started - Method=GET Path=/health
+2025-12-18 02:41:44,766 [INFO] [92b6328c-818f-4f20-9705-040915483f79] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8870830006344477}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.428833000929444}}
+2025-12-18 02:41:44,768 [INFO] [92b6328c-818f-4f20-9705-040915483f79] Request completed - Status=200, Time taken=8.96 ms
+2025-12-18 02:41:51,962 [INFO] [934a80e1-5659-4f9c-a5e3-dce366bf161d] Request started - Method=GET Path=/health
+2025-12-18 02:41:51,974 [INFO] [934a80e1-5659-4f9c-a5e3-dce366bf161d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9103749998757849}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.228708000591723}}
+2025-12-18 02:41:51,975 [INFO] [934a80e1-5659-4f9c-a5e3-dce366bf161d] Request completed - Status=200, Time taken=13.22 ms
+2025-12-18 02:42:15,129 [INFO] [d8adcaff-c1d1-4db6-828c-d85299e5f4b4] Request started - Method=GET Path=/health
+2025-12-18 02:42:15,139 [INFO] [d8adcaff-c1d1-4db6-828c-d85299e5f4b4] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9676250010670628}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.260042000780231}}
+2025-12-18 02:42:15,139 [INFO] [d8adcaff-c1d1-4db6-828c-d85299e5f4b4] Request completed - Status=200, Time taken=10.30 ms
+2025-12-18 02:43:02,077 [INFO] [c3fea9de-cefa-4dc3-b4de-38fa899c0a58] Request started - Method=GET Path=/health
+2025-12-18 02:43:02,085 [INFO] [c3fea9de-cefa-4dc3-b4de-38fa899c0a58] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0331249995942926}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.1067499989585485}}
+2025-12-18 02:43:02,086 [INFO] [c3fea9de-cefa-4dc3-b4de-38fa899c0a58] Request completed - Status=200, Time taken=9.25 ms
+2025-12-18 02:43:14,909 [INFO] [9b45d22f-76ab-4dbf-a3e7-06e6355ad7e1] Request started - Method=GET Path=/health
+2025-12-18 02:43:14,916 [INFO] [9b45d22f-76ab-4dbf-a3e7-06e6355ad7e1] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.854125000842032}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.181292000794201}}
+2025-12-18 02:43:14,916 [INFO] [9b45d22f-76ab-4dbf-a3e7-06e6355ad7e1] Request completed - Status=200, Time taken=7.23 ms
+2025-12-18 02:43:15,235 [INFO] [6176da5c-e3a5-4e16-a12a-0fa13070ed0d] Request started - Method=GET Path=/health
+2025-12-18 02:43:15,236 [INFO] [6176da5c-e3a5-4e16-a12a-0fa13070ed0d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.19833299847960006}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.67920799847343}}
+2025-12-18 02:43:15,237 [INFO] [6176da5c-e3a5-4e16-a12a-0fa13070ed0d] Request completed - Status=200, Time taken=1.42 ms
+2025-12-18 02:44:12,183 [INFO] [aa13e54e-1749-4d6c-9303-5364faac078a] Request started - Method=GET Path=/health
+2025-12-18 02:44:12,194 [INFO] [aa13e54e-1749-4d6c-9303-5364faac078a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.5175829994404921}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.626791999224224}}
+2025-12-18 02:44:12,195 [INFO] [aa13e54e-1749-4d6c-9303-5364faac078a] Request completed - Status=200, Time taken=11.39 ms
+2025-12-18 02:44:15,352 [INFO] [1bc9a220-344e-4427-b794-277a07cdd138] Request started - Method=GET Path=/health
+2025-12-18 02:44:15,353 [INFO] [1bc9a220-344e-4427-b794-277a07cdd138] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.197666999156354}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.592250000408967}}
+2025-12-18 02:44:15,353 [INFO] [1bc9a220-344e-4427-b794-277a07cdd138] Request completed - Status=200, Time taken=1.72 ms
+2025-12-18 02:44:45,098 [INFO] [aff43b31-7868-423b-be63-5ca2d912a851] Request started - Method=GET Path=/health
+2025-12-18 02:44:45,107 [INFO] [aff43b31-7868-423b-be63-5ca2d912a851] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1575420012377435}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.525792001208174}}
+2025-12-18 02:44:45,109 [INFO] [aff43b31-7868-423b-be63-5ca2d912a851] Request completed - Status=200, Time taken=13.47 ms
+2025-12-18 02:45:15,497 [INFO] [2d1a61ce-9662-4732-a3ba-3c335b32de98] Request started - Method=GET Path=/health
+2025-12-18 02:45:15,509 [INFO] [2d1a61ce-9662-4732-a3ba-3c335b32de98] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.011084001220297}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.76833400070609}}
+2025-12-18 02:45:15,510 [INFO] [2d1a61ce-9662-4732-a3ba-3c335b32de98] Request completed - Status=200, Time taken=12.84 ms
+2025-12-18 02:45:22,331 [INFO] [4b036204-65a2-4c9a-91b8-bb0bb9de92fa] Request started - Method=GET Path=/health
+2025-12-18 02:45:22,332 [INFO] [4b036204-65a2-4c9a-91b8-bb0bb9de92fa] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.33716700090735685}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.0535000001254957}}
+2025-12-18 02:45:22,333 [INFO] [4b036204-65a2-4c9a-91b8-bb0bb9de92fa] Request completed - Status=200, Time taken=2.30 ms
+2025-12-18 02:46:15,253 [INFO] [2e68ea05-7a68-4eef-9187-31288ebce81e] Request started - Method=GET Path=/health
+2025-12-18 02:46:15,261 [INFO] [2e68ea05-7a68-4eef-9187-31288ebce81e] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.923542000236921}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.922375001115142}}
+2025-12-18 02:46:15,262 [INFO] [2e68ea05-7a68-4eef-9187-31288ebce81e] Request completed - Status=200, Time taken=9.29 ms
+2025-12-18 02:46:15,671 [INFO] [bcb53ec6-abdf-4cdc-ae59-f164b9fa34a5] Request started - Method=GET Path=/health
+2025-12-18 02:46:15,672 [INFO] [bcb53ec6-abdf-4cdc-ae59-f164b9fa34a5] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.1825419985834742}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.5875419992662501}}
+2025-12-18 02:46:15,672 [INFO] [bcb53ec6-abdf-4cdc-ae59-f164b9fa34a5] Request completed - Status=200, Time taken=1.26 ms
+2025-12-18 02:46:32,524 [INFO] [513b24a2-8016-4c4f-bc54-99cafbaacdfd] Request started - Method=GET Path=/health
+2025-12-18 02:46:32,574 [INFO] [513b24a2-8016-4c4f-bc54-99cafbaacdfd] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 5.94887499937613}, 'postgresql': {'status': 'healthy', 'response_time_ms': 20.63612500023737}}
+2025-12-18 02:46:32,587 [INFO] [513b24a2-8016-4c4f-bc54-99cafbaacdfd] Request completed - Status=200, Time taken=63.23 ms
+2025-12-18 02:47:15,830 [INFO] [58f190db-4c17-4063-ba97-e7264e90da21] Request started - Method=GET Path=/health
+2025-12-18 02:47:15,845 [INFO] [58f190db-4c17-4063-ba97-e7264e90da21] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0599580000416609}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.023832999446313}}
+2025-12-18 02:47:15,846 [INFO] [58f190db-4c17-4063-ba97-e7264e90da21] Request completed - Status=200, Time taken=18.26 ms
+2025-12-18 02:47:43,316 [INFO] [42beb64a-3080-4a1a-a4f9-c5bf4c5af484] Request started - Method=GET Path=/health
+2025-12-18 02:47:43,345 [INFO] [42beb64a-3080-4a1a-a4f9-c5bf4c5af484] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.015541998844128}, 'postgresql': {'status': 'healthy', 'response_time_ms': 25.690208000014536}}
+2025-12-18 02:47:43,347 [INFO] [42beb64a-3080-4a1a-a4f9-c5bf4c5af484] Request completed - Status=200, Time taken=31.63 ms
+2025-12-18 02:47:45,496 [INFO] [f5a01c5f-5f49-4657-9942-c24964ff968c] Request started - Method=GET Path=/health
+2025-12-18 02:47:45,508 [INFO] [f5a01c5f-5f49-4657-9942-c24964ff968c] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2174170005891938}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.160499998964951}}
+2025-12-18 02:47:45,509 [INFO] [f5a01c5f-5f49-4657-9942-c24964ff968c] Request completed - Status=200, Time taken=13.33 ms
+2025-12-18 02:48:15,977 [INFO] [dcfea201-3a89-47fc-b9cf-296ae46a3836] Request started - Method=GET Path=/health
+2025-12-18 02:48:15,986 [INFO] [dcfea201-3a89-47fc-b9cf-296ae46a3836] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9484170004725456}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.331500000465894}}
+2025-12-18 02:48:15,986 [INFO] [dcfea201-3a89-47fc-b9cf-296ae46a3836] Request completed - Status=200, Time taken=9.16 ms
+2025-12-18 02:48:53,549 [INFO] [33a7e683-9007-4844-8d11-e8dc0f41af10] Request started - Method=GET Path=/health
+2025-12-18 02:48:53,563 [INFO] [33a7e683-9007-4844-8d11-e8dc0f41af10] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.3969160008855397}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.509415999971679}}
+2025-12-18 02:48:53,565 [INFO] [33a7e683-9007-4844-8d11-e8dc0f41af10] Request completed - Status=200, Time taken=17.00 ms
+2025-12-18 02:49:15,743 [INFO] [c11f85de-102b-4a3f-ae2d-dbc65187625b] Request started - Method=GET Path=/health
+2025-12-18 02:49:15,750 [INFO] [c11f85de-102b-4a3f-ae2d-dbc65187625b] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8703750008862698}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.3687079996743705}}
+2025-12-18 02:49:15,750 [INFO] [c11f85de-102b-4a3f-ae2d-dbc65187625b] Request completed - Status=200, Time taken=7.51 ms
+2025-12-18 02:49:16,284 [INFO] [52962787-c9a2-45d8-8c53-7ec80d91301e] Request started - Method=GET Path=/health
+2025-12-18 02:49:16,288 [INFO] [52962787-c9a2-45d8-8c53-7ec80d91301e] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.6415829993784428}, 'postgresql': {'status': 'healthy', 'response_time_ms': 2.425874999971711}}
+2025-12-18 02:49:16,289 [INFO] [52962787-c9a2-45d8-8c53-7ec80d91301e] Request completed - Status=200, Time taken=5.22 ms
+2025-12-18 02:50:03,716 [INFO] [2ba98fb2-229a-4366-98c6-2b36b6e66e2a] Request started - Method=GET Path=/health
+2025-12-18 02:50:03,724 [INFO] [2ba98fb2-229a-4366-98c6-2b36b6e66e2a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.305084000705392}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.090125001515844}}
+2025-12-18 02:50:03,725 [INFO] [2ba98fb2-229a-4366-98c6-2b36b6e66e2a] Request completed - Status=200, Time taken=9.01 ms
+2025-12-18 02:50:16,421 [INFO] [8ab9ea17-26cd-4606-94fe-3ae0d3a7758e] Request started - Method=GET Path=/health
+2025-12-18 02:50:16,429 [INFO] [8ab9ea17-26cd-4606-94fe-3ae0d3a7758e] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.096709000194096}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.166375000044354}}
+2025-12-18 02:50:16,430 [INFO] [8ab9ea17-26cd-4606-94fe-3ae0d3a7758e] Request completed - Status=200, Time taken=9.15 ms
+2025-12-18 02:50:47,052 [INFO] [5f71b68a-29d0-4d07-b8bf-0de29a898f7d] Request started - Method=GET Path=/health
+2025-12-18 02:50:47,109 [INFO] [5f71b68a-29d0-4d07-b8bf-0de29a898f7d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 13.039166000453406}, 'postgresql': {'status': 'healthy', 'response_time_ms': 43.32341600093059}}
+2025-12-18 02:50:47,115 [INFO] [5f71b68a-29d0-4d07-b8bf-0de29a898f7d] Request completed - Status=200, Time taken=64.06 ms
+2025-12-18 02:51:13,940 [INFO] [8a63ef6f-fa56-4780-b1c1-b2e8c2d7a9e9] Request started - Method=GET Path=/health
+2025-12-18 02:51:13,956 [INFO] [8a63ef6f-fa56-4780-b1c1-b2e8c2d7a9e9] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.913374999683583}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.731208999961382}}
+2025-12-18 02:51:13,958 [INFO] [8a63ef6f-fa56-4780-b1c1-b2e8c2d7a9e9] Request completed - Status=200, Time taken=18.48 ms
+2025-12-18 02:51:16,553 [INFO] [413bc50b-3ea0-484d-b63e-d1485754a8f7] Request started - Method=GET Path=/health
+2025-12-18 02:51:16,554 [INFO] [413bc50b-3ea0-484d-b63e-d1485754a8f7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.17554099940753076}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.5949159985902952}}
+2025-12-18 02:51:16,555 [INFO] [413bc50b-3ea0-484d-b63e-d1485754a8f7] Request completed - Status=200, Time taken=1.52 ms
+2025-12-18 02:52:16,654 [INFO] [295221e7-ce37-4c47-b592-88d1b130ba1d] Request started - Method=GET Path=/health
+2025-12-18 02:52:16,666 [INFO] [295221e7-ce37-4c47-b592-88d1b130ba1d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8159999997587875}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.875499999907333}}
+2025-12-18 02:52:16,666 [INFO] [295221e7-ce37-4c47-b592-88d1b130ba1d] Request completed - Status=200, Time taken=12.84 ms
+2025-12-18 02:52:17,634 [INFO] [dabb6158-52e8-4b03-92ac-52ad3b61458b] Request started - Method=GET Path=/health
+2025-12-18 02:52:17,635 [INFO] [dabb6158-52e8-4b03-92ac-52ad3b61458b] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.12283299838600215}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.48741699902166147}}
+2025-12-18 02:52:17,635 [INFO] [dabb6158-52e8-4b03-92ac-52ad3b61458b] Request completed - Status=200, Time taken=1.10 ms
+2025-12-18 02:52:24,081 [INFO] [e0f8d331-f24f-4936-8442-9c2de4aabf4f] Request started - Method=GET Path=/health
+2025-12-18 02:52:24,086 [INFO] [e0f8d331-f24f-4936-8442-9c2de4aabf4f] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.7546249998995336}, 'postgresql': {'status': 'healthy', 'response_time_ms': 2.901832998759346}}
+2025-12-18 02:52:24,086 [INFO] [e0f8d331-f24f-4936-8442-9c2de4aabf4f] Request completed - Status=200, Time taken=5.31 ms
+2025-12-18 02:53:16,834 [INFO] [10885b25-fdd3-4bf6-bb8c-04b0de33442d] Request started - Method=GET Path=/health
+2025-12-18 02:53:16,843 [INFO] [10885b25-fdd3-4bf6-bb8c-04b0de33442d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.150833999417955}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.108666999352863}}
+2025-12-18 02:53:16,844 [INFO] [10885b25-fdd3-4bf6-bb8c-04b0de33442d] Request completed - Status=200, Time taken=10.94 ms
+2025-12-18 02:53:34,198 [INFO] [6a872864-524f-4f11-9685-a1a8c514cf84] Request started - Method=GET Path=/health
+2025-12-18 02:53:34,207 [INFO] [6a872864-524f-4f11-9685-a1a8c514cf84] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2439160000212723}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.839125000420609}}
+2025-12-18 02:53:34,208 [INFO] [6a872864-524f-4f11-9685-a1a8c514cf84] Request completed - Status=200, Time taken=10.08 ms
+2025-12-18 02:53:47,832 [INFO] [57b9c547-3c22-4ebe-9606-33e195182d41] Request started - Method=GET Path=/health
+2025-12-18 02:53:47,840 [INFO] [57b9c547-3c22-4ebe-9606-33e195182d41] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9901249995891703}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.497457999605103}}
+2025-12-18 02:53:47,840 [INFO] [57b9c547-3c22-4ebe-9606-33e195182d41] Request completed - Status=200, Time taken=8.67 ms
+2025-12-18 02:54:16,998 [INFO] [8cb9ef11-ddcb-4f92-9c03-242d42004928] Request started - Method=GET Path=/health
+2025-12-18 02:54:17,007 [INFO] [8cb9ef11-ddcb-4f92-9c03-242d42004928] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.5229169985104818}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.085374998496263}}
+2025-12-18 02:54:17,008 [INFO] [8cb9ef11-ddcb-4f92-9c03-242d42004928] Request completed - Status=200, Time taken=10.69 ms
+2025-12-18 02:54:44,359 [INFO] [10f8be14-39ab-4429-a0b5-07f548d65a1c] Request started - Method=GET Path=/health
+2025-12-18 02:54:44,395 [INFO] [10f8be14-39ab-4429-a0b5-07f548d65a1c] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.6911250006378395}, 'postgresql': {'status': 'healthy', 'response_time_ms': 23.971791999429115}}
+2025-12-18 02:54:44,397 [INFO] [10f8be14-39ab-4429-a0b5-07f548d65a1c] Request completed - Status=200, Time taken=38.85 ms
+2025-12-18 02:55:17,205 [INFO] [b9be5a67-44f0-452e-a50c-f0e922b1abae] Request started - Method=GET Path=/health
+2025-12-18 02:55:17,222 [INFO] [b9be5a67-44f0-452e-a50c-f0e922b1abae] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.5535420011001406}, 'postgresql': {'status': 'healthy', 'response_time_ms': 14.64641700113134}}
+2025-12-18 02:55:17,223 [INFO] [b9be5a67-44f0-452e-a50c-f0e922b1abae] Request completed - Status=200, Time taken=17.96 ms
+2025-12-18 02:55:17,935 [INFO] [8acfba8d-21ad-4e0a-b7de-d4c783d67c19] Request started - Method=GET Path=/health
+2025-12-18 02:55:17,936 [INFO] [8acfba8d-21ad-4e0a-b7de-d4c783d67c19] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.1984999998967396}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.6008330001350259}}
+2025-12-18 02:55:17,936 [INFO] [8acfba8d-21ad-4e0a-b7de-d4c783d67c19] Request completed - Status=200, Time taken=1.20 ms
+2025-12-18 02:55:54,531 [INFO] [d75cf2ed-0b23-4227-a837-19d8246d6829] Request started - Method=GET Path=/health
+2025-12-18 02:55:54,543 [INFO] [d75cf2ed-0b23-4227-a837-19d8246d6829] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2303339990467066}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.02762499936216}}
+2025-12-18 02:55:54,544 [INFO] [d75cf2ed-0b23-4227-a837-19d8246d6829] Request completed - Status=200, Time taken=13.37 ms
+2025-12-18 02:56:17,407 [INFO] [28e93337-6772-4d0a-a5e0-9e8a377de250] Request started - Method=GET Path=/health
+2025-12-18 02:56:17,417 [INFO] [28e93337-6772-4d0a-a5e0-9e8a377de250] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0494170001038583}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.431167001413996}}
+2025-12-18 02:56:17,418 [INFO] [28e93337-6772-4d0a-a5e0-9e8a377de250] Request completed - Status=200, Time taken=10.98 ms
+2025-12-18 02:56:48,151 [INFO] [4696c6d5-b2a1-452a-b72d-37ccc3172710] Request started - Method=GET Path=/health
+2025-12-18 02:56:48,158 [INFO] [4696c6d5-b2a1-452a-b72d-37ccc3172710] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8875840012478875}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.241709000780247}}
+2025-12-18 02:56:48,159 [INFO] [4696c6d5-b2a1-452a-b72d-37ccc3172710] Request completed - Status=200, Time taken=8.06 ms
+2025-12-18 02:57:04,714 [INFO] [d3d4fa74-a679-42fb-b7ce-c7ce6c30d3b7] Request started - Method=GET Path=/health
+2025-12-18 02:57:04,726 [INFO] [d3d4fa74-a679-42fb-b7ce-c7ce6c30d3b7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1750829999073176}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.910707998438738}}
+2025-12-18 02:57:04,727 [INFO] [d3d4fa74-a679-42fb-b7ce-c7ce6c30d3b7] Request completed - Status=200, Time taken=13.30 ms
+2025-12-18 02:57:17,571 [INFO] [04a7ba2a-ea94-4870-b715-706c3070f188] Request started - Method=GET Path=/health
+2025-12-18 02:57:17,584 [INFO] [04a7ba2a-ea94-4870-b715-706c3070f188] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9099160015466623}, 'postgresql': {'status': 'healthy', 'response_time_ms': 10.468458000104874}}
+2025-12-18 02:57:17,585 [INFO] [04a7ba2a-ea94-4870-b715-706c3070f188] Request completed - Status=200, Time taken=14.09 ms
+2025-12-18 02:58:14,847 [INFO] [d0ecf89f-41e9-419d-82ca-78c67c942caa] Request started - Method=GET Path=/health
+2025-12-18 02:58:14,860 [INFO] [d0ecf89f-41e9-419d-82ca-78c67c942caa] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.3768749999580905}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.810207998772967}}
+2025-12-18 02:58:14,861 [INFO] [d0ecf89f-41e9-419d-82ca-78c67c942caa] Request completed - Status=200, Time taken=14.68 ms
+2025-12-18 02:58:17,758 [INFO] [acd93552-1ce2-496a-8751-a98b9153b93a] Request started - Method=GET Path=/health
+2025-12-18 02:58:17,777 [INFO] [acd93552-1ce2-496a-8751-a98b9153b93a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2480419991334202}, 'postgresql': {'status': 'healthy', 'response_time_ms': 14.264208999520633}}
+2025-12-18 02:58:17,778 [INFO] [acd93552-1ce2-496a-8751-a98b9153b93a] Request completed - Status=200, Time taken=20.33 ms
+2025-12-18 02:58:18,382 [INFO] [cf0c497a-8c1e-4cc5-8271-5e6135cbfe29] Request started - Method=GET Path=/health
+2025-12-18 02:58:18,385 [INFO] [cf0c497a-8c1e-4cc5-8271-5e6135cbfe29] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.17300000035902485}, 'postgresql': {'status': 'healthy', 'response_time_ms': 1.2130420000175945}}
+2025-12-18 02:58:18,385 [INFO] [cf0c497a-8c1e-4cc5-8271-5e6135cbfe29] Request completed - Status=200, Time taken=2.90 ms
+2025-12-18 02:59:17,946 [INFO] [30d4cef5-0a6b-4390-966a-db93e857e3f2] Request started - Method=GET Path=/health
+2025-12-18 02:59:17,955 [INFO] [30d4cef5-0a6b-4390-966a-db93e857e3f2] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8385000000998843}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.431332999956794}}
+2025-12-18 02:59:17,957 [INFO] [30d4cef5-0a6b-4390-966a-db93e857e3f2] Request completed - Status=200, Time taken=11.20 ms
+2025-12-18 02:59:24,965 [INFO] [e0dc8b13-5b99-410d-a631-bb2732f9c209] Request started - Method=GET Path=/health
+2025-12-18 02:59:24,972 [INFO] [e0dc8b13-5b99-410d-a631-bb2732f9c209] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9719580011733342}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.929416001687059}}
+2025-12-18 02:59:24,973 [INFO] [e0dc8b13-5b99-410d-a631-bb2732f9c209] Request completed - Status=200, Time taken=8.75 ms
+2025-12-18 02:59:40,177 [INFO] [test-avail-1766026780] Request started - Method=GET Path=/health
+2025-12-18 02:59:40,185 [INFO] [test-avail-1766026780] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1421660001360578}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.180832999234553}}
+2025-12-18 02:59:40,186 [INFO] [test-avail-1766026780] Request completed - Status=200, Time taken=9.58 ms
+2025-12-18 02:59:40,223 [INFO] [test-avail-1766026780] Request started - Method=POST Path=/users
+2025-12-18 02:59:40,259 [INFO] [test-avail-1766026780] USER CREATE: User created with email: alice_test@example.com
+2025-12-18 02:59:40,260 [INFO] [test-avail-1766026780] Request completed - Status=201, Time taken=37.48 ms
+2025-12-18 02:59:40,277 [INFO] [test-avail-1766026780] Request started - Method=POST Path=/users
+2025-12-18 02:59:40,280 [INFO] [test-avail-1766026780] USER CREATE: User created with email: bob_test@example.com
+2025-12-18 02:59:40,280 [INFO] [test-avail-1766026780] Request completed - Status=201, Time taken=3.01 ms
+2025-12-18 02:59:40,320 [INFO] [test-avail-1766026780] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 02:59:40,321 [INFO] CACHE ASIDE: request received for symbols alice_test@example.com
+2025-12-18 02:59:40,322 [INFO] [test-avail-1766026780] CACHE ASIDE: CACHE MISS with key cache_aside_ALICE_TEST@EXAMPLE.COM fetching from provider
+2025-12-18 02:59:40,326 [INFO] [test-avail-1766026780] CACHE ASIDE: successfully fetched fresh data from database for cache_aside_ALICE_TEST@EXAMPLE.COM
+2025-12-18 02:59:40,327 [INFO] [test-avail-1766026780] CACHE ASIDE: WRITE CACHE with cache_aside_ALICE_TEST@EXAMPLE.COM stored with TTL=300s
+2025-12-18 02:59:40,327 [INFO] [test-avail-1766026780] Request completed - Status=200, Time taken=7.21 ms
+2025-12-18 02:59:40,329 [INFO] [test-avail-1766026780] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 02:59:40,329 [INFO] CACHE ASIDE: request received for symbols bob_test@example.com
+2025-12-18 02:59:40,329 [INFO] [test-avail-1766026780] CACHE ASIDE: CACHE MISS with key cache_aside_BOB_TEST@EXAMPLE.COM fetching from provider
+2025-12-18 02:59:40,330 [INFO] [test-avail-1766026780] CACHE ASIDE: successfully fetched fresh data from database for cache_aside_BOB_TEST@EXAMPLE.COM
+2025-12-18 02:59:40,331 [INFO] [test-avail-1766026780] CACHE ASIDE: WRITE CACHE with cache_aside_BOB_TEST@EXAMPLE.COM stored with TTL=300s
+2025-12-18 02:59:40,331 [INFO] [test-avail-1766026780] Request completed - Status=200, Time taken=2.82 ms
+2025-12-18 02:59:48,538 [INFO] [6e84ff0b-4962-4f8b-9894-8136bacf29c1] Request started - Method=GET Path=/health
+2025-12-18 02:59:48,546 [INFO] [6e84ff0b-4962-4f8b-9894-8136bacf29c1] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9558330002619186}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.468666000524536}}
+2025-12-18 02:59:48,547 [INFO] [6e84ff0b-4962-4f8b-9894-8136bacf29c1] Request completed - Status=200, Time taken=9.35 ms
+2025-12-18 03:00:18,125 [INFO] [3b74b2ad-7873-4424-9ab2-edb5dea99778] Request started - Method=GET Path=/health
+2025-12-18 03:00:18,138 [INFO] [3b74b2ad-7873-4424-9ab2-edb5dea99778] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.532333999624825}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.500458999857074}}
+2025-12-18 03:00:18,139 [INFO] [3b74b2ad-7873-4424-9ab2-edb5dea99778] Request completed - Status=200, Time taken=15.05 ms
+2025-12-18 03:00:35,088 [INFO] [7f992f9a-0ae5-4561-b3ba-69e548b54ae1] Request started - Method=GET Path=/health
+2025-12-18 03:00:35,098 [INFO] [7f992f9a-0ae5-4561-b3ba-69e548b54ae1] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1366250000719447}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.009333001406048}}
+2025-12-18 03:00:35,099 [INFO] [7f992f9a-0ae5-4561-b3ba-69e548b54ae1] Request completed - Status=200, Time taken=10.90 ms
+2025-12-18 03:00:59,622 [INFO] [test-errors-1766026859] Request started - Method=GET Path=/user-avail/cache_aside/ghost_user_1766026859@example.com
+2025-12-18 03:00:59,629 [INFO] [test-errors-1766026859] Request completed - Status=404, Time taken=8.51 ms
+2025-12-18 03:00:59,697 [INFO] [test-errors-1766026859] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 03:00:59,699 [INFO] CACHE ASIDE: request received for symbols alice_test@example.com
+2025-12-18 03:00:59,701 [INFO] [test-errors-1766026859] CACHE ASIDE: CACHE HIT with key cache_aside_ALICE_TEST@EXAMPLE.COM served from Redis {"email": "alice_test@example.com", "preferences": "first", "availabilities": {"friday": [], "monday": [9, 10, 11], "sunday": [], "tuesday": [14], "saturday": [], "thursday": [], "wednesday": []}, "created_at": "2025-12-17T21:16:33.135108"}
+2025-12-18 03:00:59,701 [INFO] [test-errors-1766026859] Request completed - Status=200, Time taken=4.00 ms
+2025-12-18 03:00:59,704 [INFO] [test-errors-1766026859] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 03:00:59,704 [INFO] CACHE ASIDE: request received for symbols ghost_user_1766026859@example.com
+2025-12-18 03:00:59,704 [INFO] [test-errors-1766026859] CACHE ASIDE: CACHE MISS with key cache_aside_GHOST_USER_1766026859@EXAMPLE.COM fetching from provider
+2025-12-18 03:00:59,711 [INFO] [test-errors-1766026859] CACHE_ASIDE 404 email=ghost_user_1766026859@example.com
+2025-12-18 03:00:59,714 [ERROR] [test-errors-1766026859] CACHE_ASIDE ERROR email=ghost_user_1766026859@example.com err=
+2025-12-18 03:00:59,714 [INFO] [test-errors-1766026859] Request completed - Status=503, Time taken=10.88 ms
+2025-12-18 03:01:11,548 [INFO] [test-errors-1766026871] Request started - Method=GET Path=/user-avail/cache_aside/ghost_user_1766026871@example.com
+2025-12-18 03:01:11,555 [INFO] [test-errors-1766026871] Request completed - Status=404, Time taken=7.50 ms
+2025-12-18 03:01:11,653 [INFO] [test-errors-1766026871] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 03:01:11,654 [INFO] CACHE ASIDE: request received for symbols alice_test@example.com
+2025-12-18 03:01:11,655 [INFO] [test-errors-1766026871] CACHE ASIDE: CACHE HIT with key cache_aside_ALICE_TEST@EXAMPLE.COM served from Redis {"email": "alice_test@example.com", "preferences": "first", "availabilities": {"friday": [], "monday": [9, 10, 11], "sunday": [], "tuesday": [14], "saturday": [], "thursday": [], "wednesday": []}, "created_at": "2025-12-17T21:16:33.135108"}
+2025-12-18 03:01:11,656 [INFO] [test-errors-1766026871] Request completed - Status=200, Time taken=2.84 ms
+2025-12-18 03:01:11,658 [INFO] [test-errors-1766026871] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 03:01:11,658 [INFO] CACHE ASIDE: request received for symbols ghost_user_1766026871@example.com
+2025-12-18 03:01:11,658 [INFO] [test-errors-1766026871] CACHE ASIDE: CACHE MISS with key cache_aside_GHOST_USER_1766026871@EXAMPLE.COM fetching from provider
+2025-12-18 03:01:11,667 [INFO] [test-errors-1766026871] CACHE_ASIDE 404 email=ghost_user_1766026871@example.com
+2025-12-18 03:01:11,668 [ERROR] [test-errors-1766026871] CACHE_ASIDE ERROR email=ghost_user_1766026871@example.com err=
+2025-12-18 03:01:11,668 [INFO] [test-errors-1766026871] Request completed - Status=503, Time taken=10.90 ms
+2025-12-18 03:01:18,312 [INFO] [a1ea5b91-6015-44ca-b0f1-759b3decb0ac] Request started - Method=GET Path=/health
+2025-12-18 03:01:18,322 [INFO] [a1ea5b91-6015-44ca-b0f1-759b3decb0ac] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2375419992167735}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.024917000308051}}
+2025-12-18 03:01:18,323 [INFO] [a1ea5b91-6015-44ca-b0f1-759b3decb0ac] Request completed - Status=200, Time taken=10.56 ms
+2025-12-18 03:01:18,664 [INFO] [c9371622-1c3a-42e3-b510-013e3943d85d] Request started - Method=GET Path=/health
+2025-12-18 03:01:18,665 [INFO] [c9371622-1c3a-42e3-b510-013e3943d85d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.14637499953096267}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.5346660000213888}}
+2025-12-18 03:01:18,665 [INFO] [c9371622-1c3a-42e3-b510-013e3943d85d] Request completed - Status=200, Time taken=1.08 ms
+2025-12-18 03:01:45,494 [INFO] [94368313-e2c7-4417-8f7e-a3935c4d9f7f] Request started - Method=GET Path=/health
+2025-12-18 03:01:45,511 [INFO] [94368313-e2c7-4417-8f7e-a3935c4d9f7f] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.8506250000646105}, 'postgresql': {'status': 'healthy', 'response_time_ms': 10.388958000476123}}
+2025-12-18 03:01:45,513 [INFO] [94368313-e2c7-4417-8f7e-a3935c4d9f7f] Request completed - Status=200, Time taken=19.08 ms
+2025-12-18 03:02:18,439 [INFO] [c69c5d7f-363b-48cd-8cd4-4c3e4cd7e2a2] Request started - Method=GET Path=/health
+2025-12-18 03:02:18,446 [INFO] [c69c5d7f-363b-48cd-8cd4-4c3e4cd7e2a2] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8489579995512031}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.406165999171208}}
+2025-12-18 03:02:18,446 [INFO] [c69c5d7f-363b-48cd-8cd4-4c3e4cd7e2a2] Request completed - Status=200, Time taken=7.45 ms
+2025-12-18 03:02:48,860 [INFO] [205a4835-3912-4e82-818d-b6926ef69eeb] Request started - Method=GET Path=/health
+2025-12-18 03:02:48,867 [INFO] [205a4835-3912-4e82-818d-b6926ef69eeb] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.96174999998766}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.269458000635495}}
+2025-12-18 03:02:48,868 [INFO] [205a4835-3912-4e82-818d-b6926ef69eeb] Request completed - Status=200, Time taken=7.90 ms
+2025-12-18 03:02:55,588 [INFO] [6839bae6-96e9-4e41-be39-a96dc4806c2d] Request started - Method=GET Path=/health
+2025-12-18 03:02:55,589 [INFO] [6839bae6-96e9-4e41-be39-a96dc4806c2d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.20975000006728806}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.6180839991429821}}
+2025-12-18 03:02:55,589 [INFO] [6839bae6-96e9-4e41-be39-a96dc4806c2d] Request completed - Status=200, Time taken=1.58 ms
+2025-12-18 03:03:18,566 [INFO] [817a7092-dd92-4b7d-a045-d6c5aa460fba] Request started - Method=GET Path=/health
+2025-12-18 03:03:18,577 [INFO] [817a7092-dd92-4b7d-a045-d6c5aa460fba] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.969833999988623}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.409500000198022}}
+2025-12-18 03:03:18,579 [INFO] [817a7092-dd92-4b7d-a045-d6c5aa460fba] Request completed - Status=200, Time taken=12.55 ms
+2025-12-18 03:04:05,718 [INFO] [7ffffc6a-c619-4134-8018-9f08aad4efa6] Request started - Method=GET Path=/health
+2025-12-18 03:04:05,732 [INFO] [7ffffc6a-c619-4134-8018-9f08aad4efa6] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.418457999941893}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.312541998748202}}
+2025-12-18 03:04:05,733 [INFO] [7ffffc6a-c619-4134-8018-9f08aad4efa6] Request completed - Status=200, Time taken=15.08 ms
+2025-12-18 03:04:18,715 [INFO] [a75c2d7d-dafd-4bba-aa9b-4ee9e79b3bf5] Request started - Method=GET Path=/health
+2025-12-18 03:04:18,721 [INFO] [a75c2d7d-dafd-4bba-aa9b-4ee9e79b3bf5] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8748330001253635}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.071917001056136}}
+2025-12-18 03:04:18,722 [INFO] [a75c2d7d-dafd-4bba-aa9b-4ee9e79b3bf5] Request completed - Status=200, Time taken=7.22 ms
+2025-12-18 03:04:18,988 [INFO] [557b080e-2cce-49c8-8a15-b90fad8ce361] Request started - Method=GET Path=/health
+2025-12-18 03:04:18,989 [INFO] [557b080e-2cce-49c8-8a15-b90fad8ce361] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.12754199997289106}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.4939999998896383}}
+2025-12-18 03:04:18,989 [INFO] [557b080e-2cce-49c8-8a15-b90fad8ce361] Request completed - Status=200, Time taken=1.04 ms
+2025-12-18 03:05:15,847 [INFO] [19400893-be5f-440e-a1aa-431cb78be154] Request started - Method=GET Path=/health
+2025-12-18 03:05:15,858 [INFO] [19400893-be5f-440e-a1aa-431cb78be154] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2604579987964826}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.770832998678088}}
+2025-12-18 03:05:15,860 [INFO] [19400893-be5f-440e-a1aa-431cb78be154] Request completed - Status=200, Time taken=12.64 ms
+2025-12-18 03:05:18,815 [INFO] [6576bfa8-bbd8-468a-90db-c7280377ff51] Request started - Method=GET Path=/health
+2025-12-18 03:05:18,816 [INFO] [6576bfa8-bbd8-468a-90db-c7280377ff51] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.1878750008472707}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.5813750012748642}}
+2025-12-18 03:05:18,816 [INFO] [6576bfa8-bbd8-468a-90db-c7280377ff51] Request completed - Status=200, Time taken=1.27 ms
+2025-12-18 03:05:49,178 [INFO] [91e2cfdc-1bde-430f-8506-e5eccd61e9f0] Request started - Method=GET Path=/health
+2025-12-18 03:05:49,187 [INFO] [91e2cfdc-1bde-430f-8506-e5eccd61e9f0] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1440420003054896}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.690207999374252}}
+2025-12-18 03:05:49,188 [INFO] [91e2cfdc-1bde-430f-8506-e5eccd61e9f0] Request completed - Status=200, Time taken=10.81 ms
+2025-12-18 03:06:18,980 [INFO] [c6da4503-80e6-4a26-b31c-8e2bd6010aa0] Request started - Method=GET Path=/health
+2025-12-18 03:06:18,991 [INFO] [c6da4503-80e6-4a26-b31c-8e2bd6010aa0] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 4.26549999974668}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.492875000432832}}
+2025-12-18 03:06:18,993 [INFO] [c6da4503-80e6-4a26-b31c-8e2bd6010aa0] Request completed - Status=200, Time taken=13.63 ms
+2025-12-18 03:06:26,007 [INFO] [cb292444-70d2-48f5-9c35-729f557b6881] Request started - Method=GET Path=/health
+2025-12-18 03:06:26,016 [INFO] [cb292444-70d2-48f5-9c35-729f557b6881] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1293749994365498}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.569082999703824}}
+2025-12-18 03:06:26,017 [INFO] [cb292444-70d2-48f5-9c35-729f557b6881] Request completed - Status=200, Time taken=10.28 ms
+2025-12-18 03:07:19,158 [INFO] [83bcc2e2-1f05-4490-8108-2af82c93e432] Request started - Method=GET Path=/health
+2025-12-18 03:07:19,167 [INFO] [83bcc2e2-1f05-4490-8108-2af82c93e432] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1227499999222346}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.130707999342121}}
+2025-12-18 03:07:19,168 [INFO] [83bcc2e2-1f05-4490-8108-2af82c93e432] Request completed - Status=200, Time taken=10.27 ms
+2025-12-18 03:07:19,295 [INFO] [0b008173-b8b5-410e-88e9-e0fb4bb66d47] Request started - Method=GET Path=/health
+2025-12-18 03:07:19,296 [INFO] [0b008173-b8b5-410e-88e9-e0fb4bb66d47] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.13262500033306424}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.4822909995709779}}
+2025-12-18 03:07:19,296 [INFO] [0b008173-b8b5-410e-88e9-e0fb4bb66d47] Request completed - Status=200, Time taken=1.01 ms
+2025-12-18 03:07:36,128 [INFO] [0fa12940-2148-4add-97c8-4daa385656cb] Request started - Method=GET Path=/health
+2025-12-18 03:07:36,138 [INFO] [0fa12940-2148-4add-97c8-4daa385656cb] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.399999999193824}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.317833000139217}}
+2025-12-18 03:07:36,140 [INFO] [0fa12940-2148-4add-97c8-4daa385656cb] Request completed - Status=200, Time taken=11.86 ms
+2025-12-18 03:08:19,591 [INFO] [d53d53bf-5c47-4927-adb7-df7757af3078] Request started - Method=GET Path=/health
+2025-12-18 03:08:19,601 [INFO] [d53d53bf-5c47-4927-adb7-df7757af3078] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.148125000327127}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.65145800121536}}
+2025-12-18 03:08:19,603 [INFO] [d53d53bf-5c47-4927-adb7-df7757af3078] Request completed - Status=200, Time taken=11.76 ms
+2025-12-18 03:08:46,481 [INFO] [2423023b-2a1b-4998-a348-b317b6a9e8a5] Request started - Method=GET Path=/health
+2025-12-18 03:08:46,506 [INFO] [2423023b-2a1b-4998-a348-b317b6a9e8a5] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 5.324083000232349}, 'postgresql': {'status': 'healthy', 'response_time_ms': 16.112041001179023}}
+2025-12-18 03:08:46,508 [INFO] [2423023b-2a1b-4998-a348-b317b6a9e8a5] Request completed - Status=200, Time taken=27.45 ms
+2025-12-18 03:08:49,803 [INFO] [355e8f5e-37df-477f-b395-2315d9492f47] Request started - Method=GET Path=/health
+2025-12-18 03:08:49,834 [INFO] [355e8f5e-37df-477f-b395-2315d9492f47] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 12.265375000424683}, 'postgresql': {'status': 'healthy', 'response_time_ms': 25.584375000107684}}
+2025-12-18 03:08:49,837 [INFO] [355e8f5e-37df-477f-b395-2315d9492f47] Request completed - Status=200, Time taken=33.91 ms
+2025-12-18 03:09:19,890 [INFO] [755fb368-46a5-4618-83e2-0b18d4cc2723] Request started - Method=GET Path=/health
+2025-12-18 03:09:19,902 [INFO] [755fb368-46a5-4618-83e2-0b18d4cc2723] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 4.241500000716769}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.3185830010043}}
+2025-12-18 03:09:19,905 [INFO] [755fb368-46a5-4618-83e2-0b18d4cc2723] Request completed - Status=200, Time taken=14.78 ms
+2025-12-18 03:09:56,679 [INFO] [d8f98940-e523-414d-9248-42e30ed8fbb2] Request started - Method=GET Path=/health
+2025-12-18 03:09:56,686 [INFO] [d8f98940-e523-414d-9248-42e30ed8fbb2] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.2075419999746373}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.027166998843313}}
+2025-12-18 03:09:56,687 [INFO] [d8f98940-e523-414d-9248-42e30ed8fbb2] Request completed - Status=200, Time taken=8.81 ms
+2025-12-18 03:10:20,082 [INFO] [e46d520d-c1cd-4840-abb5-3dce2408180d] Request started - Method=GET Path=/health
+2025-12-18 03:10:20,089 [INFO] [e46d520d-c1cd-4840-abb5-3dce2408180d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8747499996388797}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.4147499993414385}}
+2025-12-18 03:10:20,089 [INFO] [e46d520d-c1cd-4840-abb5-3dce2408180d] Request completed - Status=200, Time taken=7.79 ms
+2025-12-18 03:10:20,101 [INFO] [a0711374-07fc-49c3-aaa8-6cc8326e9c25] Request started - Method=GET Path=/health
+2025-12-18 03:10:20,102 [INFO] [a0711374-07fc-49c3-aaa8-6cc8326e9c25] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.2285410009790212}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.6123330003902083}}
+2025-12-18 03:10:20,102 [INFO] [a0711374-07fc-49c3-aaa8-6cc8326e9c25] Request completed - Status=200, Time taken=1.38 ms
+2025-12-18 03:12:30,831 [INFO] [f42952cd-dc66-44c9-8649-145a0f941ac9] Request started - Method=GET Path=/health
+2025-12-18 03:12:30,840 [INFO] [f42952cd-dc66-44c9-8649-145a0f941ac9] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.961541999160545}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.982167000387562}}
+2025-12-18 03:12:30,841 [INFO] [f42952cd-dc66-44c9-8649-145a0f941ac9] Request completed - Status=200, Time taken=10.80 ms
+2025-12-18 03:12:36,557 [INFO] [d9d32b78-b78b-445f-9099-03f1bc5d3c8d] Request started - Method=GET Path=/health
+2025-12-18 03:12:36,568 [INFO] [d9d32b78-b78b-445f-9099-03f1bc5d3c8d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8324999998876592}, 'postgresql': {'status': 'healthy', 'response_time_ms': 7.928499999252381}}
+2025-12-18 03:12:36,570 [INFO] [d9d32b78-b78b-445f-9099-03f1bc5d3c8d] Request completed - Status=200, Time taken=12.74 ms
+2025-12-18 03:12:42,269 [INFO] [edaa23e4-fe54-430e-bb8e-10060e8035b8] Request started - Method=GET Path=/health
+2025-12-18 03:12:42,278 [INFO] [edaa23e4-fe54-430e-bb8e-10060e8035b8] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0177499989367789}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.657207999116508}}
+2025-12-18 03:12:42,278 [INFO] [edaa23e4-fe54-430e-bb8e-10060e8035b8] Request completed - Status=200, Time taken=10.66 ms
+2025-12-18 03:12:53,994 [INFO] [test-errors-1766027573] Request started - Method=GET Path=/user-avail/cache_aside/ghost_user_1766027573@example.com
+2025-12-18 03:12:53,999 [INFO] [test-errors-1766027573] Request completed - Status=404, Time taken=5.33 ms
+2025-12-18 03:12:54,055 [INFO] [test-errors-1766027573] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 03:12:54,057 [INFO] CACHE ASIDE: request received for symbols alice_test@example.com
+2025-12-18 03:12:54,059 [INFO] [test-errors-1766027573] CACHE ASIDE: CACHE MISS with key cache_aside_ALICE_TEST@EXAMPLE.COM fetching from provider
+2025-12-18 03:12:54,067 [INFO] [test-errors-1766027573] CACHE_ASIDE 404 email=alice_test@example.com
+2025-12-18 03:12:54,069 [INFO] [test-errors-1766027573] Request completed - Status=404, Time taken=13.18 ms
+2025-12-18 03:12:54,071 [INFO] [test-errors-1766027573] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 03:12:54,072 [INFO] CACHE ASIDE: request received for symbols ghost_user_1766027573@example.com
+2025-12-18 03:12:54,072 [INFO] [test-errors-1766027573] CACHE ASIDE: CACHE MISS with key cache_aside_GHOST_USER_1766027573@EXAMPLE.COM fetching from provider
+2025-12-18 03:12:54,073 [INFO] [test-errors-1766027573] CACHE_ASIDE 404 email=ghost_user_1766027573@example.com
+2025-12-18 03:12:54,074 [INFO] [test-errors-1766027573] Request completed - Status=404, Time taken=3.30 ms
+2025-12-18 03:12:54,133 [INFO] [test-errors-1766027573] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 03:12:54,133 [INFO] CACHE ASIDE: request received for symbols alice_test@example.com
+2025-12-18 03:12:54,134 [INFO] [test-errors-1766027573] CACHE ASIDE: CACHE MISS with key cache_aside_ALICE_TEST@EXAMPLE.COM fetching from provider
+2025-12-18 03:12:54,134 [INFO] [test-errors-1766027573] CACHE_ASIDE 404 email=alice_test@example.com
+2025-12-18 03:12:54,135 [INFO] [test-errors-1766027573] Request completed - Status=404, Time taken=2.24 ms
+2025-12-18 03:12:54,138 [INFO] [test-errors-1766027573] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 03:12:54,139 [INFO] CACHE ASIDE: request received for symbols ghost_user_1766027573@example.com
+2025-12-18 03:12:54,139 [INFO] [test-errors-1766027573] CACHE ASIDE: CACHE MISS with key cache_aside_GHOST_USER_1766027573@EXAMPLE.COM fetching from provider
+2025-12-18 03:12:54,140 [INFO] [test-errors-1766027573] CACHE_ASIDE 404 email=ghost_user_1766027573@example.com
+2025-12-18 03:12:54,140 [INFO] [test-errors-1766027573] Request completed - Status=404, Time taken=1.65 ms
+2025-12-18 03:13:04,611 [INFO] [test-user-1766027584] Request started - Method=GET Path=/health
+2025-12-18 03:13:04,631 [INFO] [test-user-1766027584] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.5561660002276767}, 'postgresql': {'status': 'healthy', 'response_time_ms': 14.444415999605553}}
+2025-12-18 03:13:04,634 [INFO] [test-user-1766027584] Request completed - Status=200, Time taken=26.15 ms
+2025-12-18 03:13:04,669 [INFO] [test-user-1766027584] Request started - Method=POST Path=/users
+2025-12-18 03:13:04,733 [INFO] [test-user-1766027584] USER CREATE: User created with email: alice_test@example.com
+2025-12-18 03:13:04,733 [INFO] [test-user-1766027584] Request completed - Status=201, Time taken=63.86 ms
+2025-12-18 03:13:04,756 [INFO] [test-user-1766027584] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 03:13:04,756 [INFO] CACHE ASIDE: request received for symbols alice_test@example.com
+2025-12-18 03:13:04,757 [INFO] [test-user-1766027584] CACHE ASIDE: CACHE MISS with key cache_aside_ALICE_TEST@EXAMPLE.COM fetching from provider
+2025-12-18 03:13:04,758 [INFO] [test-user-1766027584] CACHE ASIDE: successfully fetched fresh data from database for cache_aside_ALICE_TEST@EXAMPLE.COM
+2025-12-18 03:13:04,759 [INFO] [test-user-1766027584] CACHE ASIDE: WRITE CACHE with cache_aside_ALICE_TEST@EXAMPLE.COM stored with TTL=300s
+2025-12-18 03:13:04,759 [INFO] [test-user-1766027584] Request completed - Status=200, Time taken=3.51 ms
+2025-12-18 03:13:10,418 [INFO] [test-avail-1766027590] Request started - Method=GET Path=/health
+2025-12-18 03:13:10,420 [INFO] [test-avail-1766027590] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.2186660003644647}, 'postgresql': {'status': 'healthy', 'response_time_ms': 0.8902500012482051}}
+2025-12-18 03:13:10,421 [INFO] [test-avail-1766027590] Request completed - Status=200, Time taken=2.20 ms
+2025-12-18 03:13:10,447 [INFO] [test-avail-1766027590] Request started - Method=POST Path=/users
+2025-12-18 03:13:10,453 [INFO] [test-avail-1766027590] USER CREATE: User created with email: alice_test@example.com
+2025-12-18 03:13:10,454 [INFO] [test-avail-1766027590] Request completed - Status=201, Time taken=6.69 ms
+2025-12-18 03:13:10,471 [INFO] [test-avail-1766027590] Request started - Method=POST Path=/users
+2025-12-18 03:13:10,474 [INFO] [test-avail-1766027590] USER CREATE: User created with email: bob_test@example.com
+2025-12-18 03:13:10,474 [INFO] [test-avail-1766027590] Request completed - Status=201, Time taken=2.80 ms
+2025-12-18 03:13:10,499 [INFO] [test-avail-1766027590] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 03:13:10,500 [INFO] CACHE ASIDE: request received for symbols alice_test@example.com
+2025-12-18 03:13:10,500 [INFO] [test-avail-1766027590] CACHE ASIDE: CACHE HIT with key cache_aside_ALICE_TEST@EXAMPLE.COM served from Redis {"email": "alice_test@example.com", "preferences": "first", "availabilities": {"friday": [], "monday": [9, 10, 11], "sunday": [], "tuesday": [14], "saturday": [], "thursday": [], "wednesday": []}, "created_at": "2025-12-18T03:13:04.728804"}
+2025-12-18 03:13:10,500 [INFO] [test-avail-1766027590] Request completed - Status=200, Time taken=1.06 ms
+2025-12-18 03:13:10,502 [INFO] [test-avail-1766027590] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 03:13:10,502 [INFO] CACHE ASIDE: request received for symbols bob_test@example.com
+2025-12-18 03:13:10,502 [INFO] [test-avail-1766027590] CACHE ASIDE: CACHE MISS with key cache_aside_BOB_TEST@EXAMPLE.COM fetching from provider
+2025-12-18 03:13:10,503 [INFO] [test-avail-1766027590] CACHE ASIDE: successfully fetched fresh data from database for cache_aside_BOB_TEST@EXAMPLE.COM
+2025-12-18 03:13:10,504 [INFO] [test-avail-1766027590] CACHE ASIDE: WRITE CACHE with cache_aside_BOB_TEST@EXAMPLE.COM stored with TTL=300s
+2025-12-18 03:13:10,504 [INFO] [test-avail-1766027590] Request completed - Status=200, Time taken=2.29 ms
+2025-12-18 03:13:15,638 [INFO] [test-suggest-1766027595] Request started - Method=GET Path=/health
+2025-12-18 03:13:15,642 [INFO] [test-suggest-1766027595] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9824999997363193}, 'postgresql': {'status': 'healthy', 'response_time_ms': 2.698665999560035}}
+2025-12-18 03:13:15,647 [INFO] [test-suggest-1766027595] Request completed - Status=200, Time taken=8.49 ms
+2025-12-18 03:13:15,711 [INFO] [test-suggest-1766027595] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 03:13:15,713 [INFO] CACHE ASIDE: request received for symbols alice_test@example.com
+2025-12-18 03:13:15,714 [INFO] [test-suggest-1766027595] CACHE ASIDE: CACHE HIT with key cache_aside_ALICE_TEST@EXAMPLE.COM served from Redis {"email": "alice_test@example.com", "preferences": "first", "availabilities": {"friday": [], "monday": [9, 10, 11], "sunday": [], "tuesday": [14], "saturday": [], "thursday": [], "wednesday": []}, "created_at": "2025-12-18T03:13:04.728804"}
+2025-12-18 03:13:15,714 [INFO] [test-suggest-1766027595] Request completed - Status=200, Time taken=2.82 ms
+2025-12-18 03:13:15,721 [INFO] [test-suggest-1766027595] Request started - Method=GET Path=/user-avail/cache-aside
+2025-12-18 03:13:15,721 [INFO] CACHE ASIDE: request received for symbols bob_test@example.com
+2025-12-18 03:13:15,722 [INFO] [test-suggest-1766027595] CACHE ASIDE: CACHE HIT with key cache_aside_BOB_TEST@EXAMPLE.COM served from Redis {"email": "bob_test@example.com", "preferences": "first", "availabilities": {"friday": [], "monday": [9, 10, 11], "sunday": [], "tuesday": [14], "saturday": [], "thursday": [], "wednesday": []}, "created_at": "2025-12-18T03:13:10.472535"}
+2025-12-18 03:13:15,722 [INFO] [test-suggest-1766027595] Request completed - Status=200, Time taken=1.17 ms
+2025-12-18 03:13:36,711 [INFO] [09743785-0e81-4ca4-8e49-38bbe1f567a5] Request started - Method=GET Path=/health
+2025-12-18 03:13:36,722 [INFO] [09743785-0e81-4ca4-8e49-38bbe1f567a5] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9030420005728956}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.490792000069632}}
+2025-12-18 03:13:36,723 [INFO] [09743785-0e81-4ca4-8e49-38bbe1f567a5] Request completed - Status=200, Time taken=12.83 ms
+2025-12-18 03:13:40,958 [INFO] [0b1c5f7e-b097-427e-9eac-f3518798bc9d] Request started - Method=GET Path=/health
+2025-12-18 03:13:40,967 [INFO] [0b1c5f7e-b097-427e-9eac-f3518798bc9d] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1664590001601027}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.63658399914857}}
+2025-12-18 03:13:40,968 [INFO] [0b1c5f7e-b097-427e-9eac-f3518798bc9d] Request completed - Status=200, Time taken=10.38 ms
+2025-12-18 03:14:12,463 [INFO] [a00ac166-7963-4672-9a56-758de74cf284] Request started - Method=GET Path=/health
+2025-12-18 03:14:12,469 [INFO] [a00ac166-7963-4672-9a56-758de74cf284] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.9173340004053898}, 'postgresql': {'status': 'healthy', 'response_time_ms': 3.908958999090828}}
+2025-12-18 03:14:12,470 [INFO] [a00ac166-7963-4672-9a56-758de74cf284] Request completed - Status=200, Time taken=7.45 ms
+2025-12-18 03:14:36,889 [INFO] [3aff281c-8f15-4137-9765-ecae3a189458] Request started - Method=GET Path=/health
+2025-12-18 03:14:36,905 [INFO] [3aff281c-8f15-4137-9765-ecae3a189458] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.1101250001956942}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.30458400034695}}
+2025-12-18 03:14:36,906 [INFO] [3aff281c-8f15-4137-9765-ecae3a189458] Request completed - Status=200, Time taken=17.74 ms
+2025-12-18 03:14:51,060 [INFO] [7f04141b-f781-4c39-9570-86cf40274508] Request started - Method=GET Path=/health
+2025-12-18 03:14:51,064 [INFO] [7f04141b-f781-4c39-9570-86cf40274508] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.5573329999606358}, 'postgresql': {'status': 'healthy', 'response_time_ms': 2.592875000118511}}
+2025-12-18 03:14:51,065 [INFO] [7f04141b-f781-4c39-9570-86cf40274508] Request completed - Status=200, Time taken=4.78 ms
+2025-12-18 03:15:37,069 [INFO] [974d5142-525a-4d1f-aa1f-e5f3f0f31b5a] Request started - Method=GET Path=/health
+2025-12-18 03:15:37,078 [INFO] [974d5142-525a-4d1f-aa1f-e5f3f0f31b5a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.8498340012010885}, 'postgresql': {'status': 'healthy', 'response_time_ms': 6.385124999724212}}
+2025-12-18 03:15:37,079 [INFO] [974d5142-525a-4d1f-aa1f-e5f3f0f31b5a] Request completed - Status=200, Time taken=11.09 ms
+2025-12-18 03:15:42,678 [INFO] [798dc1b3-4702-4db4-977b-86c615cc9b83] Request started - Method=GET Path=/health
+2025-12-18 03:15:42,685 [INFO] [798dc1b3-4702-4db4-977b-86c615cc9b83] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0558750000200234}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.2920420002919855}}
+2025-12-18 03:15:42,686 [INFO] [798dc1b3-4702-4db4-977b-86c615cc9b83] Request completed - Status=200, Time taken=9.17 ms
+2025-12-18 03:16:01,159 [INFO] [97b6765c-d96c-43ec-919a-3159ba72cc7a] Request started - Method=GET Path=/health
+2025-12-18 03:16:01,168 [INFO] [97b6765c-d96c-43ec-919a-3159ba72cc7a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.09508400055347}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.992709000362083}}
+2025-12-18 03:16:01,169 [INFO] [97b6765c-d96c-43ec-919a-3159ba72cc7a] Request completed - Status=200, Time taken=13.98 ms
+2025-12-18 03:16:57,142 [INFO] [d37389af-eead-49aa-b045-f2b900c0bbab] Request started - Method=GET Path=/health
+2025-12-18 03:16:57,301 [INFO] [d37389af-eead-49aa-b045-f2b900c0bbab] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 26.94583300035447}, 'postgresql': {'status': 'healthy', 'response_time_ms': 106.45624999961001}}
+2025-12-18 03:16:57,310 [INFO] [d37389af-eead-49aa-b045-f2b900c0bbab] Request completed - Status=200, Time taken=169.66 ms
+2025-12-18 03:17:29,531 [INFO] [09afef84-cafb-4f99-9643-6b1739d992b9] Request started - Method=GET Path=/health
+2025-12-18 03:17:29,875 [INFO] [09afef84-cafb-4f99-9643-6b1739d992b9] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 32.9202080010873}, 'postgresql': {'status': 'healthy', 'response_time_ms': 247.89945799966517}}
+2025-12-18 03:17:29,887 [INFO] [09afef84-cafb-4f99-9643-6b1739d992b9] Request completed - Status=200, Time taken=364.35 ms
+2025-12-18 03:17:31,139 [INFO] [1b5cb53e-dbbd-45d8-b2df-377ca7dcf631] Request started - Method=GET Path=/health
+2025-12-18 03:17:31,170 [INFO] [1b5cb53e-dbbd-45d8-b2df-377ca7dcf631] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 6.834083000285318}, 'postgresql': {'status': 'healthy', 'response_time_ms': 26.651791000404046}}
+2025-12-18 03:17:31,172 [INFO] [1b5cb53e-dbbd-45d8-b2df-377ca7dcf631] Request completed - Status=200, Time taken=33.45 ms
+2025-12-18 03:17:57,812 [INFO] [dc179e37-3102-4e15-8fa0-32abf983792a] Request started - Method=GET Path=/health
+2025-12-18 03:17:57,836 [INFO] [dc179e37-3102-4e15-8fa0-32abf983792a] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 6.195834001118783}, 'postgresql': {'status': 'healthy', 'response_time_ms': 18.261500001244713}}
+2025-12-18 03:17:57,838 [INFO] [dc179e37-3102-4e15-8fa0-32abf983792a] Request completed - Status=200, Time taken=38.50 ms
+2025-12-18 03:18:40,194 [INFO] [29468b82-1c4c-416e-a537-946b05351268] Request started - Method=GET Path=/health
+2025-12-18 03:18:40,236 [INFO] [29468b82-1c4c-416e-a537-946b05351268] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 3.873375000694068}, 'postgresql': {'status': 'healthy', 'response_time_ms': 33.30229200037138}}
+2025-12-18 03:18:40,237 [INFO] [29468b82-1c4c-416e-a537-946b05351268] Request completed - Status=200, Time taken=43.52 ms
+2025-12-18 03:18:58,038 [INFO] [68a84982-0d44-48b6-9bd7-499e0af2c453] Request started - Method=GET Path=/health
+2025-12-18 03:18:58,049 [INFO] [68a84982-0d44-48b6-9bd7-499e0af2c453] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.804290999440127}, 'postgresql': {'status': 'healthy', 'response_time_ms': 4.127582998989965}}
+2025-12-18 03:18:58,051 [INFO] [68a84982-0d44-48b6-9bd7-499e0af2c453] Request completed - Status=200, Time taken=14.25 ms
+2025-12-18 03:19:01,554 [INFO] [1736607b-9a54-45f4-837f-7cddb5bb5423] Request started - Method=GET Path=/health
+2025-12-18 03:19:01,568 [INFO] [1736607b-9a54-45f4-837f-7cddb5bb5423] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.7685419986955822}, 'postgresql': {'status': 'healthy', 'response_time_ms': 11.144999998577987}}
+2025-12-18 03:19:01,570 [INFO] [1736607b-9a54-45f4-837f-7cddb5bb5423] Request completed - Status=200, Time taken=15.62 ms
+2025-12-18 03:19:50,456 [INFO] [e3848af0-5482-4482-b2f3-6a5ecd9ba2c3] Request started - Method=GET Path=/health
+2025-12-18 03:19:50,487 [INFO] [e3848af0-5482-4482-b2f3-6a5ecd9ba2c3] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 2.629791999424924}, 'postgresql': {'status': 'healthy', 'response_time_ms': 19.06737500030431}}
+2025-12-18 03:19:50,489 [INFO] [e3848af0-5482-4482-b2f3-6a5ecd9ba2c3] Request completed - Status=200, Time taken=34.42 ms
+2025-12-18 03:19:58,195 [INFO] [08ab6fb2-78c2-4dad-8ab2-2d3dd9879b0b] Request started - Method=GET Path=/health
+2025-12-18 03:19:58,205 [INFO] [08ab6fb2-78c2-4dad-8ab2-2d3dd9879b0b] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 0.7637919989065267}, 'postgresql': {'status': 'healthy', 'response_time_ms': 8.13916699917172}}
+2025-12-18 03:19:58,207 [INFO] [08ab6fb2-78c2-4dad-8ab2-2d3dd9879b0b] Request completed - Status=200, Time taken=12.67 ms
+2025-12-18 03:20:31,866 [INFO] [10e71906-7f3d-4bca-b524-88b42857d2bc] Request started - Method=GET Path=/health
+2025-12-18 03:20:31,887 [INFO] [10e71906-7f3d-4bca-b524-88b42857d2bc] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 6.951332999960869}, 'postgresql': {'status': 'healthy', 'response_time_ms': 12.148417001299094}}
+2025-12-18 03:20:31,888 [INFO] [10e71906-7f3d-4bca-b524-88b42857d2bc] Request completed - Status=200, Time taken=22.14 ms
+2025-12-18 03:20:58,547 [INFO] [5a2ad42f-1948-4762-829a-02d447e1941f] Request started - Method=GET Path=/health
+2025-12-18 03:20:58,560 [INFO] [5a2ad42f-1948-4762-829a-02d447e1941f] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.0421669994684635}, 'postgresql': {'status': 'healthy', 'response_time_ms': 9.51412499853177}}
+2025-12-18 03:20:58,562 [INFO] [5a2ad42f-1948-4762-829a-02d447e1941f] Request completed - Status=200, Time taken=15.71 ms
+2025-12-18 03:21:00,891 [INFO] [c933d644-4ef3-44b8-bdab-004bf342f2e7] Request started - Method=GET Path=/health
+2025-12-18 03:21:00,902 [INFO] [c933d644-4ef3-44b8-bdab-004bf342f2e7] HEALTH Service healthy: {'redis': {'status': 'healthy', 'response_time_ms': 1.4226250004867325}, 'postgresql': {'status': 'healthy', 'response_time_ms': 5.807749999803491}}
+2025-12-18 03:21:00,903 [INFO] [c933d644-4ef3-44b8-bdab-004bf342f2e7] Request completed - Status=200, Time taken=11.50 ms

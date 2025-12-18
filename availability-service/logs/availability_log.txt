@@ -1,0 +1,932 @@
+2025-12-18 01:08:59,367 | INFO | availability-service | [17ac912c-321a-4856-9548-30af14f455b8] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:08:59,406 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:08:59,407 | INFO | root | [17ac912c-321a-4856-9548-30af14f455b8] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:08:59,407 | INFO | availability-service | [17ac912c-321a-4856-9548-30af14f455b8] Request completed - Status=200, , Time taken=40.37 ms
+2025-12-18 01:09:59,547 | INFO | availability-service | [14627d79-c9f4-4554-a9e3-c3dafa898c12] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:09:59,589 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:09:59,590 | INFO | root | [14627d79-c9f4-4554-a9e3-c3dafa898c12] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:09:59,590 | INFO | availability-service | [14627d79-c9f4-4554-a9e3-c3dafa898c12] Request completed - Status=200, , Time taken=43.41 ms
+2025-12-18 01:10:03,054 | INFO | availability-service | [2646736f-0b06-4264-ad5e-c4c55d84abbd] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:10:03,070 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:10:03,071 | INFO | root | [2646736f-0b06-4264-ad5e-c4c55d84abbd] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:10:03,072 | INFO | availability-service | [2646736f-0b06-4264-ad5e-c4c55d84abbd] Request completed - Status=200, , Time taken=17.81 ms
+2025-12-18 01:10:59,747 | INFO | availability-service | [f665a117-ac5a-41e8-8203-ae985352805a] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:10:59,799 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:10:59,800 | INFO | root | [f665a117-ac5a-41e8-8203-ae985352805a] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:10:59,801 | INFO | availability-service | [f665a117-ac5a-41e8-8203-ae985352805a] Request completed - Status=200, , Time taken=53.62 ms
+2025-12-18 01:11:33,286 | INFO | availability-service | [4e83bdc6-3a20-4ba5-84b4-ac6211da52f3] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:11:33,322 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:11:33,323 | INFO | root | [4e83bdc6-3a20-4ba5-84b4-ac6211da52f3] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:11:33,325 | INFO | availability-service | [4e83bdc6-3a20-4ba5-84b4-ac6211da52f3] Request completed - Status=200, , Time taken=38.78 ms
+2025-12-18 01:11:59,928 | INFO | availability-service | [b471b900-05c2-41b9-b5ce-0e8a08bd39c3] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:11:59,958 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:11:59,960 | INFO | root | [b471b900-05c2-41b9-b5ce-0e8a08bd39c3] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:11:59,961 | INFO | availability-service | [b471b900-05c2-41b9-b5ce-0e8a08bd39c3] Request completed - Status=200, , Time taken=32.90 ms
+2025-12-18 01:13:00,063 | INFO | availability-service | [07cd6359-f977-4f79-b0d4-c85a9dd62b07] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:13:00,102 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:13:00,103 | INFO | root | [07cd6359-f977-4f79-b0d4-c85a9dd62b07] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:13:00,103 | INFO | availability-service | [07cd6359-f977-4f79-b0d4-c85a9dd62b07] Request completed - Status=200, , Time taken=40.98 ms
+2025-12-18 01:13:03,469 | INFO | availability-service | [b27341bb-37f1-492a-bc34-0591d66ad4e2] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:13:03,482 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:13:03,483 | INFO | root | [b27341bb-37f1-492a-bc34-0591d66ad4e2] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:13:03,483 | INFO | availability-service | [b27341bb-37f1-492a-bc34-0591d66ad4e2] Request completed - Status=200, , Time taken=14.07 ms
+2025-12-18 01:14:00,204 | INFO | availability-service | [cdee5649-9030-413d-976b-d39eb88980d0] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:14:00,246 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:14:00,247 | INFO | root | [cdee5649-9030-413d-976b-d39eb88980d0] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:14:00,248 | INFO | availability-service | [cdee5649-9030-413d-976b-d39eb88980d0] Request completed - Status=200, , Time taken=44.26 ms
+2025-12-18 01:14:33,751 | INFO | availability-service | [798c0656-bfc4-4124-9416-c2448a4d2c5d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:14:33,835 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:14:33,836 | INFO | root | [798c0656-bfc4-4124-9416-c2448a4d2c5d] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:14:33,837 | INFO | availability-service | [798c0656-bfc4-4124-9416-c2448a4d2c5d] Request completed - Status=200, , Time taken=86.16 ms
+2025-12-18 01:15:00,389 | INFO | availability-service | [f9d5c0f4-ede2-472b-9af8-1edcc749f98f] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:15:00,433 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:15:00,434 | INFO | root | [f9d5c0f4-ede2-472b-9af8-1edcc749f98f] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:15:00,434 | INFO | availability-service | [f9d5c0f4-ede2-472b-9af8-1edcc749f98f] Request completed - Status=200, , Time taken=45.42 ms
+2025-12-18 01:16:00,536 | INFO | availability-service | [95f80577-8958-4fff-b32c-7830432119eb] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:16:00,590 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:16:00,591 | INFO | root | [95f80577-8958-4fff-b32c-7830432119eb] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:16:00,592 | INFO | availability-service | [95f80577-8958-4fff-b32c-7830432119eb] Request completed - Status=200, , Time taken=55.86 ms
+2025-12-18 01:16:04,024 | INFO | availability-service | [790a2fd2-f12e-4761-827b-250c31e76153] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:16:04,033 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:16:04,034 | INFO | root | [790a2fd2-f12e-4761-827b-250c31e76153] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:16:04,034 | INFO | availability-service | [790a2fd2-f12e-4761-827b-250c31e76153] Request completed - Status=200, , Time taken=9.87 ms
+2025-12-18 01:17:00,695 | INFO | availability-service | [aceb942e-eadc-4758-a1fc-e8dc5d74b133] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:17:00,741 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:17:00,742 | INFO | root | [aceb942e-eadc-4758-a1fc-e8dc5d74b133] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:17:00,742 | INFO | availability-service | [aceb942e-eadc-4758-a1fc-e8dc5d74b133] Request completed - Status=200, , Time taken=47.67 ms
+2025-12-18 01:17:34,181 | INFO | availability-service | [343e7592-4654-4eed-9ff4-c2385d15a28f] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:17:34,212 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:17:34,213 | INFO | root | [343e7592-4654-4eed-9ff4-c2385d15a28f] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:17:34,213 | INFO | availability-service | [343e7592-4654-4eed-9ff4-c2385d15a28f] Request completed - Status=200, , Time taken=33.02 ms
+2025-12-18 01:18:00,827 | INFO | availability-service | [1d2a2640-c33b-4a61-a573-75353398e505] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:18:00,881 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:18:00,882 | INFO | root | [1d2a2640-c33b-4a61-a573-75353398e505] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:18:00,883 | INFO | availability-service | [1d2a2640-c33b-4a61-a573-75353398e505] Request completed - Status=200, , Time taken=55.39 ms
+2025-12-18 01:19:00,976 | INFO | availability-service | [521b4f79-0a25-4b6e-812e-4c97a99232f9] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:19:01,002 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:19:01,002 | INFO | root | [521b4f79-0a25-4b6e-812e-4c97a99232f9] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:19:01,003 | INFO | availability-service | [521b4f79-0a25-4b6e-812e-4c97a99232f9] Request completed - Status=200, , Time taken=26.62 ms
+2025-12-18 01:19:04,361 | INFO | availability-service | [42dcb3de-959a-4140-aac6-78233ce6013a] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:19:04,383 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:19:04,383 | INFO | root | [42dcb3de-959a-4140-aac6-78233ce6013a] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:19:04,384 | INFO | availability-service | [42dcb3de-959a-4140-aac6-78233ce6013a] Request completed - Status=200, , Time taken=23.12 ms
+2025-12-18 01:20:01,099 | INFO | availability-service | [1a8f3370-c8a8-4e10-99a7-516ce1fc7c13] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:20:01,140 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:20:01,141 | INFO | root | [1a8f3370-c8a8-4e10-99a7-516ce1fc7c13] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:20:01,141 | INFO | availability-service | [1a8f3370-c8a8-4e10-99a7-516ce1fc7c13] Request completed - Status=200, , Time taken=42.24 ms
+2025-12-18 01:20:34,518 | INFO | availability-service | [cdd3e9d9-5108-4e26-a27e-7e160446c99b] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:20:34,559 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:20:34,559 | INFO | root | [cdd3e9d9-5108-4e26-a27e-7e160446c99b] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:20:34,560 | INFO | availability-service | [cdd3e9d9-5108-4e26-a27e-7e160446c99b] Request completed - Status=200, , Time taken=41.68 ms
+2025-12-18 01:21:01,232 | INFO | availability-service | [4013b7d0-bd27-4f88-8ccd-a9e8725d5269] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:21:01,281 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:21:01,282 | INFO | root | [4013b7d0-bd27-4f88-8ccd-a9e8725d5269] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:21:01,283 | INFO | availability-service | [4013b7d0-bd27-4f88-8ccd-a9e8725d5269] Request completed - Status=200, , Time taken=51.14 ms
+2025-12-18 01:22:01,427 | INFO | availability-service | [5d1f447b-3edd-4f62-93a6-57fccc58b5a9] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:22:01,465 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:22:01,468 | INFO | root | [5d1f447b-3edd-4f62-93a6-57fccc58b5a9] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:22:01,470 | INFO | availability-service | [5d1f447b-3edd-4f62-93a6-57fccc58b5a9] Request completed - Status=200, , Time taken=43.12 ms
+2025-12-18 01:22:04,741 | INFO | availability-service | [0bbcb31a-2f2c-4304-8d28-3ba8d55da629] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:22:04,776 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:22:04,777 | INFO | root | [0bbcb31a-2f2c-4304-8d28-3ba8d55da629] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:22:04,778 | INFO | availability-service | [0bbcb31a-2f2c-4304-8d28-3ba8d55da629] Request completed - Status=200, , Time taken=37.30 ms
+2025-12-18 01:23:01,624 | INFO | availability-service | [b9e369f5-fa21-45a1-9be1-4303e3ec93d9] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:23:01,681 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:23:01,682 | INFO | root | [b9e369f5-fa21-45a1-9be1-4303e3ec93d9] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:23:01,683 | INFO | availability-service | [b9e369f5-fa21-45a1-9be1-4303e3ec93d9] Request completed - Status=200, , Time taken=59.13 ms
+2025-12-18 01:23:34,882 | INFO | availability-service | [8ef91db6-aefa-4f2f-91a2-d1e7805b5b29] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:23:34,904 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:23:34,906 | INFO | root | [8ef91db6-aefa-4f2f-91a2-d1e7805b5b29] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:23:34,907 | INFO | availability-service | [8ef91db6-aefa-4f2f-91a2-d1e7805b5b29] Request completed - Status=200, , Time taken=24.19 ms
+2025-12-18 01:24:01,808 | INFO | availability-service | [b53ba492-dd0e-4258-bd2c-be3812e91fb4] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:24:01,840 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:24:01,841 | INFO | root | [b53ba492-dd0e-4258-bd2c-be3812e91fb4] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:24:01,842 | INFO | availability-service | [b53ba492-dd0e-4258-bd2c-be3812e91fb4] Request completed - Status=200, , Time taken=33.73 ms
+2025-12-18 01:25:01,955 | INFO | availability-service | [ca4ded71-3b18-452d-aba9-6337f27b1682] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:25:02,078 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:25:02,091 | INFO | root | [ca4ded71-3b18-452d-aba9-6337f27b1682] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:25:02,097 | INFO | availability-service | [ca4ded71-3b18-452d-aba9-6337f27b1682] Request completed - Status=200, , Time taken=142.60 ms
+2025-12-18 01:25:05,066 | INFO | availability-service | [cafabd36-5f2f-406d-ae1f-09932eea6c77] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:25:05,099 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:25:05,100 | INFO | root | [cafabd36-5f2f-406d-ae1f-09932eea6c77] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:25:05,100 | INFO | availability-service | [cafabd36-5f2f-406d-ae1f-09932eea6c77] Request completed - Status=200, , Time taken=33.69 ms
+2025-12-18 01:26:02,243 | INFO | availability-service | [3ce5faa4-d4e2-4d9e-967a-0ba678c45426] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:26:02,269 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:26:02,270 | INFO | root | [3ce5faa4-d4e2-4d9e-967a-0ba678c45426] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:26:02,271 | INFO | availability-service | [3ce5faa4-d4e2-4d9e-967a-0ba678c45426] Request completed - Status=200, , Time taken=27.89 ms
+2025-12-18 01:26:35,221 | INFO | availability-service | [cd3f2560-3892-438e-aa32-aab17c435fbf] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:26:35,248 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:26:35,248 | INFO | root | [cd3f2560-3892-438e-aa32-aab17c435fbf] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:26:35,249 | INFO | availability-service | [cd3f2560-3892-438e-aa32-aab17c435fbf] Request completed - Status=200, , Time taken=27.87 ms
+2025-12-18 01:27:02,428 | INFO | availability-service | [7eca776c-486f-4880-b7a6-c78e3daf0556] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:27:02,465 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:27:02,466 | INFO | root | [7eca776c-486f-4880-b7a6-c78e3daf0556] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:27:02,466 | INFO | availability-service | [7eca776c-486f-4880-b7a6-c78e3daf0556] Request completed - Status=200, , Time taken=39.01 ms
+2025-12-18 01:28:02,567 | INFO | availability-service | [1e515d6f-b0ef-46bc-beb3-31dd9b96fd5a] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:28:02,608 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:28:02,609 | INFO | root | [1e515d6f-b0ef-46bc-beb3-31dd9b96fd5a] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:28:02,610 | INFO | availability-service | [1e515d6f-b0ef-46bc-beb3-31dd9b96fd5a] Request completed - Status=200, , Time taken=42.66 ms
+2025-12-18 01:28:05,368 | INFO | availability-service | [3c065553-0c6c-437f-b8a0-e6ebc18faee3] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:28:05,378 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:28:05,378 | INFO | root | [3c065553-0c6c-437f-b8a0-e6ebc18faee3] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:28:05,379 | INFO | availability-service | [3c065553-0c6c-437f-b8a0-e6ebc18faee3] Request completed - Status=200, , Time taken=11.00 ms
+2025-12-18 01:29:02,723 | INFO | availability-service | [6050be61-df68-4077-be39-cda0382e02d8] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:29:02,765 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:29:02,766 | INFO | root | [6050be61-df68-4077-be39-cda0382e02d8] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:29:02,767 | INFO | availability-service | [6050be61-df68-4077-be39-cda0382e02d8] Request completed - Status=200, , Time taken=44.47 ms
+2025-12-18 01:29:35,497 | INFO | availability-service | [e28b5ba4-9e8b-4325-b752-f2aa77dd21a7] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:29:35,525 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:29:35,526 | INFO | root | [e28b5ba4-9e8b-4325-b752-f2aa77dd21a7] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:29:35,527 | INFO | availability-service | [e28b5ba4-9e8b-4325-b752-f2aa77dd21a7] Request completed - Status=200, , Time taken=30.07 ms
+2025-12-18 01:30:02,867 | INFO | availability-service | [ecf98c7d-5a3f-41a5-88b1-9e023e8e1084] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:30:02,912 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:30:02,913 | INFO | root | [ecf98c7d-5a3f-41a5-88b1-9e023e8e1084] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:30:02,913 | INFO | availability-service | [ecf98c7d-5a3f-41a5-88b1-9e023e8e1084] Request completed - Status=200, , Time taken=46.69 ms
+2025-12-18 01:31:03,040 | INFO | availability-service | [07326974-66a0-4e9d-9f76-83444e5b87a2] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:31:03,076 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:31:03,077 | INFO | root | [07326974-66a0-4e9d-9f76-83444e5b87a2] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:31:03,078 | INFO | availability-service | [07326974-66a0-4e9d-9f76-83444e5b87a2] Request completed - Status=200, , Time taken=38.29 ms
+2025-12-18 01:31:05,647 | INFO | availability-service | [e4dc0194-a88f-4836-9811-23921ce5b8b3] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:31:05,657 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:31:05,658 | INFO | root | [e4dc0194-a88f-4836-9811-23921ce5b8b3] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:31:05,659 | INFO | availability-service | [e4dc0194-a88f-4836-9811-23921ce5b8b3] Request completed - Status=200, , Time taken=12.05 ms
+2025-12-18 01:32:03,228 | INFO | availability-service | [3a06c861-5d5e-4690-88aa-a0b114701685] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:32:03,260 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:32:03,261 | INFO | root | [3a06c861-5d5e-4690-88aa-a0b114701685] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:32:03,262 | INFO | availability-service | [3a06c861-5d5e-4690-88aa-a0b114701685] Request completed - Status=200, , Time taken=34.33 ms
+2025-12-18 01:32:35,787 | INFO | availability-service | [bdeb0041-99b0-4403-aa17-d9ba2c7bd3e7] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:32:35,823 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:32:35,824 | INFO | root | [bdeb0041-99b0-4403-aa17-d9ba2c7bd3e7] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:32:35,824 | INFO | availability-service | [bdeb0041-99b0-4403-aa17-d9ba2c7bd3e7] Request completed - Status=200, , Time taken=36.98 ms
+2025-12-18 01:33:03,369 | INFO | availability-service | [5e219b24-ddb8-4e47-b329-7a52250cb3a8] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:33:03,393 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:33:03,394 | INFO | root | [5e219b24-ddb8-4e47-b329-7a52250cb3a8] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:33:03,394 | INFO | availability-service | [5e219b24-ddb8-4e47-b329-7a52250cb3a8] Request completed - Status=200, , Time taken=25.97 ms
+2025-12-18 01:34:03,521 | INFO | availability-service | [2eae0d0f-c93e-448a-871d-5fbc73507249] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:34:03,559 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:34:03,561 | INFO | root | [2eae0d0f-c93e-448a-871d-5fbc73507249] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:34:03,562 | INFO | availability-service | [2eae0d0f-c93e-448a-871d-5fbc73507249] Request completed - Status=200, , Time taken=40.95 ms
+2025-12-18 01:34:05,977 | INFO | availability-service | [5004f581-1d47-4f0e-a995-195615e36212] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:34:06,005 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:34:06,006 | INFO | root | [5004f581-1d47-4f0e-a995-195615e36212] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:34:06,006 | INFO | availability-service | [5004f581-1d47-4f0e-a995-195615e36212] Request completed - Status=200, , Time taken=29.05 ms
+2025-12-18 01:35:03,703 | INFO | availability-service | [a165f1c1-7849-4a10-be2f-e9a0159a8666] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:35:03,750 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:35:03,750 | INFO | root | [a165f1c1-7849-4a10-be2f-e9a0159a8666] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:35:03,751 | INFO | availability-service | [a165f1c1-7849-4a10-be2f-e9a0159a8666] Request completed - Status=200, , Time taken=47.90 ms
+2025-12-18 01:35:36,117 | INFO | availability-service | [19ebb4e7-627b-48aa-8062-bbd3c6a91f6a] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:35:36,146 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:35:36,147 | INFO | root | [19ebb4e7-627b-48aa-8062-bbd3c6a91f6a] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:35:36,147 | INFO | availability-service | [19ebb4e7-627b-48aa-8062-bbd3c6a91f6a] Request completed - Status=200, , Time taken=30.74 ms
+2025-12-18 01:36:03,848 | INFO | availability-service | [df6c6766-5029-47c6-8256-d33e4337e6aa] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:36:03,886 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:36:03,887 | INFO | root | [df6c6766-5029-47c6-8256-d33e4337e6aa] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:36:03,888 | INFO | availability-service | [df6c6766-5029-47c6-8256-d33e4337e6aa] Request completed - Status=200, , Time taken=40.07 ms
+2025-12-18 01:37:03,945 | INFO | availability-service | [c8021482-6378-4be5-908b-981307091c6c] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:37:03,976 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:37:03,977 | INFO | root | [c8021482-6378-4be5-908b-981307091c6c] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:37:03,978 | INFO | availability-service | [c8021482-6378-4be5-908b-981307091c6c] Request completed - Status=200, , Time taken=32.67 ms
+2025-12-18 01:37:06,365 | INFO | availability-service | [6202d7ec-726d-4568-8f95-372780bfa233] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:37:06,394 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:37:06,395 | INFO | root | [6202d7ec-726d-4568-8f95-372780bfa233] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:37:06,395 | INFO | availability-service | [6202d7ec-726d-4568-8f95-372780bfa233] Request completed - Status=200, , Time taken=30.56 ms
+2025-12-18 01:38:04,091 | INFO | availability-service | [36932760-9dd8-4343-ac7b-ebf97c4f78ef] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:38:04,137 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:38:04,138 | INFO | root | [36932760-9dd8-4343-ac7b-ebf97c4f78ef] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:38:04,138 | INFO | availability-service | [36932760-9dd8-4343-ac7b-ebf97c4f78ef] Request completed - Status=200, , Time taken=47.64 ms
+2025-12-18 01:38:36,482 | INFO | availability-service | [f31637eb-664e-49df-ba35-97efbce1ed1c] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:38:36,512 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:38:36,513 | INFO | root | [f31637eb-664e-49df-ba35-97efbce1ed1c] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:38:36,513 | INFO | availability-service | [f31637eb-664e-49df-ba35-97efbce1ed1c] Request completed - Status=200, , Time taken=30.68 ms
+2025-12-18 01:39:04,253 | INFO | availability-service | [2a08dc64-a599-40dc-869b-6b4d961b32bb] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:39:04,285 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:39:04,287 | INFO | root | [2a08dc64-a599-40dc-869b-6b4d961b32bb] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:39:04,289 | INFO | availability-service | [2a08dc64-a599-40dc-869b-6b4d961b32bb] Request completed - Status=200, , Time taken=35.86 ms
+2025-12-18 01:40:04,396 | INFO | availability-service | [2f72b2c5-6371-4df2-b929-735331668848] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:40:04,442 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:40:04,443 | INFO | root | [2f72b2c5-6371-4df2-b929-735331668848] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:40:04,443 | INFO | availability-service | [2f72b2c5-6371-4df2-b929-735331668848] Request completed - Status=200, , Time taken=47.17 ms
+2025-12-18 01:40:06,689 | INFO | availability-service | [64724046-dd05-4fcd-9b1f-71cd69d1e11a] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:40:06,698 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:40:06,699 | INFO | root | [64724046-dd05-4fcd-9b1f-71cd69d1e11a] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:40:06,699 | INFO | availability-service | [64724046-dd05-4fcd-9b1f-71cd69d1e11a] Request completed - Status=200, , Time taken=10.16 ms
+2025-12-18 01:41:04,522 | INFO | availability-service | [fdead32b-ce96-4289-9e23-4b6d1e8493d6] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:41:04,554 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:41:04,555 | INFO | root | [fdead32b-ce96-4289-9e23-4b6d1e8493d6] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:41:04,555 | INFO | availability-service | [fdead32b-ce96-4289-9e23-4b6d1e8493d6] Request completed - Status=200, , Time taken=33.65 ms
+2025-12-18 01:41:36,834 | INFO | availability-service | [ca88d569-5b69-4a67-a5e6-8fe373b87a38] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:41:36,866 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:41:36,866 | INFO | root | [ca88d569-5b69-4a67-a5e6-8fe373b87a38] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:41:36,867 | INFO | availability-service | [ca88d569-5b69-4a67-a5e6-8fe373b87a38] Request completed - Status=200, , Time taken=32.60 ms
+2025-12-18 01:42:04,674 | INFO | availability-service | [2f6f3500-36b0-4465-96f0-9a78035fb645] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:42:04,714 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:42:04,714 | INFO | root | [2f6f3500-36b0-4465-96f0-9a78035fb645] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:42:04,715 | INFO | availability-service | [2f6f3500-36b0-4465-96f0-9a78035fb645] Request completed - Status=200, , Time taken=40.95 ms
+2025-12-18 01:43:04,819 | INFO | availability-service | [9cffef9f-b3cb-4a8e-8004-6ac15ab6d4e4] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:43:04,859 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:43:04,860 | INFO | root | [9cffef9f-b3cb-4a8e-8004-6ac15ab6d4e4] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:43:04,860 | INFO | availability-service | [9cffef9f-b3cb-4a8e-8004-6ac15ab6d4e4] Request completed - Status=200, , Time taken=41.55 ms
+2025-12-18 01:43:06,990 | INFO | availability-service | [4945b818-4405-4f43-aa1a-182c844a8248] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:43:06,999 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:43:07,000 | INFO | root | [4945b818-4405-4f43-aa1a-182c844a8248] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:43:07,000 | INFO | availability-service | [4945b818-4405-4f43-aa1a-182c844a8248] Request completed - Status=200, , Time taken=10.29 ms
+2025-12-18 01:44:04,995 | INFO | availability-service | [024cab11-e565-4d9d-aa7e-58ac4915d3eb] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:44:05,035 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:44:05,037 | INFO | root | [024cab11-e565-4d9d-aa7e-58ac4915d3eb] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:44:05,037 | INFO | availability-service | [024cab11-e565-4d9d-aa7e-58ac4915d3eb] Request completed - Status=200, , Time taken=41.90 ms
+2025-12-18 01:44:37,188 | INFO | availability-service | [a8d372ab-ac78-413a-8523-431fd3f3c783] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:44:37,213 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:44:37,214 | INFO | root | [a8d372ab-ac78-413a-8523-431fd3f3c783] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:44:37,215 | INFO | availability-service | [a8d372ab-ac78-413a-8523-431fd3f3c783] Request completed - Status=200, , Time taken=26.75 ms
+2025-12-18 01:45:05,188 | INFO | availability-service | [9e24e337-f58d-4829-961a-1df653bc16d7] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:45:05,225 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:45:05,227 | INFO | root | [9e24e337-f58d-4829-961a-1df653bc16d7] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:45:05,228 | INFO | availability-service | [9e24e337-f58d-4829-961a-1df653bc16d7] Request completed - Status=200, , Time taken=40.33 ms
+2025-12-18 01:46:05,322 | INFO | availability-service | [6046136d-68ff-4eb2-ba77-685938babb89] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:46:05,367 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:46:05,368 | INFO | root | [6046136d-68ff-4eb2-ba77-685938babb89] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:46:05,368 | INFO | availability-service | [6046136d-68ff-4eb2-ba77-685938babb89] Request completed - Status=200, , Time taken=47.07 ms
+2025-12-18 01:46:07,401 | INFO | availability-service | [58cc6054-83b7-4a55-8d02-128dbfe974f8] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:46:07,431 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:46:07,432 | INFO | root | [58cc6054-83b7-4a55-8d02-128dbfe974f8] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:46:07,432 | INFO | availability-service | [58cc6054-83b7-4a55-8d02-128dbfe974f8] Request completed - Status=200, , Time taken=31.63 ms
+2025-12-18 01:47:05,516 | INFO | availability-service | [6c09d780-9328-4466-a5dc-939bd8f5e347] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:47:05,563 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:47:05,566 | INFO | root | [6c09d780-9328-4466-a5dc-939bd8f5e347] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:47:05,567 | INFO | availability-service | [6c09d780-9328-4466-a5dc-939bd8f5e347] Request completed - Status=200, , Time taken=50.98 ms
+2025-12-18 01:47:37,582 | INFO | availability-service | [be5f437a-54cb-4d8c-9eb8-215685ba1e04] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:47:37,615 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:47:37,616 | INFO | root | [be5f437a-54cb-4d8c-9eb8-215685ba1e04] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:47:37,616 | INFO | availability-service | [be5f437a-54cb-4d8c-9eb8-215685ba1e04] Request completed - Status=200, , Time taken=34.06 ms
+2025-12-18 01:48:05,665 | INFO | availability-service | [1f89e15c-dc89-4c2c-8cc2-f8679e373145] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:48:05,723 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:48:05,725 | INFO | root | [1f89e15c-dc89-4c2c-8cc2-f8679e373145] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:48:05,725 | INFO | availability-service | [1f89e15c-dc89-4c2c-8cc2-f8679e373145] Request completed - Status=200, , Time taken=60.14 ms
+2025-12-18 01:49:05,826 | INFO | availability-service | [e335d4df-bbc0-43af-9abe-d799ab0cc4c5] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:49:05,874 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:49:05,874 | INFO | root | [e335d4df-bbc0-43af-9abe-d799ab0cc4c5] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:49:05,875 | INFO | availability-service | [e335d4df-bbc0-43af-9abe-d799ab0cc4c5] Request completed - Status=200, , Time taken=49.90 ms
+2025-12-18 01:49:07,754 | INFO | availability-service | [f4708526-3c22-416b-92b6-e6339899dac6] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:49:07,766 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:49:07,766 | INFO | root | [f4708526-3c22-416b-92b6-e6339899dac6] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:49:07,766 | INFO | availability-service | [f4708526-3c22-416b-92b6-e6339899dac6] Request completed - Status=200, , Time taken=12.42 ms
+2025-12-18 01:50:05,993 | INFO | availability-service | [75128eb0-3b04-4c28-9ee8-18903d2350a3] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:50:06,033 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:50:06,034 | INFO | root | [75128eb0-3b04-4c28-9ee8-18903d2350a3] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:50:06,034 | INFO | availability-service | [75128eb0-3b04-4c28-9ee8-18903d2350a3] Request completed - Status=200, , Time taken=41.66 ms
+2025-12-18 01:50:37,951 | INFO | availability-service | [a0213c39-7784-4516-90c4-31129102293b] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:50:37,979 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:50:37,981 | INFO | root | [a0213c39-7784-4516-90c4-31129102293b] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:50:37,981 | INFO | availability-service | [a0213c39-7784-4516-90c4-31129102293b] Request completed - Status=200, , Time taken=29.97 ms
+2025-12-18 01:51:06,170 | INFO | availability-service | [f6e1c300-f714-4e91-8482-fa1dbe5e1eaf] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:51:06,216 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:51:06,217 | INFO | root | [f6e1c300-f714-4e91-8482-fa1dbe5e1eaf] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:51:06,217 | INFO | availability-service | [f6e1c300-f714-4e91-8482-fa1dbe5e1eaf] Request completed - Status=200, , Time taken=47.84 ms
+2025-12-18 01:52:06,330 | INFO | availability-service | [ede57515-17c3-4980-85f3-442be1b4a7ff] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:52:06,375 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:52:06,376 | INFO | root | [ede57515-17c3-4980-85f3-442be1b4a7ff] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:52:06,377 | INFO | availability-service | [ede57515-17c3-4980-85f3-442be1b4a7ff] Request completed - Status=200, , Time taken=46.64 ms
+2025-12-18 01:52:08,242 | INFO | availability-service | [ed688bd1-1de1-43d0-8d72-df25a7c2ad57] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:52:08,288 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:52:08,289 | INFO | root | [ed688bd1-1de1-43d0-8d72-df25a7c2ad57] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:52:08,289 | INFO | availability-service | [ed688bd1-1de1-43d0-8d72-df25a7c2ad57] Request completed - Status=200, , Time taken=47.10 ms
+2025-12-18 01:53:06,493 | INFO | availability-service | [7ff07e0b-2223-4eaa-a036-d57c4569a5f7] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:53:06,535 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:53:06,537 | INFO | root | [7ff07e0b-2223-4eaa-a036-d57c4569a5f7] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:53:06,538 | INFO | availability-service | [7ff07e0b-2223-4eaa-a036-d57c4569a5f7] Request completed - Status=200, , Time taken=44.96 ms
+2025-12-18 01:53:38,407 | INFO | availability-service | [1c7040da-581f-4753-afd3-50eacdd7f63d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:53:38,437 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:53:38,438 | INFO | root | [1c7040da-581f-4753-afd3-50eacdd7f63d] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:53:38,439 | INFO | availability-service | [1c7040da-581f-4753-afd3-50eacdd7f63d] Request completed - Status=200, , Time taken=32.10 ms
+2025-12-18 01:54:06,671 | INFO | availability-service | [aaf92d73-6345-4732-8f0e-26175aba1c23] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:54:06,707 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:54:06,708 | INFO | root | [aaf92d73-6345-4732-8f0e-26175aba1c23] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:54:06,708 | INFO | availability-service | [aaf92d73-6345-4732-8f0e-26175aba1c23] Request completed - Status=200, , Time taken=37.74 ms
+2025-12-18 01:55:06,803 | INFO | availability-service | [57ca21fd-8268-4609-ac58-d24f34c0b8b1] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:55:06,830 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:55:06,831 | INFO | root | [57ca21fd-8268-4609-ac58-d24f34c0b8b1] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:55:06,831 | INFO | availability-service | [57ca21fd-8268-4609-ac58-d24f34c0b8b1] Request completed - Status=200, , Time taken=28.70 ms
+2025-12-18 01:55:08,562 | INFO | availability-service | [185c0e0f-f094-4a19-8ed5-cad678013181] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:55:08,577 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:55:08,578 | INFO | root | [185c0e0f-f094-4a19-8ed5-cad678013181] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:55:08,578 | INFO | availability-service | [185c0e0f-f094-4a19-8ed5-cad678013181] Request completed - Status=200, , Time taken=16.24 ms
+2025-12-18 01:56:06,913 | INFO | availability-service | [a5528055-f58e-4de9-b0c9-4a7b128ceeb2] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:56:06,946 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:56:06,947 | INFO | root | [a5528055-f58e-4de9-b0c9-4a7b128ceeb2] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:56:06,947 | INFO | availability-service | [a5528055-f58e-4de9-b0c9-4a7b128ceeb2] Request completed - Status=200, , Time taken=34.57 ms
+2025-12-18 01:56:39,129 | INFO | availability-service | [cbd064f1-ce82-4ddf-b349-8c8d8d7f4579] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:56:39,174 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:56:39,177 | INFO | root | [cbd064f1-ce82-4ddf-b349-8c8d8d7f4579] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:56:39,178 | INFO | availability-service | [cbd064f1-ce82-4ddf-b349-8c8d8d7f4579] Request completed - Status=200, , Time taken=50.77 ms
+2025-12-18 01:57:07,092 | INFO | availability-service | [44673a0e-c587-4a0c-9a67-cac8d73b06c2] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:57:07,131 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:57:07,131 | INFO | root | [44673a0e-c587-4a0c-9a67-cac8d73b06c2] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:57:07,132 | INFO | availability-service | [44673a0e-c587-4a0c-9a67-cac8d73b06c2] Request completed - Status=200, , Time taken=40.33 ms
+2025-12-18 01:58:07,297 | INFO | availability-service | [c60b58e2-b7a4-415f-8335-ee12c3408124] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:58:07,333 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:58:07,334 | INFO | root | [c60b58e2-b7a4-415f-8335-ee12c3408124] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:58:07,334 | INFO | availability-service | [c60b58e2-b7a4-415f-8335-ee12c3408124] Request completed - Status=200, , Time taken=36.94 ms
+2025-12-18 01:58:09,299 | INFO | availability-service | [9f64cc26-8742-4538-afd7-b2bbba65fcb0] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:58:09,308 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:58:09,309 | INFO | root | [9f64cc26-8742-4538-afd7-b2bbba65fcb0] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:58:09,309 | INFO | availability-service | [9f64cc26-8742-4538-afd7-b2bbba65fcb0] Request completed - Status=200, , Time taken=9.92 ms
+2025-12-18 01:59:07,499 | INFO | availability-service | [6423d4c7-9c3f-47cf-9ce7-0fb3269ff7b3] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:59:07,539 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:59:07,540 | INFO | root | [6423d4c7-9c3f-47cf-9ce7-0fb3269ff7b3] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:59:07,541 | INFO | availability-service | [6423d4c7-9c3f-47cf-9ce7-0fb3269ff7b3] Request completed - Status=200, , Time taken=42.15 ms
+2025-12-18 01:59:39,433 | INFO | availability-service | [5f5516b5-84b0-4bde-a137-1f1fa173ef7d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 01:59:39,461 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 01:59:39,461 | INFO | root | [5f5516b5-84b0-4bde-a137-1f1fa173ef7d] HEALTH CHECK: availability-service is healthy
+2025-12-18 01:59:39,462 | INFO | availability-service | [5f5516b5-84b0-4bde-a137-1f1fa173ef7d] Request completed - Status=200, , Time taken=28.65 ms
+2025-12-18 02:00:07,657 | INFO | availability-service | [f1006187-39cb-49db-b498-1f50acc52541] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:00:07,691 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:00:07,691 | INFO | root | [f1006187-39cb-49db-b498-1f50acc52541] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:00:07,692 | INFO | availability-service | [f1006187-39cb-49db-b498-1f50acc52541] Request completed - Status=200, , Time taken=34.44 ms
+2025-12-18 02:01:07,818 | INFO | availability-service | [80a7efc4-7541-491d-88d6-573a954ed324] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:01:07,857 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:01:07,859 | INFO | root | [80a7efc4-7541-491d-88d6-573a954ed324] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:01:07,862 | INFO | availability-service | [80a7efc4-7541-491d-88d6-573a954ed324] Request completed - Status=200, , Time taken=43.47 ms
+2025-12-18 02:01:09,584 | INFO | availability-service | [fe2ad5bf-aeae-4385-a35b-8caa84c95815] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:01:09,596 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:01:09,597 | INFO | root | [fe2ad5bf-aeae-4385-a35b-8caa84c95815] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:01:09,597 | INFO | availability-service | [fe2ad5bf-aeae-4385-a35b-8caa84c95815] Request completed - Status=200, , Time taken=12.88 ms
+2025-12-18 02:02:07,963 | INFO | availability-service | [be21ae82-e66e-477b-9b53-358f490a22f0] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:02:07,987 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:02:07,988 | INFO | root | [be21ae82-e66e-477b-9b53-358f490a22f0] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:02:07,989 | INFO | availability-service | [be21ae82-e66e-477b-9b53-358f490a22f0] Request completed - Status=200, , Time taken=26.11 ms
+2025-12-18 02:02:39,734 | INFO | availability-service | [77a8309d-f72d-4145-b168-e22b5cb4be43] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:02:39,760 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:02:39,761 | INFO | root | [77a8309d-f72d-4145-b168-e22b5cb4be43] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:02:39,762 | INFO | availability-service | [77a8309d-f72d-4145-b168-e22b5cb4be43] Request completed - Status=200, , Time taken=28.44 ms
+2025-12-18 02:03:08,124 | INFO | availability-service | [6b97e932-d619-4cf9-ac55-263e780ca21a] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:03:08,162 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:03:08,163 | INFO | root | [6b97e932-d619-4cf9-ac55-263e780ca21a] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:03:08,163 | INFO | availability-service | [6b97e932-d619-4cf9-ac55-263e780ca21a] Request completed - Status=200, , Time taken=39.46 ms
+2025-12-18 02:04:08,327 | INFO | availability-service | [761b6ea6-17bf-4e8d-b64d-4665a1969741] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:04:08,374 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:04:08,376 | INFO | root | [761b6ea6-17bf-4e8d-b64d-4665a1969741] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:04:08,377 | INFO | availability-service | [761b6ea6-17bf-4e8d-b64d-4665a1969741] Request completed - Status=200, , Time taken=50.08 ms
+2025-12-18 02:04:09,893 | INFO | availability-service | [76149eb8-b3a2-4d24-8a55-3f85c0e84dc8] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:04:09,904 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:04:09,904 | INFO | root | [76149eb8-b3a2-4d24-8a55-3f85c0e84dc8] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:04:09,905 | INFO | availability-service | [76149eb8-b3a2-4d24-8a55-3f85c0e84dc8] Request completed - Status=200, , Time taken=11.13 ms
+2025-12-18 02:05:08,520 | INFO | availability-service | [b0395f34-562a-44d9-98e0-e92a1ec8631a] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:05:08,557 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:05:08,558 | INFO | root | [b0395f34-562a-44d9-98e0-e92a1ec8631a] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:05:08,558 | INFO | availability-service | [b0395f34-562a-44d9-98e0-e92a1ec8631a] Request completed - Status=200, , Time taken=38.38 ms
+2025-12-18 02:05:40,057 | INFO | availability-service | [7452babd-5502-4bf5-bd69-045c2b0669cb] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:05:40,096 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:05:40,097 | INFO | root | [7452babd-5502-4bf5-bd69-045c2b0669cb] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:05:40,097 | INFO | availability-service | [7452babd-5502-4bf5-bd69-045c2b0669cb] Request completed - Status=200, , Time taken=40.50 ms
+2025-12-18 02:06:08,695 | INFO | availability-service | [370fd529-d8fd-4fc7-bcf3-bc5a816368b7] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:06:08,742 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:06:08,744 | INFO | root | [370fd529-d8fd-4fc7-bcf3-bc5a816368b7] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:06:08,745 | INFO | availability-service | [370fd529-d8fd-4fc7-bcf3-bc5a816368b7] Request completed - Status=200, , Time taken=52.14 ms
+2025-12-18 02:07:08,880 | INFO | availability-service | [06d60fea-d294-4c5b-8f0b-3ad8f4e3068d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:07:08,932 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:07:08,933 | INFO | root | [06d60fea-d294-4c5b-8f0b-3ad8f4e3068d] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:07:08,933 | INFO | availability-service | [06d60fea-d294-4c5b-8f0b-3ad8f4e3068d] Request completed - Status=200, , Time taken=53.75 ms
+2025-12-18 02:07:10,223 | INFO | availability-service | [feea8266-6c91-4e88-8c06-2b6ca5893065] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:07:10,232 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:07:10,234 | INFO | root | [feea8266-6c91-4e88-8c06-2b6ca5893065] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:07:10,234 | INFO | availability-service | [feea8266-6c91-4e88-8c06-2b6ca5893065] Request completed - Status=200, , Time taken=11.61 ms
+2025-12-18 02:08:09,068 | INFO | availability-service | [096b02aa-46c9-4978-9fb5-87a728620d41] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:08:09,100 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:08:09,101 | INFO | root | [096b02aa-46c9-4978-9fb5-87a728620d41] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:08:09,101 | INFO | availability-service | [096b02aa-46c9-4978-9fb5-87a728620d41] Request completed - Status=200, , Time taken=32.91 ms
+2025-12-18 02:08:40,397 | INFO | availability-service | [19a45605-4d96-47ae-8f7d-07b550620e4b] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:08:40,434 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:08:40,436 | INFO | root | [19a45605-4d96-47ae-8f7d-07b550620e4b] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:08:40,436 | INFO | availability-service | [19a45605-4d96-47ae-8f7d-07b550620e4b] Request completed - Status=200, , Time taken=39.63 ms
+2025-12-18 02:09:09,328 | INFO | availability-service | [b10d8840-a41d-4a95-99ef-ac9e2981a472] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:09:09,421 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:09:09,428 | INFO | root | [b10d8840-a41d-4a95-99ef-ac9e2981a472] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:09:09,431 | INFO | availability-service | [b10d8840-a41d-4a95-99ef-ac9e2981a472] Request completed - Status=200, , Time taken=103.51 ms
+2025-12-18 02:10:09,585 | INFO | availability-service | [18104156-4259-4e48-809a-c0cb9db243b0] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:10:09,629 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:10:09,630 | INFO | root | [18104156-4259-4e48-809a-c0cb9db243b0] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:10:09,631 | INFO | availability-service | [18104156-4259-4e48-809a-c0cb9db243b0] Request completed - Status=200, , Time taken=46.16 ms
+2025-12-18 02:10:10,588 | INFO | availability-service | [89ec1ffd-60c2-442b-8d0a-e2b23a83dfbb] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:10:10,598 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:10:10,599 | INFO | root | [89ec1ffd-60c2-442b-8d0a-e2b23a83dfbb] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:10:10,599 | INFO | availability-service | [89ec1ffd-60c2-442b-8d0a-e2b23a83dfbb] Request completed - Status=200, , Time taken=10.29 ms
+2025-12-18 02:11:09,820 | INFO | availability-service | [5a4d0310-c8af-4ef2-b4ea-a3e4b4ed8137] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:11:10,016 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:11:10,022 | INFO | root | [5a4d0310-c8af-4ef2-b4ea-a3e4b4ed8137] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:11:10,023 | INFO | availability-service | [5a4d0310-c8af-4ef2-b4ea-a3e4b4ed8137] Request completed - Status=200, , Time taken=204.62 ms
+2025-12-18 02:11:40,793 | INFO | availability-service | [9b72811a-c1e0-4783-a20a-3bf8f5fa6da7] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:11:40,821 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:11:40,822 | INFO | root | [9b72811a-c1e0-4783-a20a-3bf8f5fa6da7] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:11:40,823 | INFO | availability-service | [9b72811a-c1e0-4783-a20a-3bf8f5fa6da7] Request completed - Status=200, , Time taken=29.91 ms
+2025-12-18 02:12:10,199 | INFO | availability-service | [300d7260-83d5-4974-9e6c-55c201561491] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:12:10,254 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:12:10,255 | INFO | root | [300d7260-83d5-4974-9e6c-55c201561491] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:12:10,256 | INFO | availability-service | [300d7260-83d5-4974-9e6c-55c201561491] Request completed - Status=200, , Time taken=57.21 ms
+2025-12-18 02:13:10,525 | INFO | availability-service | [0ae22371-0687-489b-9911-983dddbe7300] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:13:10,615 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:13:10,618 | INFO | root | [0ae22371-0687-489b-9911-983dddbe7300] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:13:10,620 | INFO | availability-service | [0ae22371-0687-489b-9911-983dddbe7300] Request completed - Status=200, , Time taken=96.09 ms
+2025-12-18 02:13:11,053 | INFO | availability-service | [0161258c-2b1b-4836-b100-fd46abe6c600] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:13:11,071 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:13:11,072 | INFO | root | [0161258c-2b1b-4836-b100-fd46abe6c600] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:13:11,072 | INFO | availability-service | [0161258c-2b1b-4836-b100-fd46abe6c600] Request completed - Status=200, , Time taken=18.48 ms
+2025-12-18 02:14:10,887 | INFO | availability-service | [f6f9f0b7-53d0-4fba-ace1-df240ed4d50e] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:14:10,997 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:14:11,000 | INFO | root | [f6f9f0b7-53d0-4fba-ace1-df240ed4d50e] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:14:11,001 | INFO | availability-service | [f6f9f0b7-53d0-4fba-ace1-df240ed4d50e] Request completed - Status=200, , Time taken=114.32 ms
+2025-12-18 02:14:41,283 | INFO | availability-service | [b269fea9-9268-4f17-82a4-0a9451df6c7e] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:14:41,312 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:14:41,316 | INFO | root | [b269fea9-9268-4f17-82a4-0a9451df6c7e] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:14:41,317 | INFO | availability-service | [b269fea9-9268-4f17-82a4-0a9451df6c7e] Request completed - Status=200, , Time taken=34.00 ms
+2025-12-18 02:15:11,120 | INFO | availability-service | [ee44bd68-7d7e-4a6e-8c7c-c8c076b1f58a] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:15:11,163 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:15:11,163 | INFO | root | [ee44bd68-7d7e-4a6e-8c7c-c8c076b1f58a] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:15:11,164 | INFO | availability-service | [ee44bd68-7d7e-4a6e-8c7c-c8c076b1f58a] Request completed - Status=200, , Time taken=43.76 ms
+2025-12-18 02:16:11,283 | INFO | availability-service | [730f72ed-16b9-4a2c-9e92-d7b03f96d0e1] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:16:11,310 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:16:11,311 | INFO | root | [730f72ed-16b9-4a2c-9e92-d7b03f96d0e1] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:16:11,312 | INFO | availability-service | [730f72ed-16b9-4a2c-9e92-d7b03f96d0e1] Request completed - Status=200, , Time taken=28.83 ms
+2025-12-18 02:16:11,406 | INFO | availability-service | [4d877b03-a79d-4cc1-85b6-3cb7de66580d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:16:11,415 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:16:11,416 | INFO | root | [4d877b03-a79d-4cc1-85b6-3cb7de66580d] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:16:11,416 | INFO | availability-service | [4d877b03-a79d-4cc1-85b6-3cb7de66580d] Request completed - Status=200, , Time taken=9.44 ms
+2025-12-18 02:17:11,453 | INFO | availability-service | [b55fe97b-c893-491a-895f-2e9dc516907a] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:17:11,494 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:17:11,494 | INFO | root | [b55fe97b-c893-491a-895f-2e9dc516907a] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:17:11,495 | INFO | availability-service | [b55fe97b-c893-491a-895f-2e9dc516907a] Request completed - Status=200, , Time taken=41.51 ms
+2025-12-18 02:17:41,573 | INFO | availability-service | [03fae59b-0116-4d47-b418-274bdd0ea3f6] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:17:41,614 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:17:41,614 | INFO | root | [03fae59b-0116-4d47-b418-274bdd0ea3f6] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:17:41,615 | INFO | availability-service | [03fae59b-0116-4d47-b418-274bdd0ea3f6] Request completed - Status=200, , Time taken=41.96 ms
+2025-12-18 02:18:11,629 | INFO | availability-service | [be04fb13-54cc-402e-928b-1daa2a960560] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:18:11,678 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:18:11,680 | INFO | root | [be04fb13-54cc-402e-928b-1daa2a960560] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:18:11,681 | INFO | availability-service | [be04fb13-54cc-402e-928b-1daa2a960560] Request completed - Status=200, , Time taken=51.75 ms
+2025-12-18 02:19:11,760 | INFO | availability-service | [83c50fd1-eebd-4c49-9e6a-3887afb1330f] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:19:11,801 | INFO | availability-service | [dacdcca5-8da9-4ab6-a86f-6baed621522e] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:19:11,812 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:19:11,814 | INFO | root | [83c50fd1-eebd-4c49-9e6a-3887afb1330f] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:19:11,818 | INFO | availability-service | [83c50fd1-eebd-4c49-9e6a-3887afb1330f] Request completed - Status=200, , Time taken=58.17 ms
+2025-12-18 02:19:11,821 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:19:11,823 | INFO | root | [dacdcca5-8da9-4ab6-a86f-6baed621522e] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:19:11,824 | INFO | availability-service | [dacdcca5-8da9-4ab6-a86f-6baed621522e] Request completed - Status=200, , Time taken=23.04 ms
+2025-12-18 02:20:11,954 | INFO | availability-service | [645eccca-c7d9-4f38-84e6-1cb7c9995d95] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:20:11,997 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:20:12,000 | INFO | root | [645eccca-c7d9-4f38-84e6-1cb7c9995d95] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:20:12,001 | INFO | availability-service | [645eccca-c7d9-4f38-84e6-1cb7c9995d95] Request completed - Status=200, , Time taken=46.52 ms
+2025-12-18 02:20:42,079 | INFO | availability-service | [9ad96af2-7366-4216-b337-88ef555b406f] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:20:42,131 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:20:42,132 | INFO | root | [9ad96af2-7366-4216-b337-88ef555b406f] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:20:42,132 | INFO | availability-service | [9ad96af2-7366-4216-b337-88ef555b406f] Request completed - Status=200, , Time taken=54.08 ms
+2025-12-18 02:21:12,116 | INFO | availability-service | [945aa2c8-f5d9-4bdf-9cd8-fbc009ed8952] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:21:12,150 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:21:12,151 | INFO | root | [945aa2c8-f5d9-4bdf-9cd8-fbc009ed8952] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:21:12,152 | INFO | availability-service | [945aa2c8-f5d9-4bdf-9cd8-fbc009ed8952] Request completed - Status=200, , Time taken=36.45 ms
+2025-12-18 02:22:12,227 | INFO | availability-service | [d2689e80-a3bb-4bd0-8db8-fe60aaa65468] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:22:12,249 | INFO | availability-service | [1fb20da5-7a49-4801-857b-c5ee07bf816d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:22:12,256 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:22:12,259 | INFO | root | [d2689e80-a3bb-4bd0-8db8-fe60aaa65468] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:22:12,259 | INFO | availability-service | [d2689e80-a3bb-4bd0-8db8-fe60aaa65468] Request completed - Status=200, , Time taken=32.38 ms
+2025-12-18 02:22:12,263 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:22:12,264 | INFO | root | [1fb20da5-7a49-4801-857b-c5ee07bf816d] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:22:12,264 | INFO | availability-service | [1fb20da5-7a49-4801-857b-c5ee07bf816d] Request completed - Status=200, , Time taken=14.81 ms
+2025-12-18 02:23:12,340 | INFO | availability-service | [6388575d-6cac-4beb-9c2c-b5f07688fd0d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:23:12,361 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:23:12,362 | INFO | root | [6388575d-6cac-4beb-9c2c-b5f07688fd0d] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:23:12,362 | INFO | availability-service | [6388575d-6cac-4beb-9c2c-b5f07688fd0d] Request completed - Status=200, , Time taken=22.91 ms
+2025-12-18 02:23:42,411 | INFO | availability-service | [8d6e2f1d-30a2-4998-a353-3af9c9ceb694] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:23:42,444 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:23:42,445 | INFO | root | [8d6e2f1d-30a2-4998-a353-3af9c9ceb694] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:23:42,446 | INFO | availability-service | [8d6e2f1d-30a2-4998-a353-3af9c9ceb694] Request completed - Status=200, , Time taken=35.03 ms
+2025-12-18 02:24:12,508 | INFO | availability-service | [a70faeca-4f84-478d-bb13-ea89384f2fe1] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:24:12,572 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:24:12,575 | INFO | root | [a70faeca-4f84-478d-bb13-ea89384f2fe1] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:24:12,576 | INFO | availability-service | [a70faeca-4f84-478d-bb13-ea89384f2fe1] Request completed - Status=200, , Time taken=68.32 ms
+2025-12-18 02:25:12,590 | INFO | availability-service | [e935a29f-7872-4dd6-9dd6-96b64b5b1fd1] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:25:12,648 | INFO | availability-service | [64aa0e3a-e537-4f33-b615-ca3d4e06b134] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:25:12,660 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:25:12,661 | INFO | root | [e935a29f-7872-4dd6-9dd6-96b64b5b1fd1] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:25:12,662 | INFO | availability-service | [e935a29f-7872-4dd6-9dd6-96b64b5b1fd1] Request completed - Status=200, , Time taken=71.97 ms
+2025-12-18 02:25:12,668 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:25:12,669 | INFO | root | [64aa0e3a-e537-4f33-b615-ca3d4e06b134] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:25:12,669 | INFO | availability-service | [64aa0e3a-e537-4f33-b615-ca3d4e06b134] Request completed - Status=200, , Time taken=21.54 ms
+2025-12-18 02:26:12,801 | INFO | availability-service | [6cdaeb1a-8ec9-4c0b-81b1-0e23e23a83ee] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:26:12,839 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:26:12,840 | INFO | root | [6cdaeb1a-8ec9-4c0b-81b1-0e23e23a83ee] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:26:12,841 | INFO | availability-service | [6cdaeb1a-8ec9-4c0b-81b1-0e23e23a83ee] Request completed - Status=200, , Time taken=40.16 ms
+2025-12-18 02:26:42,850 | INFO | availability-service | [44a2602f-884f-47b5-9dd6-db35b7978fd8] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:26:42,867 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:26:42,867 | INFO | root | [44a2602f-884f-47b5-9dd6-db35b7978fd8] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:26:42,868 | INFO | availability-service | [44a2602f-884f-47b5-9dd6-db35b7978fd8] Request completed - Status=200, , Time taken=17.64 ms
+2025-12-18 02:27:12,986 | INFO | availability-service | [c4fdf6d5-edba-451a-aa7d-939ca7f1408b] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:27:13,064 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:27:13,066 | INFO | root | [c4fdf6d5-edba-451a-aa7d-939ca7f1408b] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:27:13,067 | INFO | availability-service | [c4fdf6d5-edba-451a-aa7d-939ca7f1408b] Request completed - Status=200, , Time taken=80.47 ms
+2025-12-18 02:28:13,058 | INFO | availability-service | [c068616e-9bb8-4302-a08e-645ff9cad504] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:28:13,109 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:28:13,112 | INFO | root | [c068616e-9bb8-4302-a08e-645ff9cad504] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:28:13,114 | INFO | availability-service | [c068616e-9bb8-4302-a08e-645ff9cad504] Request completed - Status=200, , Time taken=56.36 ms
+2025-12-18 02:28:13,162 | INFO | availability-service | [ee5b05a4-9587-42c8-b074-80f1b304435e] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:28:13,173 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:28:13,173 | INFO | root | [ee5b05a4-9587-42c8-b074-80f1b304435e] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:28:13,174 | INFO | availability-service | [ee5b05a4-9587-42c8-b074-80f1b304435e] Request completed - Status=200, , Time taken=12.55 ms
+2025-12-18 02:29:13,420 | INFO | availability-service | [d0770056-e8b0-4ceb-a2c6-d54fc6fb655d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:29:13,536 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:29:13,539 | INFO | root | [d0770056-e8b0-4ceb-a2c6-d54fc6fb655d] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:29:13,542 | INFO | availability-service | [d0770056-e8b0-4ceb-a2c6-d54fc6fb655d] Request completed - Status=200, , Time taken=123.27 ms
+2025-12-18 02:29:43,382 | INFO | availability-service | [b89110d9-759d-4a8c-b0e5-6a1bdb1a06ec] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:29:43,424 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:29:43,425 | INFO | root | [b89110d9-759d-4a8c-b0e5-6a1bdb1a06ec] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:29:43,425 | INFO | availability-service | [b89110d9-759d-4a8c-b0e5-6a1bdb1a06ec] Request completed - Status=200, , Time taken=43.07 ms
+2025-12-18 02:30:13,651 | INFO | availability-service | [81504ae0-ea70-4f16-87f5-662ea7f7cbc0] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:30:13,673 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:30:13,674 | INFO | root | [81504ae0-ea70-4f16-87f5-662ea7f7cbc0] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:30:13,674 | INFO | availability-service | [81504ae0-ea70-4f16-87f5-662ea7f7cbc0] Request completed - Status=200, , Time taken=23.11 ms
+2025-12-18 02:31:13,584 | INFO | availability-service | [bbe4f54e-fbcc-49ee-b642-4dd3443f94f6] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:31:13,623 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:31:13,624 | INFO | root | [bbe4f54e-fbcc-49ee-b642-4dd3443f94f6] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:31:13,624 | INFO | availability-service | [bbe4f54e-fbcc-49ee-b642-4dd3443f94f6] Request completed - Status=200, , Time taken=40.53 ms
+2025-12-18 02:31:13,737 | INFO | availability-service | [56b55fe5-6eef-46c4-8a1a-12089237ce64] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:31:13,746 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:31:13,746 | INFO | root | [56b55fe5-6eef-46c4-8a1a-12089237ce64] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:31:13,747 | INFO | availability-service | [56b55fe5-6eef-46c4-8a1a-12089237ce64] Request completed - Status=200, , Time taken=9.72 ms
+2025-12-18 02:32:13,841 | INFO | availability-service | [4535cfe9-d04f-45be-8690-c7d98bd9a150] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:32:13,884 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:32:13,884 | INFO | root | [4535cfe9-d04f-45be-8690-c7d98bd9a150] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:32:13,885 | INFO | availability-service | [4535cfe9-d04f-45be-8690-c7d98bd9a150] Request completed - Status=200, , Time taken=44.46 ms
+2025-12-18 02:32:43,751 | INFO | availability-service | [103d69b5-a23e-43ce-a87a-9971188ec131] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:32:43,771 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:32:43,772 | INFO | root | [103d69b5-a23e-43ce-a87a-9971188ec131] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:32:43,772 | INFO | availability-service | [103d69b5-a23e-43ce-a87a-9971188ec131] Request completed - Status=200, , Time taken=20.78 ms
+2025-12-18 02:33:13,971 | INFO | availability-service | [5e9dfc30-1d35-4be4-b59f-cca39cbd68c2] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:33:14,011 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:33:14,012 | INFO | root | [5e9dfc30-1d35-4be4-b59f-cca39cbd68c2] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:33:14,013 | INFO | availability-service | [5e9dfc30-1d35-4be4-b59f-cca39cbd68c2] Request completed - Status=200, , Time taken=42.02 ms
+2025-12-18 02:34:13,890 | INFO | availability-service | [a51fa5a5-a2ac-4dd2-befd-a8d17ea2f3a3] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:34:13,913 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:34:13,913 | INFO | root | [a51fa5a5-a2ac-4dd2-befd-a8d17ea2f3a3] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:34:13,914 | INFO | availability-service | [a51fa5a5-a2ac-4dd2-befd-a8d17ea2f3a3] Request completed - Status=200, , Time taken=23.94 ms
+2025-12-18 02:34:14,080 | INFO | availability-service | [0f0bac68-2041-41da-ad8c-7a3170b0afdd] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:34:14,094 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:34:14,095 | INFO | root | [0f0bac68-2041-41da-ad8c-7a3170b0afdd] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:34:14,095 | INFO | availability-service | [0f0bac68-2041-41da-ad8c-7a3170b0afdd] Request completed - Status=200, , Time taken=15.03 ms
+2025-12-18 02:35:14,186 | INFO | availability-service | [010a19e1-95b1-4b3e-ac01-d161952024b4] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:35:14,215 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:35:14,215 | INFO | root | [010a19e1-95b1-4b3e-ac01-d161952024b4] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:35:14,216 | INFO | availability-service | [010a19e1-95b1-4b3e-ac01-d161952024b4] Request completed - Status=200, , Time taken=29.63 ms
+2025-12-18 02:35:44,074 | INFO | availability-service | [aa470eeb-a012-4be0-aca1-d15e47e2bab7] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:35:44,110 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:35:44,111 | INFO | root | [aa470eeb-a012-4be0-aca1-d15e47e2bab7] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:35:44,111 | INFO | availability-service | [aa470eeb-a012-4be0-aca1-d15e47e2bab7] Request completed - Status=200, , Time taken=37.49 ms
+2025-12-18 02:36:14,301 | INFO | availability-service | [f0dcdab0-fa74-4766-9b5e-67a0c30e38d0] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:36:14,333 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:36:14,334 | INFO | root | [f0dcdab0-fa74-4766-9b5e-67a0c30e38d0] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:36:14,334 | INFO | availability-service | [f0dcdab0-fa74-4766-9b5e-67a0c30e38d0] Request completed - Status=200, , Time taken=33.48 ms
+2025-12-18 02:37:14,232 | INFO | availability-service | [db1d7ec6-c318-40e5-b3a5-ad5c72c427b5] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:37:14,258 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:37:14,259 | INFO | root | [db1d7ec6-c318-40e5-b3a5-ad5c72c427b5] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:37:14,259 | INFO | availability-service | [db1d7ec6-c318-40e5-b3a5-ad5c72c427b5] Request completed - Status=200, , Time taken=27.97 ms
+2025-12-18 02:37:14,401 | INFO | availability-service | [9d6d575f-b52d-4d47-9bfa-18143f20a779] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:37:14,414 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:37:14,415 | INFO | root | [9d6d575f-b52d-4d47-9bfa-18143f20a779] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:37:14,415 | INFO | availability-service | [9d6d575f-b52d-4d47-9bfa-18143f20a779] Request completed - Status=200, , Time taken=14.22 ms
+2025-12-18 02:38:14,575 | INFO | availability-service | [014512cd-781e-431b-9f28-482558b57353] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:38:14,618 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:38:14,619 | INFO | root | [014512cd-781e-431b-9f28-482558b57353] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:38:14,619 | INFO | availability-service | [014512cd-781e-431b-9f28-482558b57353] Request completed - Status=200, , Time taken=44.70 ms
+2025-12-18 02:38:44,405 | INFO | availability-service | [582db219-e86a-469b-96af-9f5b4c740914] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:38:44,440 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:38:44,441 | INFO | root | [582db219-e86a-469b-96af-9f5b4c740914] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:38:44,441 | INFO | availability-service | [582db219-e86a-469b-96af-9f5b4c740914] Request completed - Status=200, , Time taken=36.49 ms
+2025-12-18 02:39:14,752 | INFO | availability-service | [bc706b4f-5d26-42e9-b332-8c73bd5734e7] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:39:14,795 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:39:14,797 | INFO | root | [bc706b4f-5d26-42e9-b332-8c73bd5734e7] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:39:14,798 | INFO | availability-service | [bc706b4f-5d26-42e9-b332-8c73bd5734e7] Request completed - Status=200, , Time taken=46.67 ms
+2025-12-18 02:40:14,560 | INFO | availability-service | [b0ed906b-7662-447e-b52f-b8e6d94f8065] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:40:14,594 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:40:14,595 | INFO | root | [b0ed906b-7662-447e-b52f-b8e6d94f8065] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:40:14,595 | INFO | availability-service | [b0ed906b-7662-447e-b52f-b8e6d94f8065] Request completed - Status=200, , Time taken=34.95 ms
+2025-12-18 02:40:14,877 | INFO | availability-service | [338b7a6e-68eb-4174-b4d4-591f09c94aac] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:40:14,890 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:40:14,891 | INFO | root | [338b7a6e-68eb-4174-b4d4-591f09c94aac] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:40:14,891 | INFO | availability-service | [338b7a6e-68eb-4174-b4d4-591f09c94aac] Request completed - Status=200, , Time taken=14.27 ms
+2025-12-18 02:41:14,284 | INFO | availability-service | [test-suggest-1766025674] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:41:14,318 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:41:14,319 | INFO | root | [test-suggest-1766025674] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:41:14,319 | INFO | availability-service | [test-suggest-1766025674] Request completed - Status=200, , Time taken=35.15 ms
+2025-12-18 02:41:14,380 | INFO | availability-service | [test-suggest-1766025674] Request started - Method=GET Path=/availabilities/availabilities
+2025-12-18 02:41:14,396 | INFO | availability-service | [test-suggest-1766025674] Computing common availability for userId1=alice_test@example.com, userId2=bob_test@example.com
+2025-12-18 02:41:14,408 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=alice_test%40example.com "HTTP/1.1 200 OK"
+2025-12-18 02:41:14,413 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=bob_test%40example.com "HTTP/1.1 200 OK"
+2025-12-18 02:41:14,414 | INFO | availability-service | [test-suggest-1766025674] Request completed - Status=200, , Time taken=33.70 ms
+2025-12-18 02:41:15,000 | INFO | availability-service | [f4d905c9-3ff7-4fc7-b928-99a5accce1e3] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:41:15,012 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:41:15,013 | INFO | root | [f4d905c9-3ff7-4fc7-b928-99a5accce1e3] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:41:15,013 | INFO | availability-service | [f4d905c9-3ff7-4fc7-b928-99a5accce1e3] Request completed - Status=200, , Time taken=13.01 ms
+2025-12-18 02:41:44,740 | INFO | availability-service | [92b6328c-818f-4f20-9705-040915483f79] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:41:44,769 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:41:44,770 | INFO | root | [92b6328c-818f-4f20-9705-040915483f79] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:41:44,770 | INFO | availability-service | [92b6328c-818f-4f20-9705-040915483f79] Request completed - Status=200, , Time taken=30.22 ms
+2025-12-18 02:42:15,098 | INFO | availability-service | [d8adcaff-c1d1-4db6-828c-d85299e5f4b4] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:42:15,141 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:42:15,142 | INFO | root | [d8adcaff-c1d1-4db6-828c-d85299e5f4b4] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:42:15,143 | INFO | availability-service | [d8adcaff-c1d1-4db6-828c-d85299e5f4b4] Request completed - Status=200, , Time taken=45.34 ms
+2025-12-18 02:43:14,883 | INFO | availability-service | [9b45d22f-76ab-4dbf-a3e7-06e6355ad7e1] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:43:14,918 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:43:14,918 | INFO | root | [9b45d22f-76ab-4dbf-a3e7-06e6355ad7e1] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:43:14,919 | INFO | availability-service | [9b45d22f-76ab-4dbf-a3e7-06e6355ad7e1] Request completed - Status=200, , Time taken=35.63 ms
+2025-12-18 02:43:15,225 | INFO | availability-service | [6176da5c-e3a5-4e16-a12a-0fa13070ed0d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:43:15,237 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:43:15,238 | INFO | root | [6176da5c-e3a5-4e16-a12a-0fa13070ed0d] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:43:15,238 | INFO | availability-service | [6176da5c-e3a5-4e16-a12a-0fa13070ed0d] Request completed - Status=200, , Time taken=13.08 ms
+2025-12-18 02:44:15,332 | INFO | availability-service | [1bc9a220-344e-4427-b794-277a07cdd138] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:44:15,354 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:44:15,355 | INFO | root | [1bc9a220-344e-4427-b794-277a07cdd138] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:44:15,356 | INFO | availability-service | [1bc9a220-344e-4427-b794-277a07cdd138] Request completed - Status=200, , Time taken=23.78 ms
+2025-12-18 02:44:45,067 | INFO | availability-service | [aff43b31-7868-423b-be63-5ca2d912a851] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:44:45,112 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:44:45,113 | INFO | root | [aff43b31-7868-423b-be63-5ca2d912a851] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:44:45,114 | INFO | availability-service | [aff43b31-7868-423b-be63-5ca2d912a851] Request completed - Status=200, , Time taken=46.87 ms
+2025-12-18 02:45:15,463 | INFO | availability-service | [2d1a61ce-9662-4732-a3ba-3c335b32de98] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:45:15,512 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:45:15,513 | INFO | root | [2d1a61ce-9662-4732-a3ba-3c335b32de98] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:45:15,513 | INFO | availability-service | [2d1a61ce-9662-4732-a3ba-3c335b32de98] Request completed - Status=200, , Time taken=50.35 ms
+2025-12-18 02:46:15,231 | INFO | availability-service | [2e68ea05-7a68-4eef-9187-31288ebce81e] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:46:15,263 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:46:15,264 | INFO | root | [2e68ea05-7a68-4eef-9187-31288ebce81e] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:46:15,264 | INFO | availability-service | [2e68ea05-7a68-4eef-9187-31288ebce81e] Request completed - Status=200, , Time taken=33.71 ms
+2025-12-18 02:46:15,653 | INFO | availability-service | [bcb53ec6-abdf-4cdc-ae59-f164b9fa34a5] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:46:15,672 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:46:15,673 | INFO | root | [bcb53ec6-abdf-4cdc-ae59-f164b9fa34a5] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:46:15,673 | INFO | availability-service | [bcb53ec6-abdf-4cdc-ae59-f164b9fa34a5] Request completed - Status=200, , Time taken=20.12 ms
+2025-12-18 02:47:15,792 | INFO | availability-service | [58f190db-4c17-4063-ba97-e7264e90da21] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:47:15,848 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:47:15,849 | INFO | root | [58f190db-4c17-4063-ba97-e7264e90da21] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:47:15,850 | INFO | availability-service | [58f190db-4c17-4063-ba97-e7264e90da21] Request completed - Status=200, , Time taken=57.79 ms
+2025-12-18 02:47:45,467 | INFO | availability-service | [f5a01c5f-5f49-4657-9942-c24964ff968c] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:47:45,510 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:47:45,512 | INFO | root | [f5a01c5f-5f49-4657-9942-c24964ff968c] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:47:45,512 | INFO | availability-service | [f5a01c5f-5f49-4657-9942-c24964ff968c] Request completed - Status=200, , Time taken=45.36 ms
+2025-12-18 02:48:15,950 | INFO | availability-service | [dcfea201-3a89-47fc-b9cf-296ae46a3836] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:48:15,988 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:48:15,989 | INFO | root | [dcfea201-3a89-47fc-b9cf-296ae46a3836] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:48:15,989 | INFO | availability-service | [dcfea201-3a89-47fc-b9cf-296ae46a3836] Request completed - Status=200, , Time taken=39.02 ms
+2025-12-18 02:49:15,721 | INFO | availability-service | [c11f85de-102b-4a3f-ae2d-dbc65187625b] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:49:15,752 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:49:15,753 | INFO | root | [c11f85de-102b-4a3f-ae2d-dbc65187625b] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:49:15,755 | INFO | availability-service | [c11f85de-102b-4a3f-ae2d-dbc65187625b] Request completed - Status=200, , Time taken=33.75 ms
+2025-12-18 02:49:16,264 | INFO | availability-service | [52962787-c9a2-45d8-8c53-7ec80d91301e] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:49:16,293 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:49:16,295 | INFO | root | [52962787-c9a2-45d8-8c53-7ec80d91301e] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:49:16,296 | INFO | availability-service | [52962787-c9a2-45d8-8c53-7ec80d91301e] Request completed - Status=200, , Time taken=31.60 ms
+2025-12-18 02:50:16,392 | INFO | availability-service | [8ab9ea17-26cd-4606-94fe-3ae0d3a7758e] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:50:16,431 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:50:16,432 | INFO | root | [8ab9ea17-26cd-4606-94fe-3ae0d3a7758e] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:50:16,433 | INFO | availability-service | [8ab9ea17-26cd-4606-94fe-3ae0d3a7758e] Request completed - Status=200, , Time taken=40.50 ms
+2025-12-18 02:50:46,995 | INFO | availability-service | [5f71b68a-29d0-4d07-b8bf-0de29a898f7d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:50:47,121 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:50:47,128 | INFO | root | [5f71b68a-29d0-4d07-b8bf-0de29a898f7d] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:50:47,132 | INFO | availability-service | [5f71b68a-29d0-4d07-b8bf-0de29a898f7d] Request completed - Status=200, , Time taken=137.71 ms
+2025-12-18 02:51:16,533 | INFO | availability-service | [413bc50b-3ea0-484d-b63e-d1485754a8f7] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:51:16,559 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:51:16,560 | INFO | root | [413bc50b-3ea0-484d-b63e-d1485754a8f7] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:51:16,560 | INFO | availability-service | [413bc50b-3ea0-484d-b63e-d1485754a8f7] Request completed - Status=200, , Time taken=27.12 ms
+2025-12-18 02:52:16,629 | INFO | availability-service | [295221e7-ce37-4c47-b592-88d1b130ba1d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:52:16,668 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:52:16,668 | INFO | root | [295221e7-ce37-4c47-b592-88d1b130ba1d] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:52:16,669 | INFO | availability-service | [295221e7-ce37-4c47-b592-88d1b130ba1d] Request completed - Status=200, , Time taken=40.06 ms
+2025-12-18 02:52:17,620 | INFO | availability-service | [dabb6158-52e8-4b03-92ac-52ad3b61458b] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:52:17,636 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:52:17,636 | INFO | root | [dabb6158-52e8-4b03-92ac-52ad3b61458b] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:52:17,636 | INFO | availability-service | [dabb6158-52e8-4b03-92ac-52ad3b61458b] Request completed - Status=200, , Time taken=16.01 ms
+2025-12-18 02:53:16,789 | INFO | availability-service | [10885b25-fdd3-4bf6-bb8c-04b0de33442d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:53:16,848 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:53:16,851 | INFO | root | [10885b25-fdd3-4bf6-bb8c-04b0de33442d] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:53:16,854 | INFO | availability-service | [10885b25-fdd3-4bf6-bb8c-04b0de33442d] Request completed - Status=200, , Time taken=65.88 ms
+2025-12-18 02:53:47,811 | INFO | availability-service | [57b9c547-3c22-4ebe-9606-33e195182d41] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:53:47,842 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:53:47,842 | INFO | root | [57b9c547-3c22-4ebe-9606-33e195182d41] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:53:47,843 | INFO | availability-service | [57b9c547-3c22-4ebe-9606-33e195182d41] Request completed - Status=200, , Time taken=31.79 ms
+2025-12-18 02:54:16,971 | INFO | availability-service | [8cb9ef11-ddcb-4f92-9c03-242d42004928] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:54:17,009 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:54:17,010 | INFO | root | [8cb9ef11-ddcb-4f92-9c03-242d42004928] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:54:17,011 | INFO | availability-service | [8cb9ef11-ddcb-4f92-9c03-242d42004928] Request completed - Status=200, , Time taken=39.77 ms
+2025-12-18 02:55:17,156 | INFO | availability-service | [b9be5a67-44f0-452e-a50c-f0e922b1abae] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:55:17,224 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:55:17,226 | INFO | root | [b9be5a67-44f0-452e-a50c-f0e922b1abae] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:55:17,226 | INFO | availability-service | [b9be5a67-44f0-452e-a50c-f0e922b1abae] Request completed - Status=200, , Time taken=70.72 ms
+2025-12-18 02:55:17,928 | INFO | availability-service | [8acfba8d-21ad-4e0a-b7de-d4c783d67c19] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:55:17,937 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:55:17,937 | INFO | root | [8acfba8d-21ad-4e0a-b7de-d4c783d67c19] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:55:17,938 | INFO | availability-service | [8acfba8d-21ad-4e0a-b7de-d4c783d67c19] Request completed - Status=200, , Time taken=9.78 ms
+2025-12-18 02:56:17,384 | INFO | availability-service | [28e93337-6772-4d0a-a5e0-9e8a377de250] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:56:17,419 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:56:17,420 | INFO | root | [28e93337-6772-4d0a-a5e0-9e8a377de250] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:56:17,421 | INFO | availability-service | [28e93337-6772-4d0a-a5e0-9e8a377de250] Request completed - Status=200, , Time taken=37.41 ms
+2025-12-18 02:56:48,122 | INFO | availability-service | [4696c6d5-b2a1-452a-b72d-37ccc3172710] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:56:48,160 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:56:48,161 | INFO | root | [4696c6d5-b2a1-452a-b72d-37ccc3172710] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:56:48,162 | INFO | availability-service | [4696c6d5-b2a1-452a-b72d-37ccc3172710] Request completed - Status=200, , Time taken=40.49 ms
+2025-12-18 02:57:17,538 | INFO | availability-service | [04a7ba2a-ea94-4870-b715-706c3070f188] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:57:17,586 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:57:17,587 | INFO | root | [04a7ba2a-ea94-4870-b715-706c3070f188] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:57:17,587 | INFO | availability-service | [04a7ba2a-ea94-4870-b715-706c3070f188] Request completed - Status=200, , Time taken=49.80 ms
+2025-12-18 02:58:17,724 | INFO | availability-service | [acd93552-1ce2-496a-8751-a98b9153b93a] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:58:17,784 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:58:17,787 | INFO | root | [acd93552-1ce2-496a-8751-a98b9153b93a] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:58:17,789 | INFO | availability-service | [acd93552-1ce2-496a-8751-a98b9153b93a] Request completed - Status=200, , Time taken=65.51 ms
+2025-12-18 02:58:18,374 | INFO | availability-service | [cf0c497a-8c1e-4cc5-8271-5e6135cbfe29] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:58:18,386 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:58:18,388 | INFO | root | [cf0c497a-8c1e-4cc5-8271-5e6135cbfe29] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:58:18,388 | INFO | availability-service | [cf0c497a-8c1e-4cc5-8271-5e6135cbfe29] Request completed - Status=200, , Time taken=13.67 ms
+2025-12-18 02:59:17,926 | INFO | availability-service | [30d4cef5-0a6b-4390-966a-db93e857e3f2] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:59:17,958 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:59:17,959 | INFO | root | [30d4cef5-0a6b-4390-966a-db93e857e3f2] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:59:17,959 | INFO | availability-service | [30d4cef5-0a6b-4390-966a-db93e857e3f2] Request completed - Status=200, , Time taken=33.76 ms
+2025-12-18 02:59:40,150 | INFO | availability-service | [test-avail-1766026780] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:59:40,187 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:59:40,188 | INFO | root | [test-avail-1766026780] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:59:40,189 | INFO | availability-service | [test-avail-1766026780] Request completed - Status=200, , Time taken=39.27 ms
+2025-12-18 02:59:40,302 | INFO | availability-service | [test-avail-1766026780] Request started - Method=GET Path=/availabilities/availabilities
+2025-12-18 02:59:40,311 | INFO | availability-service | [test-avail-1766026780] Computing common availability for userId1=alice_test@example.com, userId2=bob_test@example.com
+2025-12-18 02:59:40,328 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=alice_test%40example.com "HTTP/1.1 200 OK"
+2025-12-18 02:59:40,333 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=bob_test%40example.com "HTTP/1.1 200 OK"
+2025-12-18 02:59:40,334 | INFO | availability-service | [test-avail-1766026780] Request completed - Status=200, , Time taken=31.42 ms
+2025-12-18 02:59:48,517 | INFO | availability-service | [6e84ff0b-4962-4f8b-9894-8136bacf29c1] Request started - Method=GET Path=/availabilities/health
+2025-12-18 02:59:48,549 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 02:59:48,549 | INFO | root | [6e84ff0b-4962-4f8b-9894-8136bacf29c1] HEALTH CHECK: availability-service is healthy
+2025-12-18 02:59:48,550 | INFO | availability-service | [6e84ff0b-4962-4f8b-9894-8136bacf29c1] Request completed - Status=200, , Time taken=32.96 ms
+2025-12-18 03:00:18,096 | INFO | availability-service | [3b74b2ad-7873-4424-9ab2-edb5dea99778] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:00:18,141 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:00:18,142 | INFO | root | [3b74b2ad-7873-4424-9ab2-edb5dea99778] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:00:18,143 | INFO | availability-service | [3b74b2ad-7873-4424-9ab2-edb5dea99778] Request completed - Status=200, , Time taken=47.40 ms
+2025-12-18 03:00:59,668 | INFO | availability-service | [test-errors-1766026859] Request started - Method=GET Path=/availabilities/availabilities
+2025-12-18 03:00:59,674 | INFO | availability-service | [test-errors-1766026859] Computing common availability for userId1=alice_test@example.com, userId2=ghost_user_1766026859@example.com
+2025-12-18 03:00:59,702 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=alice_test%40example.com "HTTP/1.1 200 OK"
+2025-12-18 03:00:59,715 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=ghost_user_1766026859%40example.com "HTTP/1.1 503 Service Unavailable"
+2025-12-18 03:00:59,719 | ERROR | availability-service | [test-errors-1766026859] ERROR GET /availabilities/availabilities status=502 detail=User service error
+2025-12-18 03:00:59,719 | INFO | availability-service | [test-errors-1766026859] Request completed - Status=502, , Time taken=53.04 ms
+2025-12-18 03:01:11,626 | INFO | availability-service | [test-errors-1766026871] Request started - Method=GET Path=/availabilities/availabilities
+2025-12-18 03:01:11,634 | INFO | availability-service | [test-errors-1766026871] Computing common availability for userId1=alice_test@example.com, userId2=ghost_user_1766026871@example.com
+2025-12-18 03:01:11,657 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=alice_test%40example.com "HTTP/1.1 200 OK"
+2025-12-18 03:01:11,669 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=ghost_user_1766026871%40example.com "HTTP/1.1 503 Service Unavailable"
+2025-12-18 03:01:11,670 | ERROR | availability-service | [test-errors-1766026871] ERROR GET /availabilities/availabilities status=502 detail=User service error
+2025-12-18 03:01:11,670 | INFO | availability-service | [test-errors-1766026871] Request completed - Status=502, , Time taken=44.28 ms
+2025-12-18 03:01:18,290 | INFO | availability-service | [a1ea5b91-6015-44ca-b0f1-759b3decb0ac] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:01:18,324 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:01:18,325 | INFO | root | [a1ea5b91-6015-44ca-b0f1-759b3decb0ac] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:01:18,326 | INFO | availability-service | [a1ea5b91-6015-44ca-b0f1-759b3decb0ac] Request completed - Status=200, , Time taken=35.65 ms
+2025-12-18 03:01:18,655 | INFO | availability-service | [c9371622-1c3a-42e3-b510-013e3943d85d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:01:18,666 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:01:18,666 | INFO | root | [c9371622-1c3a-42e3-b510-013e3943d85d] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:01:18,666 | INFO | availability-service | [c9371622-1c3a-42e3-b510-013e3943d85d] Request completed - Status=200, , Time taken=11.40 ms
+2025-12-18 03:02:18,415 | INFO | availability-service | [c69c5d7f-363b-48cd-8cd4-4c3e4cd7e2a2] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:02:18,448 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:02:18,449 | INFO | root | [c69c5d7f-363b-48cd-8cd4-4c3e4cd7e2a2] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:02:18,449 | INFO | availability-service | [c69c5d7f-363b-48cd-8cd4-4c3e4cd7e2a2] Request completed - Status=200, , Time taken=34.88 ms
+2025-12-18 03:02:48,837 | INFO | availability-service | [205a4835-3912-4e82-818d-b6926ef69eeb] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:02:48,870 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:02:48,871 | INFO | root | [205a4835-3912-4e82-818d-b6926ef69eeb] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:02:48,872 | INFO | availability-service | [205a4835-3912-4e82-818d-b6926ef69eeb] Request completed - Status=200, , Time taken=35.30 ms
+2025-12-18 03:03:18,542 | INFO | availability-service | [817a7092-dd92-4b7d-a045-d6c5aa460fba] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:03:18,580 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:03:18,580 | INFO | root | [817a7092-dd92-4b7d-a045-d6c5aa460fba] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:03:18,581 | INFO | availability-service | [817a7092-dd92-4b7d-a045-d6c5aa460fba] Request completed - Status=200, , Time taken=39.13 ms
+2025-12-18 03:04:18,681 | INFO | availability-service | [a75c2d7d-dafd-4bba-aa9b-4ee9e79b3bf5] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:04:18,726 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:04:18,728 | INFO | root | [a75c2d7d-dafd-4bba-aa9b-4ee9e79b3bf5] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:04:18,728 | INFO | availability-service | [a75c2d7d-dafd-4bba-aa9b-4ee9e79b3bf5] Request completed - Status=200, , Time taken=46.89 ms
+2025-12-18 03:04:18,981 | INFO | availability-service | [557b080e-2cce-49c8-8a15-b90fad8ce361] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:04:18,990 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:04:18,990 | INFO | root | [557b080e-2cce-49c8-8a15-b90fad8ce361] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:04:18,990 | INFO | availability-service | [557b080e-2cce-49c8-8a15-b90fad8ce361] Request completed - Status=200, , Time taken=9.18 ms
+2025-12-18 03:05:18,798 | INFO | availability-service | [6576bfa8-bbd8-468a-90db-c7280377ff51] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:05:18,817 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:05:18,818 | INFO | root | [6576bfa8-bbd8-468a-90db-c7280377ff51] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:05:18,820 | INFO | availability-service | [6576bfa8-bbd8-468a-90db-c7280377ff51] Request completed - Status=200, , Time taken=22.40 ms
+2025-12-18 03:05:49,158 | INFO | availability-service | [91e2cfdc-1bde-430f-8506-e5eccd61e9f0] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:05:49,189 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:05:49,190 | INFO | root | [91e2cfdc-1bde-430f-8506-e5eccd61e9f0] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:05:49,191 | INFO | availability-service | [91e2cfdc-1bde-430f-8506-e5eccd61e9f0] Request completed - Status=200, , Time taken=32.96 ms
+2025-12-18 03:06:18,946 | INFO | availability-service | [c6da4503-80e6-4a26-b31c-8e2bd6010aa0] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:06:18,994 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:06:18,995 | INFO | root | [c6da4503-80e6-4a26-b31c-8e2bd6010aa0] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:06:18,995 | INFO | availability-service | [c6da4503-80e6-4a26-b31c-8e2bd6010aa0] Request completed - Status=200, , Time taken=48.95 ms
+2025-12-18 03:07:19,135 | INFO | availability-service | [83bcc2e2-1f05-4490-8108-2af82c93e432] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:07:19,169 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:07:19,170 | INFO | root | [83bcc2e2-1f05-4490-8108-2af82c93e432] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:07:19,171 | INFO | availability-service | [83bcc2e2-1f05-4490-8108-2af82c93e432] Request completed - Status=200, , Time taken=35.95 ms
+2025-12-18 03:07:19,288 | INFO | availability-service | [0b008173-b8b5-410e-88e9-e0fb4bb66d47] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:07:19,296 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:07:19,297 | INFO | root | [0b008173-b8b5-410e-88e9-e0fb4bb66d47] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:07:19,297 | INFO | availability-service | [0b008173-b8b5-410e-88e9-e0fb4bb66d47] Request completed - Status=200, , Time taken=9.31 ms
+2025-12-18 03:08:19,500 | INFO | availability-service | [d53d53bf-5c47-4927-adb7-df7757af3078] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:08:19,607 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:08:19,608 | INFO | root | [d53d53bf-5c47-4927-adb7-df7757af3078] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:08:19,610 | INFO | availability-service | [d53d53bf-5c47-4927-adb7-df7757af3078] Request completed - Status=200, , Time taken=110.45 ms
+2025-12-18 03:08:49,708 | INFO | availability-service | [355e8f5e-37df-477f-b395-2315d9492f47] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:08:49,840 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:08:49,842 | INFO | root | [355e8f5e-37df-477f-b395-2315d9492f47] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:08:49,848 | INFO | availability-service | [355e8f5e-37df-477f-b395-2315d9492f47] Request completed - Status=200, , Time taken=139.54 ms
+2025-12-18 03:09:19,830 | INFO | availability-service | [755fb368-46a5-4618-83e2-0b18d4cc2723] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:09:19,907 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:09:19,908 | INFO | root | [755fb368-46a5-4618-83e2-0b18d4cc2723] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:09:19,909 | INFO | availability-service | [755fb368-46a5-4618-83e2-0b18d4cc2723] Request completed - Status=200, , Time taken=79.11 ms
+2025-12-18 03:10:20,055 | INFO | availability-service | [e46d520d-c1cd-4840-abb5-3dce2408180d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:10:20,091 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:10:20,091 | INFO | availability-service | [a0711374-07fc-49c3-aaa8-6cc8326e9c25] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:10:20,099 | INFO | root | [e46d520d-c1cd-4840-abb5-3dce2408180d] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:10:20,100 | INFO | availability-service | [e46d520d-c1cd-4840-abb5-3dce2408180d] Request completed - Status=200, , Time taken=45.38 ms
+2025-12-18 03:10:20,104 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:10:20,104 | INFO | root | [a0711374-07fc-49c3-aaa8-6cc8326e9c25] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:10:20,105 | INFO | availability-service | [a0711374-07fc-49c3-aaa8-6cc8326e9c25] Request completed - Status=200, , Time taken=13.49 ms
+2025-12-18 03:12:36,527 | INFO | availability-service | [d9d32b78-b78b-445f-9099-03f1bc5d3c8d] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:12:36,571 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:12:36,572 | INFO | root | [d9d32b78-b78b-445f-9099-03f1bc5d3c8d] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:12:36,573 | INFO | availability-service | [d9d32b78-b78b-445f-9099-03f1bc5d3c8d] Request completed - Status=200, , Time taken=46.05 ms
+2025-12-18 03:12:42,238 | INFO | availability-service | [edaa23e4-fe54-430e-bb8e-10060e8035b8] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:12:42,280 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:12:42,281 | INFO | root | [edaa23e4-fe54-430e-bb8e-10060e8035b8] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:12:42,281 | INFO | availability-service | [edaa23e4-fe54-430e-bb8e-10060e8035b8] Request completed - Status=200, , Time taken=43.39 ms
+2025-12-18 03:12:54,033 | INFO | availability-service | [test-errors-1766027573] Request started - Method=GET Path=/availabilities/availabilities
+2025-12-18 03:12:54,036 | INFO | availability-service | [test-errors-1766027573] Computing common availability for userId1=alice_test@example.com, userId2=ghost_user_1766027573@example.com
+2025-12-18 03:12:54,070 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=alice_test%40example.com "HTTP/1.1 404 Not Found"
+2025-12-18 03:12:54,078 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=ghost_user_1766027573%40example.com "HTTP/1.1 404 Not Found"
+2025-12-18 03:12:54,080 | ERROR | availability-service | [test-errors-1766027573] ERROR GET /availabilities/availabilities status=404 detail=One or both users not found
+2025-12-18 03:12:54,080 | INFO | availability-service | [test-errors-1766027573] Request completed - Status=404, , Time taken=47.48 ms
+2025-12-18 03:12:54,123 | INFO | availability-service | [test-errors-1766027573] Request started - Method=GET Path=/availabilities/availabilities
+2025-12-18 03:12:54,124 | INFO | availability-service | [test-errors-1766027573] Computing common availability for userId1=alice_test@example.com, userId2=ghost_user_1766027573@example.com
+2025-12-18 03:12:54,137 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=alice_test%40example.com "HTTP/1.1 404 Not Found"
+2025-12-18 03:12:54,141 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=ghost_user_1766027573%40example.com "HTTP/1.1 404 Not Found"
+2025-12-18 03:12:54,141 | ERROR | availability-service | [test-errors-1766027573] ERROR GET /availabilities/availabilities status=404 detail=One or both users not found
+2025-12-18 03:12:54,142 | INFO | availability-service | [test-errors-1766027573] Request completed - Status=404, , Time taken=18.06 ms
+2025-12-18 03:13:10,392 | INFO | availability-service | [test-avail-1766027590] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:13:10,422 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:13:10,422 | INFO | root | [test-avail-1766027590] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:13:10,423 | INFO | availability-service | [test-avail-1766027590] Request completed - Status=200, , Time taken=30.67 ms
+2025-12-18 03:13:10,490 | INFO | availability-service | [test-avail-1766027590] Request started - Method=GET Path=/availabilities/availabilities
+2025-12-18 03:13:10,491 | INFO | availability-service | [test-avail-1766027590] Computing common availability for userId1=alice_test@example.com, userId2=bob_test@example.com
+2025-12-18 03:13:10,501 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=alice_test%40example.com "HTTP/1.1 200 OK"
+2025-12-18 03:13:10,505 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=bob_test%40example.com "HTTP/1.1 200 OK"
+2025-12-18 03:13:10,506 | INFO | availability-service | [test-avail-1766027590] Request completed - Status=200, , Time taken=15.65 ms
+2025-12-18 03:13:15,625 | INFO | availability-service | [test-suggest-1766027595] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:13:15,652 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:13:15,654 | INFO | root | [test-suggest-1766027595] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:13:15,654 | INFO | availability-service | [test-suggest-1766027595] Request completed - Status=200, , Time taken=29.42 ms
+2025-12-18 03:13:15,698 | INFO | availability-service | [test-suggest-1766027595] Request started - Method=GET Path=/availabilities/availabilities
+2025-12-18 03:13:15,698 | INFO | availability-service | [test-suggest-1766027595] Computing common availability for userId1=alice_test@example.com, userId2=bob_test@example.com
+2025-12-18 03:13:15,716 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=alice_test%40example.com "HTTP/1.1 200 OK"
+2025-12-18 03:13:15,723 | INFO | httpx | HTTP Request: GET http://user-service:8000/user-avail/cache-aside?user1email=bob_test%40example.com "HTTP/1.1 200 OK"
+2025-12-18 03:13:15,723 | INFO | availability-service | [test-suggest-1766027595] Request completed - Status=200, , Time taken=25.68 ms
+2025-12-18 03:13:36,690 | INFO | availability-service | [09743785-0e81-4ca4-8e49-38bbe1f567a5] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:13:36,724 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:13:36,725 | INFO | root | [09743785-0e81-4ca4-8e49-38bbe1f567a5] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:13:36,726 | INFO | availability-service | [09743785-0e81-4ca4-8e49-38bbe1f567a5] Request completed - Status=200, , Time taken=36.14 ms
+2025-12-18 03:14:12,439 | INFO | availability-service | [a00ac166-7963-4672-9a56-758de74cf284] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:14:12,471 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:14:12,472 | INFO | root | [a00ac166-7963-4672-9a56-758de74cf284] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:14:12,473 | INFO | availability-service | [a00ac166-7963-4672-9a56-758de74cf284] Request completed - Status=200, , Time taken=34.07 ms
+2025-12-18 03:14:36,860 | INFO | availability-service | [3aff281c-8f15-4137-9765-ecae3a189458] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:14:36,908 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:14:36,909 | INFO | root | [3aff281c-8f15-4137-9765-ecae3a189458] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:14:36,909 | INFO | availability-service | [3aff281c-8f15-4137-9765-ecae3a189458] Request completed - Status=200, , Time taken=49.65 ms
+2025-12-18 03:15:37,031 | INFO | availability-service | [974d5142-525a-4d1f-aa1f-e5f3f0f31b5a] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:15:37,081 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:15:37,083 | INFO | root | [974d5142-525a-4d1f-aa1f-e5f3f0f31b5a] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:15:37,083 | INFO | availability-service | [974d5142-525a-4d1f-aa1f-e5f3f0f31b5a] Request completed - Status=200, , Time taken=52.76 ms
+2025-12-18 03:15:42,654 | INFO | availability-service | [798dc1b3-4702-4db4-977b-86c615cc9b83] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:15:42,688 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:15:42,688 | INFO | root | [798dc1b3-4702-4db4-977b-86c615cc9b83] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:15:42,689 | INFO | availability-service | [798dc1b3-4702-4db4-977b-86c615cc9b83] Request completed - Status=200, , Time taken=35.35 ms
+2025-12-18 03:16:56,767 | INFO | availability-service | [d37389af-eead-49aa-b045-f2b900c0bbab] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:16:57,315 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:16:57,317 | INFO | root | [d37389af-eead-49aa-b045-f2b900c0bbab] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:16:57,320 | INFO | availability-service | [d37389af-eead-49aa-b045-f2b900c0bbab] Request completed - Status=200, , Time taken=553.43 ms
+2025-12-18 03:17:30,927 | INFO | availability-service | [1b5cb53e-dbbd-45d8-b2df-377ca7dcf631] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:17:31,180 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:17:31,191 | INFO | root | [1b5cb53e-dbbd-45d8-b2df-377ca7dcf631] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:17:31,193 | INFO | availability-service | [1b5cb53e-dbbd-45d8-b2df-377ca7dcf631] Request completed - Status=200, , Time taken=270.14 ms
+2025-12-18 03:17:57,692 | INFO | availability-service | [dc179e37-3102-4e15-8fa0-32abf983792a] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:17:57,841 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:17:57,842 | INFO | root | [dc179e37-3102-4e15-8fa0-32abf983792a] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:17:57,843 | INFO | availability-service | [dc179e37-3102-4e15-8fa0-32abf983792a] Request completed - Status=200, , Time taken=152.25 ms
+2025-12-18 03:18:57,990 | INFO | availability-service | [68a84982-0d44-48b6-9bd7-499e0af2c453] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:18:58,057 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:18:58,062 | INFO | root | [68a84982-0d44-48b6-9bd7-499e0af2c453] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:18:58,063 | INFO | availability-service | [68a84982-0d44-48b6-9bd7-499e0af2c453] Request completed - Status=200, , Time taken=74.66 ms
+2025-12-18 03:19:01,532 | INFO | availability-service | [1736607b-9a54-45f4-837f-7cddb5bb5423] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:19:01,577 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:19:01,580 | INFO | root | [1736607b-9a54-45f4-837f-7cddb5bb5423] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:19:01,581 | INFO | availability-service | [1736607b-9a54-45f4-837f-7cddb5bb5423] Request completed - Status=200, , Time taken=48.76 ms
+2025-12-18 03:19:58,154 | INFO | availability-service | [08ab6fb2-78c2-4dad-8ab2-2d3dd9879b0b] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:19:58,210 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:19:58,212 | INFO | root | [08ab6fb2-78c2-4dad-8ab2-2d3dd9879b0b] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:19:58,213 | INFO | availability-service | [08ab6fb2-78c2-4dad-8ab2-2d3dd9879b0b] Request completed - Status=200, , Time taken=58.75 ms
+2025-12-18 03:20:31,818 | INFO | availability-service | [10e71906-7f3d-4bca-b524-88b42857d2bc] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:20:31,893 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:20:31,895 | INFO | root | [10e71906-7f3d-4bca-b524-88b42857d2bc] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:20:31,898 | INFO | availability-service | [10e71906-7f3d-4bca-b524-88b42857d2bc] Request completed - Status=200, , Time taken=80.47 ms
+2025-12-18 03:20:58,510 | INFO | availability-service | [5a2ad42f-1948-4762-829a-02d447e1941f] Request started - Method=GET Path=/availabilities/health
+2025-12-18 03:20:58,567 | INFO | httpx | HTTP Request: GET http://user-service:8000/health "HTTP/1.1 200 OK"
+2025-12-18 03:20:58,572 | INFO | root | [5a2ad42f-1948-4762-829a-02d447e1941f] HEALTH CHECK: availability-service is healthy
+2025-12-18 03:20:58,573 | INFO | availability-service | [5a2ad42f-1948-4762-829a-02d447e1941f] Request completed - Status=200, , Time taken=63.75 ms

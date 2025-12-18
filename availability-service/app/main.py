@@ -171,6 +171,8 @@ async def get_common_avails(
 
     if user1_resp.status_code == 404 or user2_resp.status_code == 404:
         raise HTTPException(status_code=404, detail="One or both users not found")
+    if user1_resp.status_code == 503 or user2_resp.status_code == 503:
+        raise HTTPException(status_code=503, detail="User service is unavailable")
     if user1_resp.status_code >= 400 or user2_resp.status_code >= 400:
         raise HTTPException(status_code=502, detail="User service error")
 
